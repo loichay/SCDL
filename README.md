@@ -20,7 +20,7 @@ Un espace de préparation, [accessible sur gitbook.io](https://opendatafrance.gi
 
 ## Implémentation
 
-Les spécifications des modèles de données sont traduites et implémentées en schémas json, au format Table Schema. Ces schémas sont déposés et mis à jour sur le [GitLab d'OpenDataFrance](https://git.opendatafrance.net/scdl), ou directement sur le\(s\) Github de leur\(s\) auteur\(s\). Ils sont utilisés et exécutés dans [Validata](http://validata.fr) pour vérifier la conformité des jeux de données, avant ou après leur publication. Ces schémas sont élaborés en respectant les [recommandations relatives aux schémas de validation](recommandations-relatives-aux-schemas-de-validation.md), communes à toutes les spécifications.
+Les spécifications des modèles de données sont traduites et implémentées en schémas json, au format [_Table Schema_](https://frictionlessdata.io/specs/table-schema/). Ces schémas sont déposés et mis à jour sur le [GitLab d'OpenDataFrance](https://git.opendatafrance.net/scdl), ou directement sur le\(s\) Github de leur\(s\) auteur\(s\). Ils sont utilisés et exécutés dans [Validata](http://validata.fr) pour vérifier la conformité des jeux de données, avant ou après leur publication. Ces schémas sont élaborés en respectant les [recommandations relatives aux schémas de validation](recommandations-relatives-aux-schemas-de-validation.md), communes à toutes les spécifications.
 
 ## Documentation
 
