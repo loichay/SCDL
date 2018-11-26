@@ -12,7 +12,7 @@ description: >-
 
 ## Contexte <a id="contexte"></a>
 
-En France, les Points d’Eau Incendie \(PEI\) - également appelés hydrants \(borne incendie, poteau incendie et point d’aspiration\) - sont recensés par les [Services Départementaux d'Incendie et de Secours](https://fr.wikipedia.org/wiki/Service_d%C3%A9partemental_d%27incendie_et_de_secours) \(SDIS\), les collectivités territoriales et/ou les délégataires de service public. La gestion de ces données est effectuée à un échelon départemental. Les "bases de données hydrants" constituent un enjeu majeur pour la gestion des risques incendie et doivent être partagées entre départements limitrophes.
+En France, les Points d’Eau Incendie \(PEI\) - également appelés [hydrants](https://fr.wikipedia.org/wiki/Hydrant) \(borne incendie, poteau incendie et point d’aspiration\) - sont recensés par les [Services Départementaux d'Incendie et de Secours](https://fr.wikipedia.org/wiki/Service_d%C3%A9partemental_d%27incendie_et_de_secours) \(SDIS\), les collectivités territoriales et/ou les délégataires de service public. La gestion de ces données est effectuée à un échelon départemental. Les "bases de données hydrants" constituent un enjeu majeur pour la gestion des risques incendie et doivent être partagées entre départements limitrophes.
 
 En 2018, dans le cadre de son [groupe de travail "Open Data"](http://www.afigeo.asso.fr/pole-entreprise/groupe-dinteret-ogc/2117-modele-minimal-hydrants-3.html), l'Association Française pour l'Information GEOgraphique \(AFIGEO\) a défini un [Modèle minimal de données relatif aux points d'eau incendie](http://www.afigeo.asso.fr/images/BD-Entreprises/OGC_-_Open_Data/Modele_minimal_donn%C3%A9es_PEI.pdf) en se référant aux textes réglementaires suivants :
 
@@ -138,4 +138,8 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 
 ## Voir aussi <a id="voir-aussi"></a>
+
+[Correspondance entre le modèle PEI de l'AFIGEO et les attributs d'OpenStreetMap relatifs aux hydrants](https://wiki.openstreetmap.org/wiki/FR:Tag:emergency%3Dfire_hydrant#Correspondance_avec_le_mod.C3.A8le_PEI_de_l.27Afigeo)
+
+
 
