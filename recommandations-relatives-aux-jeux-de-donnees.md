@@ -45,5 +45,5 @@ Pour faciliter la détection des jeux de données qui s'appuient sur les spécif
 Les régles d'étiquetage des jeux de données sont les suivantes :
 
 * Un premier tag 'SCDL' doit être indifféremment ajouté à tous les jeux de données concernés
-* Un ou plusieurs autre\(s\) tag\(s\) doi\(ven\)t être ajouté\(s\) en fonction du jeu de données
+* Un ou plusieurs autre\(s\) tag\(s\) spécifique\(s\) doi\(ven\)t être ajouté\(s\) en fonction du jeu de données
 
