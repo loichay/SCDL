@@ -152,7 +152,7 @@ La spécification du modèle de données peut être utilement complétée par le
 Pour faciliter la production et améliorer la qualité des données au format Base Adresse Locale, la mission Etalab de la DINSIC, met à disposition des outils dédiés sur le portail adresse.data.gouv.fr :
 
 * [Le validateur BAL](https://adresse.data.gouv.fr/bases-locales/validateur) permet de vérifier la conformité d'un fichier BAL
-* [L'éditeur BAL](https://adresse.data.gouv.fr/bases-locales/editeur) permet de créer ou modifier un fichier BAL
+* [L'éditeur BAL](https://adresse.data.gouv.fr/bases-locales/editeur) permet de créer et/ou de modifier un fichier BAL
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 
