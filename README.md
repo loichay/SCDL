@@ -16,7 +16,7 @@ Un [espace de discussion](https://teamopendata.org/c/socle-commun-des-donnees-lo
 
 ## Elaboration
 
-Un espace de préparation, accessible sur gitbook.io, permet de préfigurer les spécifications des modèles de données applicables aux jeux de données du SCDL. Cet espace regroupe des [documents de travail](documents-de-travail/) \(drafts\) qui facilitent la création de nouveaux schémas ou l’amélioration de schémas existants. Ces documents sont élaborés conformément aux recommandations relatives aux jeux de données, communes à toutes les spécifications.
+Un espace de préparation, [accessible sur gitbook.io](https://opendatafrance.gitbook.io/scdl/), permet de préfigurer les spécifications des modèles de données applicables aux jeux de données du SCDL. Cet espace regroupe des [documents de travail](documents-de-travail/) \(drafts\) qui facilitent la création de nouveaux schémas ou l’amélioration de schémas existants. Ces documents sont élaborés conformément aux recommandations relatives aux jeux de données, communes à toutes les spécifications.
 
 ## Implémentation
 
