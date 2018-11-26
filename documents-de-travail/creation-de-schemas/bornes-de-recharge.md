@@ -12,9 +12,11 @@ description: >-
 
 ## Contexte <a id="contexte"></a>
 
-Dans le but de constituer un répertoire national des Infrastructures de Recharge de Véhicules Electriques \(IRVE\), ouvert et accessible à tous, les collectivités locales porteuses d'un projet d'installation d'IRVE doivent, au fur et à mesure de la mise en service des stations, doivent publier en open data sur la plateforme data.gouv.fr transmettre systématiquement, sous forme de tableau mis à jour, à la plateforme ouverte des données publiques \(www.data.gouv.fr\) statiques relatives aux caractéristiques des installations comprenant :
+Dans le but de constituer un répertoire national des Infrastructures de Recharge de Véhicules Electriques \(IRVE\), ouvert et accessible à tous, les collectivités locales porteuses d'un projet d'installation d'IRVE doivent, au fur et à mesure de la mise en service des stations, publier sur la plateforme data.gouv.fr les données statiques relatives à la localisation et aux caractéristiques techniques de ces installations selon les modalités définies dans [l'arrêté du 12 janvier 2017](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860733).
 
-La source de cette spécification est disponible sur le [dépôt Github de la mission Etalab](https://github.com/etalab/schema.data.gouv.fr/tree/master/irve). Si nécessaire, elle sera mise à jour, adaptée et consolidée à partir de cette même source. Elle a été élaborée à partir des documents suivants :
+La spécification SCDL de ce modèle de données s'appuie donc sur les dispositions de cet arrêté et réutilise celle, déjà implémentée sous forme de schéma, disponible sur le [dépôt Github de la mission Etalab](https://github.com/etalab/schema.data.gouv.fr/tree/master/irve). Si nécessaire, elle sera mise à jour, adaptée et consolidée à partir de cette même source.
+
+De fait, elle a été élaborée à partir des documents suivants :
 
 * **Documents de cadrage juridique**
   * [Décret n° 2017-26 du 12 janvier 2017 relatif aux infrastructures de recharge pour véhicules électriques et portant diverses mesures de transposition de la directive 2014/94/UE du Parlement européen et du Conseil du 22 octobre 2014 sur le déploiement d’une infrastructure pour carburants alternatifs](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860620)
