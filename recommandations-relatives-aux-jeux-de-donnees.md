@@ -4,7 +4,7 @@
 
 Pour toutes les spécifications SCDL, le format de fichier retenu pour la publication des données est le [CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) \(Comma Separated Values, valeurs séparées par des virgules\).
 
-Les fichiers doivent, autant que possible, respecter les règles de formatage suivantes :
+Les fichiers doivent, sauf exception et autant que possible, respecter les règles de formatage suivantes :
 
 * l’encodage des caractères est [UTF-8](https://fr.wikipedia.org/wiki/UTF-8),
 * le séparateur des colonnes est la virgule,
@@ -16,7 +16,7 @@ Les fichiers doivent, autant que possible, respecter les règles de formatage su
 
 ## Recommandations pour le nommage des fichiers
 
-Les fichiers doivent, autant que possible, respecter les règles de nommage suivantes :
+Les fichiers doivent, sauf exception et autant que possible, respecter les règles de nommage suivantes :
 
 **AAAAMMJJ\_idProducteur**_**\_**_**nom-du-fichier.extension**
 
@@ -33,7 +33,7 @@ Exemple : '20180314\_213502388\_prenoms-nouveaux-nes-rennes-2017.csv'
 
 Pour garantir la conformité des jeux de données publiés par rapport aux spécifications SCDL, il est demandé aux producteurs de s'assurer que la structure, les champs et les contenus attendus sont effectivement respectés.
 
-De fait, les fichiers tabulaires doivent, autant que possible, contenir :
+De fait, les fichiers tabulaires doivent, sauf exception et autant que possible, contenir :
 
 * **Toutes les colonnes**, y compris celles dont les cellules ne sont pas renseignées, dans le bon ordre, et avec des en-têtes correctement nommées sur la première ligne
 * **Autant de lignes que nécessaire** comprenant des cellules dont les valeurs peuvent être **obligatoires** \(elles doivent être impérativement renseignées\) ou **optionnelles** \(elles sont seulement recommandées ou soumises à condition de disponibilité / pertinence\)
