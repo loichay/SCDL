@@ -21,6 +21,8 @@ En 2018, dans le cadre de son [groupe de travail "Open Data"](http://www.afigeo.
 
 La spécification SCDL du modèle de données relatif aux points d'eau incendie \(PEI\) a donc été élaborée à partir du modèle minimal de données proposé par l'AFIGEO. Si nécessaire, elle sera mise à jour, adaptée et consolidée à partir de cette même source.
 
+Dès qu'elle se justifie, la [correspondance avec les attributs d'OpenStreetMap relatifs aux hydrants](https://wiki.openstreetmap.org/wiki/FR:Tag:emergency%3Dfire_hydrant#Correspondance_avec_le_mod.C3.A8le_PEI_de_l.27Afigeo) est notée en référence dans les champs concernés.
+
 ## Modèle de données <a id="modele-de-donnees"></a>
 
 Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`28 champs`** suivants correspondant aux colonnes du fichier tabulaire.
@@ -139,7 +141,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 ## Voir aussi <a id="voir-aussi"></a>
 
-[Correspondance entre le modèle PEI de l'AFIGEO et les attributs d'OpenStreetMap relatifs aux hydrants](https://wiki.openstreetmap.org/wiki/FR:Tag:emergency%3Dfire_hydrant#Correspondance_avec_le_mod.C3.A8le_PEI_de_l.27Afigeo)
+
 
 
 
