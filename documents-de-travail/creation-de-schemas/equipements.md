@@ -182,8 +182,8 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 #### `EQUIP_TEL`
 
-* Titre : Numéro de téléphone
-* Description : 
+* Titre : Téléphone
+* Description : Ce champ permet de renseigner, si l'information est connue, le numéro de téléphone \(du gestionnaire\) de l'équipement exprimé sous la forme d'une chaîne de caractère de 8 chiffres d'un seul tenant.
 * Type : chaîne de caractères
 * Exemple : '0149622525'
 * Valeur : **optionnelle**
@@ -191,16 +191,16 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 #### `EQUIP_EMAIL`
 
-* Titre : Adresse email
-* Description : 
+* Titre : Email
+* Description : Ce champ permet de renseigner, si l'information est connue, l'adresse email \(du gestionnaire\) de l'équipement.
 * Type : chaîne de caractères \(format `email`\)
 * Exemple : 'contact@leplessistrevise.fr'
 * Valeur : **optionnelle**
 
 #### `EQUIP_WEB`
 
-* Titre : Adresse du site web
-* Description : 
+* Titre : Site web
+* Description : Ce champ permet de renseigner, si l'information est connue, l'url d'accès au site web \(du gestionnaire\) de l'équipement.
 * Type : chaîne de caractères \(format `uri`\)
 * Exemple : 'https://www.leplessistrevise.fr'
 * Valeur : **optionnelle**
