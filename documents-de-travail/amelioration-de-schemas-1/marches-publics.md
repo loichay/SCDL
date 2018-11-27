@@ -55,8 +55,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 * Titre : Identifiant unique du marché public
 * Description : Exprimé sous la forme d'une chaîne de caractères d'un seul tenant, cet identifiant unique contient [`MARCHE_ID`](marches-publics.md#marcheid-1) préfixé de [`ACHETEURS_ID`](marches-publics.md#acheteursid), c'est-à-dire du [numéro SIRET](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27identification_du_r%C3%A9pertoire_des_%C3%A9tablissements) de l'acheteur.
-* Type : chaîne de caractères
-* Format : `uuid` identifiant UUID
+* Type : chaîne de caractères \(format `uuid`\)
 * Exemple : '213502388000192014NNNNNNNNNN00'
 * Valeur : **optionnelle**
 * Motif : ?

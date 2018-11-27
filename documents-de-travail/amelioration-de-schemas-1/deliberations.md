@@ -168,8 +168,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 * Titre : Lien vers le document de la délibération
 * Description : Si la collectivité dispose d'une version électronique de la délibération et la publie en ligne, ce lien correspond à l'adresse permettant de consulter ou de télécharger le document.
-* Type : chaîne de caractères
-* Format : `uri` adresse URL
+* Type : chaîne de caractères \(format `uri`\)
 * Exemple : 'https://data.maville.fr/deliberations/files/200417\_1.pdf'
 * Valeur : **optionnelle**
 
