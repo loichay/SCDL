@@ -27,7 +27,7 @@ Cette spécification a été élaborée à partir des sources suivantes :
 * [Data Catalog Vocabulary \(DCAT\)](https://www.w3.org/TR/vocab-dcat/) - Recommandation W3C relative au vocabulaire des catalogues de données publiés sur le web \(2014\)
 * [DCAT Application Profile for data portals in Europe](https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/releases) \([DCAT-AP v1.1](https://github.com/SEMICeu/DCAT-AP/raw/master/releases/1.1/dcat-ap_1.1.pdf) en 2015 et [DCAT-AP v1.2](https://joinup.ec.europa.eu/sites/default/files/distribution/access_url/2018-11/014bde52-eb3c-4060-8c3c-fcd0dfc07a8a/DCAT_AP_1.2.pdf) en 2018\) - Spécification de la Commission Européenne, basée sur le vocabulaire DCAT, visant à décrire les jeux de données du secteur public en Europe, également disponible sur le [dépôt Github de l'initiative SEMICeu](https://github.com/SEMICeu/DCAT-AP)
 
-Dès qu'un champ le justifie, la correspondance avec les attributs DCAT est notée en référence.
+Dès qu'elle se justifie, la correspondance avec les attributs DCAT est notée en référence dans les champs concernés.
 
 ## Modèle de données
 
