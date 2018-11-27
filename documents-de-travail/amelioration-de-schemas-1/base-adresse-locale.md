@@ -43,8 +43,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 * Titre : Identifiant unique national d’adresse
 * Description : Cet identifiant unique d’adresse est géré et attribué par le service "guichet national d’identification" de la Base Adresse Nationale. Dans l'attente de la mise en place de ce service, les règles de création ou de gestion de cet identifiant ne sont pas connues. La valeur de ce champ est donc optionnelle et sera laissée vide aussi longtemps que le service d'identification ne sera pas opérationnel.
-* Type : chaîne de caractères
-* Format : `uuid` identifiant UUID
+* Type : chaîne de caractères \(format `uuid`\)
 * Valeur : **optionnelle**
 
 #### `voie_nom` <a id="voienom"></a>

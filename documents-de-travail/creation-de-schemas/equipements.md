@@ -18,9 +18,7 @@ Lien permanent vers le [document actuellement publié](http://www.opendatafrance
 
 Les données géolocalisées permettant de dresser l'inventaire et de cartographier les équipements collectifs publics implantés sur leurs territoires représentent un enjeu majeur de connaissance pour toutes les strates de collectivités locales.
 
-
-
-"Un équipement collectif public est un équipement proposant un service au public : structures ou bâtiments, publics ou privés, répondant aux besoins de la population sur un territoire \(Administration, Justice, Sanitaire, Social et Animation, Sport et Loisir, Enseignement, Culte, Culturel,Transport et Mobilité\) Est exclu ce qui s’apparente à de l’industriel"
+Adaptée au contexte local et reformulée à l'issue de plusieurs expérimentations de terrain, la [définition proposée par le groupe de travail EquipCo](https://docs.google.com/spreadsheets/d/1x_8TKmdBVXiBBkwf4ZWSHMhbNgeTGiXuQraiHP5d7pU/) du CRIGE PACA énonce qu'un équipement collectif public est "_un équipement proposant un service au public : structures ou bâtiments, publics ou privés, répondant aux besoins de la population sur un territoire_".
 
 La Base Permanente des Equipements \(BPE\) de l'INSEE
 
@@ -177,10 +175,9 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 #### `EQUIP_OUVERTURE`
 
 * Titre : Jours et horaires d'ouverture
-* Description : 
+* Description : Ce champ permet de renseigner, si l'information est connue, les jours et horaires d'ouverture de l'équipement en respectant le [format utilisé pour la clé 'opening\_hours'](https://wiki.openstreetmap.org/wiki/FR:Key:opening_hours) dans OpenStreetMap. Un outil comme [YoHours](http://projets.pavie.info/yohours/) facilite la transformation des jours et horaires d'ouverture dans ce format. Celui-ci incluant éventuellement des virgules comme signes de séparation, il est nécessaire d'[entourer les valeurs de la chaîne de caractères par des guillemets doubles](../../recommandations-relatives-aux-jeux-de-donnees.md#recommandations-pour-le-formatage-des-fichiers).
 * Type : chaîne de caractères
-* Référence : opening\_hours \(OpenStreetMap\)
-* Exemple : ''
+* Exemple : "Mo,Fr 08:00-12:00,14:00-18:00; Tu 08:00-12:00; We 08:00-12:00,14:00-17:00; Th 14:00-17:00"
 * Valeur : **optionnelle**
 
 #### `EQUIP_TEL`
