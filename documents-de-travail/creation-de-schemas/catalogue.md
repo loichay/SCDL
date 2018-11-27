@@ -16,6 +16,12 @@ Lien permanent vers le [document actuellement publié](http://www.opendatafrance
 
 ## Contexte
 
+Le catalogue opendata d'une collectivité rassemble les métadonnées de description des jeux de données qu'elle publie. Il peut être généré automatiquement par la plateforme qui héberge ses jeux de données ou qui moissonne leurs métadonnées. Plusieurs standards permettent de normaliser les métadonnées d'un catalogue \(INSPIRE pour les données géographiques, DCAT et ses déclinaisons pour tout type de données ouvertes\), mais les catalogues locaux, lorsqu'ils existent, qu'ils soient exposés via une API ou extraits sous forme de fichiers, dépendent souvent de la capacité technique de la solution utilisée et de son paramétrage \(formats différents, et plus ou moins riches ou étendus, en fonction de la plateforme, catalogue unique et pas pour chaque producteur quand la plateforme est mutualisée, distinction ou non entre jeu de données et ressources, etc\). Sans compter que de nombreuses collectivités utilisent de simples sites web pour mettre à disposition leurs données.
+
+La spécification d'un modèle de données simplifié doit permettre d'harmoniser ces catalogues locaux dans un format accessible à toutes les collectivités et faciliter leur consolidation dans un inventaire national \("le catalogue des catalogues de l'open data territorial"\).
+
+
+
 * [Guide de saisie des éléments de métadonnées INSPIRE](http://cnig.gouv.fr/wp-content/uploads/2014/01/Guide-de-saisie-des-%C3%A9l%C3%A9ments-de-m%C3%A9tadonn%C3%A9es-INSPIRE-v1.1-final-light.pdf) - Recommandation du Conseil National de l'Information Géographique \(2013\)
 * [Guide de mise en oeuvre du schéma DCAT-AP](https://docs.google.com/document/d/1qMDqBjrTJVu3t9RH94aLSW7Z3jhH1SjoBrWhW9PZkJ4/) rédigé par Pascal Romain du Département de la Gironde pour OpenDataFrance à partir du draft final de la spécification de la Commission Européenne \(2014\)
 * [Data Catalog Vocabulary \(DCAT\)](https://www.w3.org/TR/vocab-dcat/) - Recommandation W3C relative au vocabulaire des catalogues de données publiés sur le web \(2014\)
