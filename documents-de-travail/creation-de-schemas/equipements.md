@@ -18,7 +18,7 @@ Lien permanent vers le [document actuellement publié](http://www.opendatafrance
 
 Les données géolocalisées permettant de dresser l'inventaire et de cartographier les équipements collectifs publics implantés sur leurs territoires représentent un enjeu majeur de connaissance pour toutes les strates de collectivités locales.
 
-Adaptée au contexte local et reformulée à l'issue de plusieurs expérimentations de terrain, la [définition proposée par le groupe de travail EquipCo](https://docs.google.com/spreadsheets/d/1x_8TKmdBVXiBBkwf4ZWSHMhbNgeTGiXuQraiHP5d7pU/) du CRIGE PACA énonce qu'un équipement collectif public est "_un équipement proposant un service au public : structures ou bâtiments, publics ou privés, répondant aux besoins de la population sur un territoire_".
+Reformulée et affinée à l'issue de plusieurs expérimentations de terrain, la [définition proposée par le groupe de travail EquipCo](https://docs.google.com/spreadsheets/d/1x_8TKmdBVXiBBkwf4ZWSHMhbNgeTGiXuQraiHP5d7pU/) du CRIGE PACA énonce qu'un équipement collectif public est "_un équipement proposant un service au public : structures ou bâtiments, publics ou privés, répondant aux besoins de la population sur un territoire_". Les travaux de ce groupe de travail, démarrés dès 2008, 
 
 La Base Permanente des Equipements \(BPE\) de l'INSEE
 
@@ -139,7 +139,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 #### `ERP_TYPE`
 
-* Titre : Type d'Etablissement Recevant du Public \(ERP\)
+* Titre : Type d'Etablissement Recevant du Public
 * Description : Les [Etablissements Recevant du Public](https://fr.wikipedia.org/wiki/%C3%89tablissement_recevant_du_public_en_droit_fran%C3%A7ais) \(ERP\) installés dans un bâtiment et les établissements spéciaux sont classés par type en fonction de leur activité ou de la nature de leur exploitation. Le type est symbolisé par une à trois lettre\(s\) en majuscule dans le respect de [l'article GN1 de l'Arrêté du 25 juin 1980](https://www.legifrance.gouv.fr/affichTexte.do;?cidTexte=LEGITEXT000020303557). Si l'équipement collectif public est un ERP, ce champ peut être renseigné à partir d'une des valeurs suivantes :  'J', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y' pour les ERP installés dans un bâtiment et 'PA', 'CTS', 'SG', 'PS', 'GA', 'OA', 'EF', 'REF' pour les établissements spéciaux. Dans le cas d'un ERP couvrant plusieurs types, les valeurs sont séparées par un point-virgule.
 * Type : chaîne de caractères
 * Exemple : 'W' ou 'W;L'
@@ -149,7 +149,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 #### `ERP_CATEGORIE`
 
-* Titre : Catégorie d'Etablissement Recevant du Public \(ERP\)
+* Titre : Catégorie d'Etablissement Recevant du Public
 * Description : Les [Etablissements Recevant du Public](https://fr.wikipedia.org/wiki/%C3%89tablissement_recevant_du_public_en_droit_fran%C3%A7ais) \(ERP\) sont classés par catégorie en fonction de leur capacité d'accueil. La catégorie est symbolisée par un chiffre de 1 à 5 dans le respect de [l'article R123-19 du Code de la construction et de l'habitation](https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006074096&idArticle=LEGIARTI000006896108). Si l'équipement collectif public est un ERP, ce champ peut être renseigné.
 * Type : nombre entier
 * Exemple : '5'
