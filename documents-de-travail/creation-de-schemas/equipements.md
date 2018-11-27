@@ -16,12 +16,20 @@ Lien permanent vers le [document actuellement publié](http://www.opendatafrance
 
 ## Contexte <a id="contexte"></a>
 
+Les données géolocalisées permettant de dresser l'inventaire et de cartographier les équipements collectifs publics implantés sur leurs territoires représentent un enjeu majeur de connaissance pour toutes les strates de collectivités locales.
+
+
+
+"Un équipement collectif public est un équipement proposant un service au public : structures ou bâtiments, publics ou privés, répondant aux besoins de la population sur un territoire \(Administration, Justice, Sanitaire, Social et Animation, Sport et Loisir, Enseignement, Culte, Culturel,Transport et Mobilité\) Est exclu ce qui s’apparente à de l’industriel"
+
+La Base Permanente des Equipements \(BPE\) de l'INSEE
+
 * [Modèle de données des équipements collectifs publics](http://www.crige-paca.org/index.php?eID=tx_crigedocuments&hash=2eb4b236&fid=3117) - Version 2.0 - CRIGE PACA \([Tableur en ligne](https://docs.google.com/spreadsheets/d/1QDydwJ17gPLm71rKC5cNXO5w93PKaC3MmOLYhGfWJWU/edit#gid=652816451)\)
 * [Nomenclature des équipements collectifs publics](http://www.crige-paca.org/index.php?eID=tx_crigedocuments&hash=97632e80&fid=3118) - Version 2.0 - CRIGE PACA \([Tableur en ligne](https://docs.google.com/spreadsheets/d/157WPWMUDC6w58Aep1dgWzzunKEjzSd-QmyuEHa8RFqc/)\)
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`18 champs`** suivants correspondant aux colonnes du fichier tabulaire.
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`20 champs`** suivants correspondant aux colonnes du fichier tabulaire.
 
 #### `COLL_NOM`
 
@@ -45,8 +53,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 * Titre : Identifiant unique de l'équipement
 * Description : Cet identifiant unique est constitué du [code INSEE de la commune](https://fr.wikipedia.org/wiki/Code_Insee) où est implanté l'équipement sur 5 caractères \(incluant 'A' ou 'B' pour la Corse\) suivi du [code d'identification de l'équipement](equipements.md#equip_code), séparés par un tiret du milieu. Il s'agit donc d'une chaîne de 18 caractères qui permet d'identifier chacun des équipements référencés de manière univoque.
-* Type : chaîne de caractères
-* Format : `uuid` identifiant UUID
+* Type : chaîne de caractères \(format `uuid`\)
 * Exemple : '94059-01010401-001'
 * Valeur : **obligatoire**
 * Taille : 18 maximum
@@ -167,20 +174,37 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Exemple : '2.572875'
 * Valeur : **obligatoire**
 
-#### `EQUIP_X`
+#### `EQUIP_OUVERTURE`
 
-* Titre : Coordonnée X
-* Description : Coordonnée X du système légal en vigueur sur le territoire concerné, conformément à l’article 1 du [décret n° 2006-272](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000000813996) du 3 mars 2006. Le signe de séparation entre les parties entière et décimale du nombre est le point.
-* Type : nombre décimal
-* Exemple : '668631.7'
+* Titre : Jours et horaires d'ouverture
+* Description : 
+* Type : chaîne de caractères
+* Référence : opening\_hours \(OpenStreetMap\)
+* Exemple : ''
 * Valeur : **optionnelle**
 
-#### `EQUIP_Y`
+#### `EQUIP_TEL`
 
-* Titre : Coordonnée Y
-* Description : Coordonnée Y du système légal en vigueur sur le territoire concerné, conformément à l’article 1 du [décret n° 2006-272](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000000813996) du 3 mars 2006. Le signe de séparation entre les parties entière et décimale du nombre est le point.
-* Type : nombre décimal
-* Exemple : '6856631.1'
+* Titre : Numéro de téléphone
+* Description : 
+* Type : 
+* Exemple : ''
+* Valeur : **optionnelle**
+
+#### `EQUIP_EMAIL`
+
+* Titre : Adresse email
+* Description : 
+* Type : chaîne de caractères \(format `email`\)
+* Exemple : ''
+* Valeur : **optionnelle**
+
+#### `EQUIP_WEB`
+
+* Titre : Adresse du site web
+* Description : 
+* Type : chaîne de caractères \(format `uri`\)
+* Exemple : ''
 * Valeur : **optionnelle**
 
 ## Voir aussi <a id="voir-aussi"></a>
