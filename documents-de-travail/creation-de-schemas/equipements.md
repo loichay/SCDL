@@ -79,7 +79,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 #### `EQUIP_TYPE`
 
 * Titre : Type d'équipement
-* Description : Le type d'équipement correspond à un des termes associés au code choisi dans la [nomenclature des équipements collectifs publics](https://docs.google.com/spreadsheets/d/157WPWMUDC6w58Aep1dgWzzunKEjzSd-QmyuEHa8RFqc) pour identifier l'équipement dans [`EQUIP_CODE`](equipements.md#equip_code). Il s'agit donc de renseigner ce champ avec une valeur, jugée la plus pertinente pour désigner l'équipement, dans la limite de 140 caractères maximum [en prenant soin d'échapper ou de supprimer les éventuelles virgules](../../#recommandations-pour-le-formatage-des-fichiers).
+* Description : Le type d'équipement correspond à un des termes associés au code choisi dans la [nomenclature des équipements collectifs publics](https://docs.google.com/spreadsheets/d/157WPWMUDC6w58Aep1dgWzzunKEjzSd-QmyuEHa8RFqc) pour identifier l'équipement dans [`EQUIP_CODE`](equipements.md#equip_code). Il s'agit donc de renseigner ce champ avec une valeur, jugée la plus pertinente pour désigner l'équipement, dans la limite de 140 caractères maximum [en prenant soin d'échapper ou de supprimer les éventuelles virgules](../../recommandations-relatives-aux-jeux-de-donnees.md#recommandations-pour-le-formatage-des-fichiers).
 * Type : chaîne de caractères
 * Exemple : 'Mairie'
 * Valeur : **obligatoire**
@@ -175,25 +175,26 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 #### `EQUIP_OUVERTURE`
 
 * Titre : Jours et horaires d'ouverture
-* Description : Ce champ permet de renseigner, si l'information est connue, les jours et horaires d'ouverture de l'équipement en respectant le [format utilisé pour la clé 'opening\_hours'](https://wiki.openstreetmap.org/wiki/FR:Key:opening_hours) dans OpenStreetMap. Un outil comme [YoHours](http://projets.pavie.info/yohours/) facilite la transformation des jours et horaires d'ouverture dans ce format. Celui-ci incluant éventuellement des virgules comme signes de séparation, il est nécessaire d'[entourer les valeurs de la chaîne de caractères par des guillemets doubles](../../recommandations-relatives-aux-jeux-de-donnees.md#recommandations-pour-le-formatage-des-fichiers).
+* Description : Ce champ permet de renseigner, si l'information est connue, les jours et horaires d'ouverture de l'équipement en respectant le [format utilisé pour la clé 'opening\_hours'](https://wiki.openstreetmap.org/wiki/FR:Key:opening_hours) dans OpenStreetMap. Un outil comme [YoHours](http://projets.pavie.info/yohours/) facilite la transformation des jours et horaires d'ouverture dans ce format. Celui-ci pouvant contenir des virgules comme signes de séparation, il est nécessaire d'[entourer les valeurs de la chaîne de caractères par des guillemets doubles](../../recommandations-relatives-aux-jeux-de-donnees.md#recommandations-pour-le-formatage-des-fichiers).
 * Type : chaîne de caractères
-* Exemple : "Mo,Fr 08:00-12:00,14:00-18:00; Tu 08:00-12:00; We 08:00-12:00,14:00-17:00; Th 14:00-17:00"
+* Exemple : "Mo-Fr 08:30-12:00,13:30-17:30; Sa 08:30-12:00"
 * Valeur : **optionnelle**
 
 #### `EQUIP_TEL`
 
 * Titre : Numéro de téléphone
 * Description : 
-* Type : 
-* Exemple : ''
+* Type : chaîne de caractères
+* Exemple : '0149622525'
 * Valeur : **optionnelle**
+* Motif : ?
 
 #### `EQUIP_EMAIL`
 
 * Titre : Adresse email
 * Description : 
 * Type : chaîne de caractères \(format `email`\)
-* Exemple : ''
+* Exemple : 'contact@leplessistrevise.fr'
 * Valeur : **optionnelle**
 
 #### `EQUIP_WEB`
@@ -201,7 +202,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Titre : Adresse du site web
 * Description : 
 * Type : chaîne de caractères \(format `uri`\)
-* Exemple : ''
+* Exemple : 'https://www.leplessistrevise.fr'
 * Valeur : **optionnelle**
 
 ## Voir aussi <a id="voir-aussi"></a>
