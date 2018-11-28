@@ -1,7 +1,7 @@
 ---
 description: >-
   Draft de la spécification du modèle de données relatif aux menus servis dans
-  les cantines scolaires
+  les cantines des crèches, écoles, collèges ou lycées d'une collectivité
 ---
 
 # Menus
