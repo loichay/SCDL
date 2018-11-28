@@ -6,7 +6,7 @@ Dès que le draft d'une spécification du Socle Commun des Données Locales est 
 
 ## Recommandations pour la mise à jour des schémas
 
-
+Dès leur création, les schémas sont référencés sur le [GitLab d'OpenDataFrance](https://git.opendatafrance.net/scdl). Certains sont hébergés dans des dépôts dédiés et d'autres dans des dépôts distants, notamment sur Github. Les éventuelles modifications à leur apporter sont alors directement opérées par leur\(s\) auteur\(s\). Pour signaler un problème ou suggérer une amélioration, il est recommandé d'utiliser le système de tickets \('issues'\) de chaque dépôt.
 
 ## Recommandations pour le versionnage des schémas
 
