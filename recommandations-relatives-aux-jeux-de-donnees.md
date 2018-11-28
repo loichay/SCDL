@@ -14,6 +14,8 @@ Les fichiers doivent, sauf exception et autant que possible, respecter les règl
 * chaque ligne doit avoir le même nombre de champs,
 * le type MIME ou Content-Type est text/csv.
 
+Références : [RFC 4180](https://tools.ietf.org/html/rfc4180) \| [Tabular Data Resource](http://frictionlessdata.io/specs/tabular-data-resource/)
+
 ## Recommandations pour le nommage des fichiers
 
 Les fichiers doivent, sauf exception et autant que possible, respecter les règles de nommage suivantes :

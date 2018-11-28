@@ -2,7 +2,7 @@
 
 ## Recommandations pour la création des schémas
 
-Dès que le draft d'une spécification du Socle Commun des Données Locales est suffisamment mûr, son contenu est implémenté, ajusté si nécessaire, et stabilisé dans un schéma json au format _Table Schema_.
+Dès que le draft d'une spécification du Socle Commun des Données Locales est suffisamment mûr, son contenu est implémenté, ajusté si nécessaire, et stabilisé dans un schéma json au format [_Table Schema_](https://frictionlessdata.io/specs/table-schema/). 
 
 ## Recommandations pour la mise à jour des schémas
 
