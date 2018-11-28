@@ -1,7 +1,7 @@
 ---
 description: >-
   Draft de la spécification du modèle de données relatif aux défibrillateurs
-  automatisés externes (DAE)
+  automatisés externes (DAE) disponibles sur le territoire d'une collectivité
 ---
 
 # Défibrillateurs\*
