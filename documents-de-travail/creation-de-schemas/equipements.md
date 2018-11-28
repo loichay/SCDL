@@ -60,11 +60,11 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 #### `EQUIP_THEME`
 
 * Titre : Thème de classement de l'équipement
-* Description : Les entrées de la [nomenclature des équipements collectifs publics](https://docs.google.com/spreadsheets/d/157WPWMUDC6w58Aep1dgWzzunKEjzSd-QmyuEHa8RFqc) sont divisées en 10 grandes familles. Les intitulés de ces grandes familles sont utilisés pour classer les équipements par thème. Ce champ doit donc être renseigné à partir d'une des valeurs suivantes : 'Equipement administratif', 'Equipement de justice', 'Equipement sanitaire', 'Equipement social et d'animation', 'Equipement sportif et de loisirs', 'Equipement d'enseignement', 'Equipement cultuel', 'Equipement culturel', 'Equipement de mobilité', ou 'Autres équipements'.
+* Description : Les entrées de la [nomenclature des équipements collectifs publics](https://docs.google.com/spreadsheets/d/157WPWMUDC6w58Aep1dgWzzunKEjzSd-QmyuEHa8RFqc) sont divisées en 10 grandes familles. Les intitulés de ces grandes familles sont utilisés pour classer les équipements par thème. Ce champ doit donc être renseigné à partir d'une des valeurs suivantes : 'Equipement administratif', 'Equipement de justice', 'Equipement sanitaire', 'Equipement social et d'animation', 'Equipement sportif et de loisirs', 'Equipement d'enseignement', 'Equipement cultuel', 'Equipement culturel', 'Equipement de mobilité', ou 'Autre équipement'.
 * Type : chaîne de caractères
 * Exemple : 'Equipement administratif'
 * Valeur : **obligatoire**
-* Valeurs autorisées : 'Equipement administratif', 'Equipement de justice', 'Equipement sanitaire', 'Equipement social et d'animation', 'Equipement sportif et de loisirs', 'Equipement d'enseignement', 'Equipement cultuel', 'Equipement culturel', 'Equipement de mobilité', 'Autres équipements'
+* Valeurs autorisées : 'Equipement administratif', 'Equipement de justice', 'Equipement sanitaire', 'Equipement social et d'animation', 'Equipement sportif et de loisirs', 'Equipement d'enseignement', 'Equipement cultuel', 'Equipement culturel', 'Equipement de mobilité', 'Autre équipement'
 
 #### `EQUIP_CODE`
 
