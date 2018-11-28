@@ -12,6 +12,7 @@ description: >-
 
 * [Schéma 'Event' sur schema.org](https://schema.org/Event)
 * [Structure des données d'OpenAgenda](https://openagenda.zendesk.com/hc/fr/articles/115002665145-Structure-des-donn%C3%A9es)
+* Modèle des données de type « événement » dans l'[ontologie DATAtourisme v1.0](https://framagit.org/datatourisme/ontology/tree/master/Documentation)
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
