@@ -2,7 +2,7 @@
 
 ## Recommandations pour la création des schémas
 
-Dès qu'une spécification du Socle Commun des Données Locales est suffisamment stable, elle est implémentée dans un schéma json au format _Table Schema_.
+Dès que le draft d'une spécification du Socle Commun des Données Locales est suffisamment mûr, son contenu est implémenté, ajusté si nécessaire, et stabilisé dans un schéma json au format _Table Schema_.
 
 ## Recommandations pour la mise à jour des schémas
 
