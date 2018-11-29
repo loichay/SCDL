@@ -1,7 +1,7 @@
 ---
 description: >-
-  Draft de la spécification du modèle de données relatif aux jeux de données
-  publiés en opendata par une collectivité
+  Draft de la spécification du modèle de données relatif au catalogue des jeux
+  de données publiés en opendata par une collectivité
 ---
 
 # Catalogue simplifié
