@@ -1,3 +1,9 @@
+---
+description: >-
+  Draft de la spécification du modèle de données relatif aux points d'eau
+  incendie (PEI) d'une collectivité
+---
+
 # Points d'eau incendie
 
 ## Version 1.0.0 du 12/06/2018 <a id="version-0-0-0-du-jj-mm-aaaa"></a>

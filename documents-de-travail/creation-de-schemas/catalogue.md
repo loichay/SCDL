@@ -1,3 +1,9 @@
+---
+description: >-
+  Draft de la spécification du modèle de données relatif aux jeux de données
+  publiés en opendata par une collectivité
+---
+
 # Catalogue simplifié
 
 ## Version 1.0.0 du 29/01/2018

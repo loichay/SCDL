@@ -1,3 +1,9 @@
+---
+description: >-
+  Draft de la spécification du modèle de données relatif aux infrastructures de
+  recharge de véhicules électriques (IRVE) d'une collectivité
+---
+
 # Infrastructures de Recharge de Véhicules Electriques\*
 
 ## Version 1.1.0 du 10/09/2018 <a id="version-0-0-0-du-jj-mm-aaaa"></a>
