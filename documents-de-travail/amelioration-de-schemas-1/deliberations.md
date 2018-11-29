@@ -1,3 +1,9 @@
+---
+description: >-
+  Draft de la spécification du modèle de données relatif aux délibérations
+  adoptées par une assemblée locale
+---
+
 # Délibérations
 
 ## Version 2.0.0 du 23/05/2018 <a id="version-0-0-0-du-jj-mm-aaaa"></a>
