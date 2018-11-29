@@ -210,5 +210,5 @@ La spécification du modèle de données peut être utilement complétée par le
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 
 * adresser un message à scdl@opendatafrance.email
-* ouvrir un ticket sur le dépôt GitLab d’OpenDataFrance​
+* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://git.opendatafrance.net/scdl/equipements/issues/new)​
 

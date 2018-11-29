@@ -152,7 +152,16 @@ latitude en degrés décimaux en WGS 84 \(précision de 8 décimales\)
 
 ## Voir aussi <a id="voir-aussi"></a>
 
+La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
+* Exemple de fichier
+* Schéma de validation​
+* Documentation générée à partir du schéma​​
+
+Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
+
+* adresser un message à scdl@opendatafrance.email
+* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance​](https://git.opendatafrance.net/scdl/equipements/issues/new)
 
 
 
