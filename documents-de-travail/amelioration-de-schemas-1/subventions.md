@@ -1,9 +1,3 @@
----
-description: >-
-  Draft de la spécification du modèle de données relatif aux subventions
-  attribuées par une collectivité locale
----
-
 # Subventions
 
 ## Version 1.1.0 du 27/04/2018

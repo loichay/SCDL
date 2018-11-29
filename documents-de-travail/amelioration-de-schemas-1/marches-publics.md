@@ -1,9 +1,3 @@
----
-description: >-
-  Draft de la spécification du modèle de données relatif aux marchés publics
-  attribués par une collectivité locale
----
-
 # Marchés publics
 
 ## Version 1.0.1 du 16/05/2018 <a id="version-0-0-0-du-jj-mm-aaaa"></a>

@@ -1,9 +1,3 @@
----
-description: >-
-  Draft de la spécification du modèle de données relatif aux menus servis dans
-  les cantines des crèches, écoles, collèges ou lycées d'une collectivité
----
-
 # Menus
 
 ## Version 0.0.0 du JJ/MM/AAAA <a id="version-0-0-0-du-jj-mm-aaaa"></a>

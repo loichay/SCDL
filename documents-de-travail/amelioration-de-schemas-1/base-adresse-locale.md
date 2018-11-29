@@ -1,9 +1,3 @@
----
-description: >-
-  Draft de la spécification du modèle de données relatif aux adresses locales
-  d’une collectivité (BAL)
----
-
 # Base Adresse Locale
 
 ## Version 1.1.2 du 30/05/2018 <a id="version-0-0-0-du-jj-mm-aaaa"></a>

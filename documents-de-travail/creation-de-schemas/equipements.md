@@ -1,9 +1,3 @@
----
-description: >-
-  Draft de la spécification du modèle de données relatif aux équipements
-  collectifs publics d'une collectivité locale
----
-
 # Equipements
 
 ## Version 1.0.0 du 30/01/2018 <a id="version-0-0-0-du-jj-mm-aaaa"></a>

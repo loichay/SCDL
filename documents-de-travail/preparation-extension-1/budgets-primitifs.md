@@ -1,9 +1,3 @@
----
-description: >-
-  Draft de la spécification du modèle de données relatif au budget prévisionnel
-  voté par une collectivité locale (BP)
----
-
 # Budgets primitifs
 
 ## Version 0.0.0 du JJ/MM/AAAA <a id="version-0-0-0-du-jj-mm-aaaa"></a>
