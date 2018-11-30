@@ -125,8 +125,8 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 #### `COUV_SPAT_NOM`
 
-* Titre : Nom de la maille de couverture spatiale
-* Description : Le nom de la maille de couverture spatiale correspond au nom de l'échelle territoriale que couvre le jeu de données. Il est exprimé sous la forme d'une chaîne de caractères limitée à 140 caractères maximum.
+* Titre : Nom de couverture spatiale
+* Description : Le nom de couverture spatiale correspond au nom de l'échelle territoriale que couvre le jeu de données. Il est exprimé sous la forme d'une chaîne de caractères limitée à 140 caractères maximum.
 * Type : chaîne de caractères
 * Référence : dct:spatial \(Dataset\)
 * Exemple : 'Rennes'
