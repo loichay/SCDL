@@ -206,7 +206,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Type : nombre entier
 * Exemple : '3'
 * Valeur : **obligatoire**
-* MinMax : 1 minimum et 999 maximum
+* MinMax : 1 minimum
 
 #### `FORMAT_RESSOURCES`
 
