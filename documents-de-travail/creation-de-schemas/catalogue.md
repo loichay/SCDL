@@ -153,7 +153,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 #### `DATE_PUBL`
 
-* Titre : Date de publication
+* Titre : Date de la première publication
 * Description : Date de la publication initiale du contenu du jeu de données. Elle est exprimée au format AAAA-MM-JJ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).
 * Type : date
 * Référence : dct:issued \(Dataset\)
@@ -162,7 +162,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 #### `FREQ_MAJ`
 
-* Titre : Fréquence de mise à jour
+* Titre : Fréquence de la mise à jour
 * Description : La fréquence de mise à jour correspond à la périodicité suivant laquelle des modifications sont apportées au jeu de données. Elle est désignée en choisissant une valeur parmi une liste pré-établie de valeurs possibles : 'Inconnue', 'Ponctuelle', 'Sans régularité', 'Temps réel', 'Toutes les heures', 'Quotidienne ou plusieurs fois par jour', 'Hebdomadaire ou plusieurs fois par semaine', 'Mensuelle ou plusieurs fois par mois', 'Bimestrielle', 'Trimestrielle', 'Semestrielle', 'Annuelle', 'Biennale', 'Triennale', ou 'Quinquennale'.
 * Type : chaîne de caractères
 * Référence : dct:accrualPeriodicity \(Dataset\)
