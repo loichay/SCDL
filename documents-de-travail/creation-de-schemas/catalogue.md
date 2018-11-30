@@ -221,7 +221,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 #### `URL`
 
 * Titre : URL d'accès
-* Description : Cet élément fournit un lien, le plus stable possible, vers la page du jeu de données \(ou de la ressource si le jeu de données n'en comprend qu'une\) et/ou vers des informations complémentaires le concernant.
+* Description : Cet élément fournit un lien, une adresse web la plus stable possible, vers la page du jeu de données \(ou de la ressource si le jeu de données n'en comprend qu'une\) et/ou vers des informations complémentaires le concernant.
 * Type : chaîne de caractères \(format `uri`\)
 * Référence : dct:landingPage \(Dataset\) ou dcat:accessUrl \(Distribution\)
 * Exemple : 'https://data.rennesmetropole.fr/explore/dataset/prenoms-des-nouveaux-nes-a-rennes-en-2017'
