@@ -163,12 +163,12 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 #### `FREQ_MAJ`
 
 * Titre : Fréquence de la mise à jour
-* Description : La fréquence de mise à jour correspond à la périodicité suivant laquelle des modifications sont apportées au jeu de données. Elle est désignée en choisissant une valeur parmi une liste pré-établie de valeurs possibles : 'Inconnue', 'Ponctuelle', 'Sans régularité', 'Temps réel', 'Toutes les heures', 'Quotidienne ou plusieurs fois par jour', 'Hebdomadaire ou plusieurs fois par semaine', 'Mensuelle ou plusieurs fois par mois', 'Bimestrielle', 'Trimestrielle', 'Semestrielle', 'Annuelle', 'Biennale', 'Triennale', ou 'Quinquennale'.
+* Description : La fréquence de mise à jour correspond à la périodicité suivant laquelle des modifications sont apportées au jeu de données. Pour simplifier le renseignement de ce champ, elle est désignée en choisissant une valeur parmi une liste pré-établie de valeurs possibles : 'Inconnue', 'Ponctuelle', 'Irrégulière', 'Continuelle', 'Toutes les heures', 'Quotidienne ou plusieurs fois par jour', 'Hebdomadaire ou plusieurs fois par semaine', 'Mensuelle ou plusieurs fois par mois', 'Bimestrielle', 'Trimestrielle', 'Semestrielle', 'Annuelle', 'Biennale', 'Triennale', ou 'Quinquennale'.
 * Type : chaîne de caractères
 * Référence : dct:accrualPeriodicity \(Dataset\)
 * Exemple : 'Semestrielle'
 * Valeur : **obligatoire**
-* Valeurs autorisées : 'Inconnue', 'Ponctuelle', 'Sans régularité', 'Temps réel', 'Toutes les heures', 'Quotidienne ou plusieurs fois par jour', 'Hebdomadaire ou plusieurs fois par semaine', 'Mensuelle ou plusieurs fois par mois', 'Bimestrielle', 'Trimestrielle', 'Semestrielle', 'Annuelle', 'Biennale', 'Triennale', 'Quinquennale'
+* Valeurs autorisées : 'Inconnue', 'Ponctuelle', 'Irrégulière', 'Continuelle', 'Toutes les heures', 'Quotidienne ou plusieurs fois par jour', 'Hebdomadaire ou plusieurs fois par semaine', 'Mensuelle ou plusieurs fois par mois', 'Bimestrielle', 'Trimestrielle', 'Semestrielle', 'Annuelle', 'Biennale', 'Triennale', 'Quinquennale'
 
 #### `DATE_MAJ`
 
