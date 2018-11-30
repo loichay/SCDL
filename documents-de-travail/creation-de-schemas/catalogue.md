@@ -195,7 +195,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Description : Désignation de la licence qui encadre la réutilisation du jeu de données. En France, le [décret n° 2017-638 du 27 avril 2017](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000034502557) restreint le choix exclusivement à deux licences. D'autres sont néanmoins utilisées par quelques producteurs ou acteurs territoriaux pour encadrer la réutilisation de certains jeux de données. Pour simplifier le renseignement de ce champ, la licence du jeu de données est désignée en choisissant une valeur parmi une liste pré-établie de valeurs possibles : 'Licence Ouverte-LO', 'Open Database License-ODBL', 'Creative Commons-CC', 'Spécifique ou autre'.
 * Type : chaîne de caractères
 * Référence : dct:license \(Distribution\)
-* Exemple : 'LO - Licence Ouverte'
+* Exemple : 'Licence Ouverte-LO'
 * Valeur : **obligatoire**
 * Valeurs autorisées : 'Licence Ouverte-LO', 'Open Database License-ODBL', 'Creative Commons-CC', 'Spécifique ou autre'.
 
