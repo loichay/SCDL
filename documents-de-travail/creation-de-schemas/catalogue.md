@@ -6,7 +6,7 @@ description: >-
 
 # Catalogue simplifié
 
-## Version 1.0.0 du 29/01/2018
+## Version 0.1.0 du 20/11/2018
 
 {% hint style="info" %}
 Lien permanent vers le [document actuellement publié](http://www.opendatafrance.net/SCDL_Catalogue) sur GDrive
