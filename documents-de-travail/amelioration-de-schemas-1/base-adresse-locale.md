@@ -20,13 +20,16 @@ En 2016, dans le cadre du [groupe de travail "SIG et Topographie"](http://www.ai
 
 La spécification SCDL du modèle de données relatif aux adresses locales d’une collectivité a donc été élaborée à partir de la proposition d’un [modèle de données simple visant à alimenter la BAN par des fichiers](https://cms.geobretagne.fr/sites/default/files/documents/aitf-sig-topo-adresse-fichier-echange-simplifie-v_1.1_0.pdf) de l'AITF. Si nécessaire, elle sera mise à jour, adaptée et consolidée à partir de cette même source.
 
+#### `Avertissement !`
+
+L'utilisation de cette spécification requiert de prêter une attention toute particulière aux points suivants :
+
+* Contrairement aux recommandations applicables à toutes les spécifications SCDL, le modèle de l'AITF prévoit que le séparateur de colonnes du fichier tabulaire doit être le point-virgule et pas la virgule.
+* De même, les règles de nommage sont légèrement différentes : le nom du fichier sera standardisé et comportera la date de création du jeu de données, la désignation du producteur et son code SIREN. Le tout sans espace ni accent et en minuscules, soit : AAAAMMJJ\_producteur\_siren.csv. Exemple : '20151004\_rennes\_213502388.csv'
+
 ## Modèle de données <a id="modele-de-donnees"></a>
 
 Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`13 champs`** suivants correspondant aux colonnes du fichier tabulaire.
-
-{% hint style="warning" %}
-**Avertissement !** Contrairement aux [recommandations applicables](../../recommandations-relatives-aux-jeux-de-donnees.md#recommandations-pour-le-formatage-des-fichiers) à toutes les spécifications SCDL, le modèle de l'AITF prévoit que le séparateur de colonnes du fichier tabulaire doit être le point-virgule et pas la virgule. De même, les [règles de nommage](../../recommandations-relatives-aux-jeux-de-donnees.md#recommandations-pour-le-nommage-des-fichiers) sont légèrement différentes : le nom du fichier sera standardisé et comportera la date de création du jeu de données, la désignation du producteur et son code SIREN. Le tout sans espace ni accent et en minuscules, soit : AAAAMMJJ\_producteur\_siren.csv. Exemple : '20151004\_rennes\_213502388.csv'
-{% endhint %}
 
 #### `cle_interop` <a id="cleinterop"></a>
 

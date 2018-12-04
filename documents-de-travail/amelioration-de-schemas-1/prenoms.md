@@ -22,7 +22,7 @@ La source de cette spécification est disponible sur le [dépôt Github de Charl
 
 ## Modèle de données  <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les `6 champs` suivants correspondant aux colonnes du fichier tabulaire.
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`6 champs`** suivants correspondant aux colonnes du fichier tabulaire.
 
 #### `COMMUNE_NOM` 
 
