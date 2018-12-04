@@ -8,8 +8,6 @@ description: >-
 
 ## Version 1.0.0 du 12/06/2018 <a id="version-0-0-0-du-jj-mm-aaaa"></a>
 
-{% page-ref page="points-deau-incendie.md" %}
-
 ## Contexte <a id="contexte"></a>
 
 En France, les Points d’Eau Incendie \(PEI\) - également appelés [hydrants](https://fr.wikipedia.org/wiki/Hydrant) \(borne incendie, poteau incendie et autres points d'eau\) - sont recensés par les [Services Départementaux d'Incendie et de Secours](https://fr.wikipedia.org/wiki/Service_d%C3%A9partemental_d%27incendie_et_de_secours) \(SDIS\), les collectivités territoriales et/ou les délégataires de service public. La gestion de ces données est effectuée à un échelon départemental. Les "bases de données hydrants" constituent un enjeu majeur pour la gestion des risques incendie et doivent être partagées entre départements limitrophes.

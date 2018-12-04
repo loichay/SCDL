@@ -12,8 +12,6 @@ description: >-
 Lien permanent vers le [document actuellement publié](http://www.opendatafrance.net/SCDL_Marches_Publics) sur GDrive
 {% endhint %}
 
-{% page-ref page="marches-publics.md" %}
-
 ## Contexte <a id="contexte"></a>
 
 Au plus tard le 1er octobre 2018, les collectivités locales, doivent offrir sur leur profil d'acheteur, un accès libre, direct et complet aux données essentielles des marchés publics répondant à un besoin dont la valeur est égale ou supérieure à 25 000€ HT. La nature et les modalités de diffusion de ces données essentielles ont été fixées par voie réglementaire.
