@@ -25,7 +25,7 @@ La spécification SCDL du modèle de données relatif aux adresses locales d’u
 L'utilisation de cette spécification requiert de prêter une attention toute particulière aux points suivants :
 
 * Contrairement aux recommandations applicables à toutes les spécifications SCDL, le modèle de l'AITF prévoit que le séparateur de colonnes du fichier tabulaire doit être le point-virgule et pas la virgule.
-* De même, les règles de nommage sont légèrement différentes : le nom du fichier sera standardisé et comportera la date de création du jeu de données, la désignation du producteur et son code SIREN. Le tout sans espace ni accent et en minuscules, soit : AAAAMMJJ\_producteur\_siren.csv. Exemple : '20151004\_rennes\_213502388.csv'
+* De même, les règles de nommage sont légèrement différentes : le nom du fichier comporte la date de création du jeu de données, la désignation du producteur et son code SIREN. Le tout sans espace ni accent et en minuscules, soit : AAAAMMJJ\_producteur\_siren.csv. Exemple : '20151004\_rennes\_213502388.csv'
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
