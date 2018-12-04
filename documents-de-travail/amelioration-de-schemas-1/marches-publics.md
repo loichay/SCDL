@@ -32,13 +32,13 @@ Cette spécification a été élaborée à partir des sources suivantes :
 
 Si nécessaire, elle sera mise à jour, adaptée et consolidée à partir des mêmes sources.
 
+#### `Avertissement !`
+
+Dans cette spécification, la transposition du format réglementaire \(passage d'un format arborescent à un format tabulaire\) implique de prêter une attention toute particulière aux éventuelles incidences \(champs à valeurs variables qui nécessitent de démultiplier le nombre de lignes du fichier\) que peuvent susciter la présence, pour un même marché public, de plusieurs acheteurs, de plusieurs titulaires, de plusieurs lots ou encore de plusieurs modifications apportées à ce marché alors que ses données essentielles ont déjà été publiées.
+
 ## Modèle de données <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`27 champs`** suivants correspondant aux colonnes du fichier tabulaire.
-
-{% hint style="warning" %}
-**Avertissement !** Dans cette spécification, la transposition du format réglementaire \(passage d'un format arborescent à un format tabulaire\) implique de prêter une attention toute particulière aux éventuelles incidences \(champs à valeurs variables qui nécessitent de démultiplier le nombre de lignes du fichier\) que peuvent susciter la présence, pour un même marché public, de plusieurs acheteurs, de plusieurs titulaires, de plusieurs lots ou encore de plusieurs modifications apportées à ce marché alors que ses données essentielles ont déjà été publiées.
-{% endhint %}
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`27 champs`** suivants correspondant aux colonnes du fichier tabulaire. 
 
 #### `MARCHE_ID` <a id="marcheid"></a>
 
