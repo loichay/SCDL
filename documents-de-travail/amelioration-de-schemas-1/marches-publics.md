@@ -283,7 +283,8 @@ La spécification du modèle de données peut être utilement complétée par le
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 
-* adresser un message à scdl@opendatafrance.email
+* adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=Marchés%20publics)
 * participer au [fil de discussion dédié sur le forum de la mission Etalab](https://forum.etalab.gouv.fr/t/schemas-de-validation-des-donnees-essentielles-des-marches-publics/3141)​
-* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://git.opendatafrance.net/scdl/marches-publics/issues/new)​ ou sur le [dépôt Github de la mission Etalab](https://github.com/etalab/format-commande-publique/issues/new)
+* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://git.opendatafrance.net/scdl/marches-publics/issues/new)​ à propos de ce schéma
+* ouvrir un ticket sur le [dépôt Github de la mission Etalab](https://github.com/etalab/format-commande-publique/issues/new) à propos du format réglementaire
 
