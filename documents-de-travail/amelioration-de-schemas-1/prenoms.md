@@ -12,8 +12,6 @@ description: >-
 Lien permanent vers le [document actuellement publié](http://www.opendatafrance.net/SCDL_Catalogue) sur GDrive
 {% endhint %}
 
-{% page-ref page="prenoms.md" %}
-
 ## Contexte  <a id="contexte"></a>
 
 Le modèle de données relatif aux prénoms des nouveaux-nés déclarés à l’état-civil spécifie la structure et le contenu d'un jeu de données simple et très apprécié du public. Il consiste en une liste de prénoms déclarés à l'état-civil de la commune de naissance, avec l'occurrence de chacun pour une année donnée. Les prénoms listés correspondent au premier prénom donné dans chaque acte de naissance.

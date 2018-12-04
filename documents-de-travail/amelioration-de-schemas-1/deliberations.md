@@ -12,8 +12,6 @@ description: >-
 Lien permanent vers le [document actuellement publié](http://www.opendatafrance.net/SCDL_Deliberations) sur GDrive
 {% endhint %}
 
-{% page-ref page="deliberations.md" %}
-
 ## Contexte
 
 Au-delà des obligations légales de transmission au contrôle de légalité et de publicité des actes des autorités locales définies dans le Code Général des Collectivités Territoriales, la mise à disposition en open data des données relatives aux délibérations adoptées par une collectivité locale doit permettre d'améliorer la transparence des décisions publiques prises par les différentes instances habilitées quelque soit l'échelon territorial considéré.
