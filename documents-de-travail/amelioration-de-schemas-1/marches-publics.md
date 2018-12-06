@@ -34,7 +34,7 @@ Si nécessaire, elle sera mise à jour, adaptée et consolidée à partir des m�
 
 #### `Avertissement !`
 
-Dans cette spécification, la transposition du format réglementaire \(passage d'un format arborescent à un format tabulaire\) implique de prêter une attention toute particulière aux éventuelles incidences que peuvent susciter la présence, pour un même marché public, de plusieurs acheteurs, de plusieurs titulaires, de plusieurs lots ou encore de plusieurs modifications apportées à ce marché alors que ses données essentielles ont déjà été publiées. De fait, les valeurs de certains champs peuvent varier qui nécessitent de démultiplier le nombre de lignes du fichier
+Dans cette spécification, la transposition du format réglementaire \(passage d'un format arborescent à un format tabulaire\) implique de prêter une attention toute particulière aux éventuelles incidences que peuvent susciter la présence, pour un même marché public, de plusieurs acheteurs, de plusieurs titulaires, de plusieurs lots ou encore de plusieurs modifications apportées à ce marché alors que ses données essentielles ont déjà été publiées. Dans ce cas, les variations de valeur des champs concernés nécessitent de démultiplier le nombre de lignes du fichier.
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
