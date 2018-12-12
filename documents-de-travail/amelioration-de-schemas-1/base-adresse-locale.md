@@ -8,10 +8,6 @@ description: >-
 
 ## Version 1.1.2 du 30/05/2018 <a id="version-0-0-0-du-jj-mm-aaaa"></a>
 
-{% hint style="info" %}
-Lien permanent vers le [document actuellement publié](http://www.opendatafrance.net/SCDL_Adresses_Locales) sur GDrive
-{% endhint %}
-
 ## Contexte <a id="contexte"></a>
 
 En France, la création des voies et des adresses est une compétence exercée par les communes et s'appuie sur des décisions prises par les conseils municipaux. La mise en oeuvre de cette compétence peut néanmoins être déléguée à un [Etablissement Public de Coopération Intercommunale](https://fr.wikipedia.org/wiki/%C3%89tablissement_public_de_coop%C3%A9ration_intercommunale) \(EPCI\). Le regroupement de tout ou partie des adresses d’une collectivité dans une base de données permet d'outiller la gestion et la publication de cette ressource.
