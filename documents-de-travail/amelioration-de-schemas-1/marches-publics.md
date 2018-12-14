@@ -209,14 +209,6 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Valeur : **optionnelle**
 * Taille maximale : 256
 
-#### `MODIF_NOTIFICATION_DATE` <a id="modifsignaturedate"></a>
-
-* Titre : Date de la notification de la modification
-* Description : Date à laquelle une modification du marché intervenue après la publication de ses données essentielles est notifiée par l'acheteur. Cette date est au format AAAA-MM-JJ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).
-* Type : date
-* Exemple : '2015-08-13'
-* Valeur : **optionnelle**
-
 #### `MODIF_PUBLICATION_DATE` <a id="modifpublicationdate"></a>
 
 * Titre : Date de la republication des données suite à une modification
@@ -265,6 +257,14 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Description : Dans le cas d'une modification de l'opérateur économique titulaire du marché, ce champ permet de renseigner le nom de ce nouveau titulaire sous la forme d'une chaîne de caractères. La manière d'exprimer cette dénomination est identique à [celle qui prévaut pour exprimer la dénomination initiale](marches-publics.md#titulairesdenomination).
 * Type : chaîne de caractères
 * Exemple : 'Rodriguez SAS'
+* Valeur : **optionnelle**
+
+#### `MODIF_NOTIFICATION_DATE` <a id="modifsignaturedate"></a>
+
+* Titre : Date de la notification de la modification
+* Description : Date à laquelle une modification du marché intervenue après la publication de ses données essentielles est notifiée par l'acheteur. Cette date est au format AAAA-MM-JJ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).
+* Type : date
+* Exemple : '2015-08-13'
 * Valeur : **optionnelle**
 
 ## Voir aussi <a id="voir-aussi"></a>
