@@ -140,7 +140,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Titre : Identifiant d'Etablissement Recevant du Public
 * Description : Si l'équipement collectif public est un ERP et que son code d'identification, le plus souvent géré par les SDIS ou les DDT référents, est connu, ce champ peut être renseigné.
 * Type : chaîne de caractères
-* Exemple : 
+* Exemple : '94059-AvenueArdouin-36'
 * Valeur : **optionnelle**
 * Taille : 25 maximum
 
