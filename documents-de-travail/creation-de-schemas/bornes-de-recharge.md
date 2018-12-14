@@ -244,9 +244,8 @@ Le fichier doit être encodé en **UTF-8** et utiliser le **point-virgule** comm
 
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
-* Exemple de fichier
+* Fichier gabarit à exporter
 * [Schéma de validation​](https://github.com/etalab/schema.data.gouv.fr/blob/master/irve/schema.json)
-* Documentation générée à partir du schéma​
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 

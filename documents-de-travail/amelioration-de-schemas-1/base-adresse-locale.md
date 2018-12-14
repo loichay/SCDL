@@ -141,9 +141,8 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
-* Exemple de fichier
+* Fichier gabarit à exporter
 * [​Schéma de validation​](https://git.opendatafrance.net/scdl/adresses/blob/master/schema-scdl-adresses.json)
-* [​Documentation générée à partir du schéma​](https://scdl.opendatafrance.net/docs/schemas/scdl-adresses.html)
 
 Pour faciliter la production et améliorer la qualité des données au format Base Adresse Locale, la mission Etalab de la DINSIC, met à disposition des outils dédiés sur le portail adresse.data.gouv.fr :
 

@@ -158,9 +158,8 @@ latitude en degrés décimaux en WGS 84 \(précision de 8 décimales\)
 
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
-* Exemple de fichier
+* Fichier gabarit à exporter
 * Schéma de validation​
-* Documentation générée à partir du schéma​​
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 
