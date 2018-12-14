@@ -217,7 +217,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
 * Fichier gabarit à exporter
-* Schéma de validation​
+* [Schéma de validation​](https://git.opendatafrance.net/scdl/equipements/blob/master/schema.json)
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 
