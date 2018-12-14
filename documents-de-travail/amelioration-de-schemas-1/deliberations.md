@@ -22,7 +22,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 #### `COLL_NOM` <a id="collnom"></a>
 
-* Titre : Nom de la collectivité
+* Titre : Nom de la collectivité délibérante
 * Description : Nom officiel de la collectivité qui a adopté la délibération limité à 140 caractères maximum.
 * Type : chaîne de caractères
 * Exemple : 'Ville de Poitiers'
@@ -31,7 +31,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 #### `COLL_SIRET` <a id="collsiret"></a>
 
-* Titre : Code SIRET de la collectivité
+* Titre : Code SIRET de la collectivité délibérante
 * Description : Identifiant du [Système d'Identification du Répertoire des Etablissements](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27identification_du_r%C3%A9pertoire_des_%C3%A9tablissements) \(SIRET\) de la collectivité qui a adopté la délibération, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.
 * Type : chaîne de caractères
 * Exemple : '21860194600013'
