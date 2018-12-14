@@ -41,7 +41,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 #### `DELIB_ID` <a id="delibid"></a>
 
 * Titre : Identifiant de la délibération
-* Description : Identifiant interne de délibération respectant le formalisme propre à la collectivité. Sa composition dépend des pratiques en vigueur au sein de chaque collectivité.
+* Description : Identifiant interne de délibération respectant le formalisme propre à la collectivité. Sa composition dépend des pratiques en vigueur au sein de chaque collectivité. Sa taille ne peut pas excéder 70 caractères.
 * Type : chaîne de caractères
 * Exemple : '1DL15494'
 * Valeur : **obligatoire**
