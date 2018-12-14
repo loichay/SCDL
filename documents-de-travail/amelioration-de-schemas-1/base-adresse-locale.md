@@ -73,7 +73,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Titre : Nom officiel de la commune
 * Description : Ce champ doit permettre d’identifier rapidement le territoire concerné et d'éviter les quiproquos.
 * Type : chaîne de caractères
-* Exemple : 'Brest'
+* Exemple : 'Rennes'
 * Valeur : **obligatoire**
 * Motif : `^[A-Za-z\s\-\u00C0-\u00FF]+$`
 
