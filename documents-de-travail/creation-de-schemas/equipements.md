@@ -25,7 +25,7 @@ S'appuyant sur ces travaux, de nombreuses collectivités françaises ont pu cons
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`20 champs`** suivants correspondant aux colonnes du fichier tabulaire.
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`21 champs`** suivants correspondant aux colonnes du fichier tabulaire.
 
 #### `COLL_NOM`
 
@@ -134,6 +134,15 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Exemple : '94059\_0040\_00036'
 * Valeur : **optionnelle**
 * Motif : `^[A-Za-z0-9_]+$`
+
+#### `ERP_ID`
+
+* Titre : Identifiant d'Etablissement Recevant du Public
+* Description : Si l'équipement collectif public est un ERP et que son code d'identification, le plus souvent géré par les SDIS ou les DDT référents, est connu, ce champ peut être renseigné.
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 25 maximum
 
 #### `ERP_TYPE`
 
