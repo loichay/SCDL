@@ -1,7 +1,7 @@
 ---
 description: >-
   Draft de la spécification du modèle de données relatif aux délibérations
-  adoptées par une assemblée locale
+  adoptées par une collectivité locale
 ---
 
 # Délibérations
