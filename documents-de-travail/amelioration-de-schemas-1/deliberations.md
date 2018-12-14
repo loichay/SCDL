@@ -6,8 +6,6 @@ description: >-
 
 # Délibérations
 
-## Version 2.0.0 du 23/05/2018 <a id="version-0-0-0-du-jj-mm-aaaa"></a>
-
 ## Contexte
 
 Au-delà des obligations légales de transmission au contrôle de légalité et de publicité des actes des autorités locales définies dans le Code Général des Collectivités Territoriales, la mise à disposition en open data des données relatives aux délibérations adoptées par une collectivité locale doit permettre d'améliorer la transparence des décisions publiques prises par les différentes instances habilitées quelque soit l'échelon territorial considéré.

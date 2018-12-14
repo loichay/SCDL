@@ -6,8 +6,6 @@ description: >-
 
 # Prénoms des nouveaux-nés\*
 
-## Version 1.1.2 du 12/04/2018  <a id="version-0-0-0-du-jj-mm-aaaa"></a>
-
 ## Contexte  <a id="contexte"></a>
 
 Le modèle de données relatif aux prénoms des nouveaux-nés déclarés à l’état-civil spécifie la structure et le contenu d'un jeu de données simple et très apprécié du public. Il consiste en une liste de prénoms déclarés à l'état-civil de la commune de naissance, avec l'occurrence de chacun pour une année donnée. Les prénoms listés correspondent au premier prénom donné dans chaque acte de naissance.

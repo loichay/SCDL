@@ -1,7 +1,5 @@
 # Menus
 
-## Version 0.0.0 du JJ/MM/AAAA <a id="version-0-0-0-du-jj-mm-aaaa"></a>
-
 ## Contexte <a id="contexte"></a>
 
 * QuiDitMiam : [https://quiditmiam.fr](https://quiditmiam.fr/)

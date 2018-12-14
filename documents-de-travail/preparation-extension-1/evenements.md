@@ -1,7 +1,5 @@
 # Evénements
 
-## Version 0.0.0 du JJ/MM/AAAA <a id="version-0-0-0-du-jj-mm-aaaa"></a>
-
 ## Contexte <a id="contexte"></a>
 
 * [Schéma 'Event' sur schema.org](https://schema.org/Event)

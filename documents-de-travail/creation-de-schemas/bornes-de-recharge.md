@@ -6,8 +6,6 @@ description: >-
 
 # Infrastructures de Recharge de Véhicules Electriques\*
 
-## Version 1.1.0 du 10/09/2018 <a id="version-0-0-0-du-jj-mm-aaaa"></a>
-
 ## Contexte <a id="contexte"></a>
 
 Dans le but de constituer un répertoire national des Infrastructures de Recharge de Véhicules Electriques \(IRVE\), ouvert et accessible à tous, les collectivités locales porteuses d'un projet d'installation d'IRVE doivent, au fur et à mesure de la mise en service des stations, publier sur la plateforme data.gouv.fr les données statiques relatives à la localisation et aux caractéristiques techniques de ces installations selon les modalités définies dans [l'arrêté du 12 janvier 2017](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000033860733).

@@ -1,7 +1,5 @@
 # Budgets primitifs
 
-## Version 0.0.0 du JJ/MM/AAAA <a id="version-0-0-0-du-jj-mm-aaaa"></a>
-
 ## Contexte <a id="contexte"></a>
 
 ## Modèle de données <a id="modele-de-donnees"></a>

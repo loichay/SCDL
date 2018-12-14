@@ -6,12 +6,6 @@ description: >-
 
 # Equipements
 
-## Version 1.0.0 du 30/01/2018 <a id="version-0-0-0-du-jj-mm-aaaa"></a>
-
-{% hint style="info" %}
-Lien permanent vers le [document actuellement publié](http://www.opendatafrance.net/SCDL_Equipements_Publics) sur GDrive
-{% endhint %}
-
 ## Contexte <a id="contexte"></a>
 
 Les données géolocalisées permettant de dresser l'inventaire et de cartographier les équipements collectifs publics implantés sur leurs territoires représentent un enjeu majeur de connaissance pour toutes les strates de collectivités locales.
