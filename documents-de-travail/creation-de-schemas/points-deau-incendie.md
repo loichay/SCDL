@@ -17,7 +17,7 @@ En 2018, dans le cadre de son [groupe de travail "Open Data"](http://www.afigeo.
 
 La spécification SCDL du modèle de données relatif aux points d'eau incendie \(PEI\) a donc été élaborée à partir du modèle minimal de données proposé par l'AFIGEO. Si nécessaire, elle sera mise à jour, adaptée et consolidée à partir de cette même source.
 
-Dès qu'elle se justifie, la [correspondance avec les attributs d'OpenStreetMap relatifs aux hydrants](https://wiki.openstreetmap.org/wiki/FR:Tag:emergency%3Dfire_hydrant#Correspondance_avec_le_mod.C3.A8le_PEI_de_l.27Afigeo) est notée en référence dans les champs concernés.
+En complément, un [tableau permet d'établir la correspondance](https://wiki.openstreetmap.org/wiki/FR:Tag:emergency%3Dfire_hydrant#Correspondance_avec_le_mod.C3.A8le_PEI_de_l.27Afigeo) entre les champs de ce modèle et les attributs utilisés dans OpenStreetMap pour qualifier les hydrants.
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
@@ -25,37 +25,79 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 
 #### `insee`
 
-Numéro INSEE de la commune sur laquelle le PEI est situé. Dans le cas d’un plan d’eau et des cours d’eau plusieurs points d’aspiration peuvent y être associés. On prend alors en compte la localisation du point d’aspiration pour identifier la commune.
+* Titre : Code INSEE de la commune
+* Description : Ce champ permet d'identifier la commune sur laquelle le PEI est situé à partir de son code INSEE. Dans le cas des plans et cours d’eau, plusieurs points d’aspiration peuvent y être associés. On prend alors en compte la localisation du point d’aspiration pour identifier la commune. Issu du Code Officiel Géographique, le [code INSEE de la commune](https://fr.wikipedia.org/wiki/Code_Insee) est composé de 5 caractères alphanumériques \(les deux premiers correspondent au département et peuvent donc contenir les lettres 'A' et 'B' utilisées pour la Corse\).
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **obligatoire**
+* Motif : `^([013-9]\d|2[AB1-9])\d{3}$`
 
 #### `id_sdis`
 
-Identifiant interne du PEI pour le SDIS
+* Titre : Identifiant interne du PEI pour le SDIS
+* Description : 
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **obligatoire**
+* Taille : 
 
 #### `id_gestion`
 
-Identifiant interne du PEI pour le gestionnaire
+* Titre : Identifiant interne du PEI pour le gestionnaire
+* Description : 
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
 
 #### `nom_gest`
 
-Nom du gestionnaire responsable de distribution
+* Titre : Nom du gestionnaire responsable de distribution
+* Description : 
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
 
 #### `ref_terr`
 
-Numéro ou référence du point d’eau visible sur le terrain
+* Titre : Numéro ou référence du point d’eau visible sur le terrain
+* Description : 
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
 
 #### `type_pei`
 
-Type de point d’eau incendie. 
+* Titre : Type de point d’eau incendie
+* Description : 
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **obligatoire**
+* Valeurs autorisées :  PI, BI, PA, CI
 
 Valeurs possibles : PI, BI, PA, CI Signification : PI \(Poteau d’Incendie\), BI \(Prise d’eau sous pression, notamment bouche d’incendie\), PA \(Point d’aspiration aménagé \(point de puisage…\)\), CI \(Citerne aérienne ou enterrée\) Cette typologie est issue du règlement national \(p. 39\) . Si ce dernier évoluait, cette typologie évoluerait en conséquence.
 
 #### `type_rd`
 
-Précision sur le type de point d’eau incendie défini dans le règlement départemental DECI Typologie utilisée au niveau local pour caractériser le type de point d’eau
+* Titre : Précision sur le type de point d’eau incendie
+* Description : 
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
+
+Précision sur le type de point d’eau incendie défini dans le règlement départemental DECI. Typologie utilisée au niveau local pour caractériser le type de point d’eau
 
 #### `diam_pei`
 
-Diamètre intérieur du poteau ou de la bouche
+* Titre : Diamètre intérieur du poteau ou de la bouche
+* Description : 
+* Type : nombre entier
+* Exemple : 
+* Valeur : **optionnelle**
+* Valeurs autorisées : 80, 100, 150
 
 Valeurs possibles : 80, 100, 150
 
@@ -63,78 +105,177 @@ Norme européenne : Poteau Incendie NF EN 14384 \(Février 2006\) NF S 61 213 CN
 
 #### `diam_cana`
 
+* Titre : Diamètre de la canalisation du poteau ou de la bouche
+* Description : 
+* Type : nombre entier
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
+
 Diamètre de la canalisation exprimé en mm pour les PI et BI
 
 #### `source_pei`
 
-Source du point d’eau  
+* Titre : Source du point d’eau
+* Description : 
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **optionnelle**
+* Valeurs autorisées : citerne, plan\_eau, piscine, puits, cours\_eau, reseau\_aep, reseau\_irrigation
+
 Valeurs possibles : citerne, plan\_eau, piscine, puits, cours\_eau, reseau\_aep, reseau\_irrigation
 
 #### `statut`
 
-Statut du point d’eau  
+* Titre : Statut du point d’eau
+* Description : 
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **optionnelle**
+* Valeurs autorisées : public, prive
+
 Valeurs possibles : public, prive  
 Le statut du point d’eau est décrit dans le règlement national \(p. 43\)
 
 #### `nom_etab`
 
-Dans le cas d’un statut privé, nom de l’établissement propriétaire
+* Titre : Nom de l’établissement propriétaire
+* Description : Dans le cas d’un statut privé, nom de l’établissement propriétaire
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille :
 
 #### `situation`
 
-Situation du PEI  
-Adresse ou informations permettant de faciliter la localisation du point d’eau sur le terrain.
+* Titre : Situation du PEI
+* Description : Adresse ou informations permettant de faciliter la localisation du point d’eau sur le terrain.
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
 
 #### `press_dyn`
+
+* Titre : Pression dynamique
+* Description : 
+* Type : nombre réel
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
 
 Pression dynamique en bars au débit nominal
 
 #### `press_stat`
 
+* Titre : Pression statique
+* Description : 
+* Type : nombre réel
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
+
 Pression statique en bars
 
 #### `debit`
 
+* Titre : Débit
+* Description : 
+* Type : nombre réel
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
+
 Valeur de débit mesuré exprimé en m3/h sous une pression de 1 bar
 
 #### `volume`
+
+* Titre : Volume
+* Description : 
+* Type : nombre entier
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
 
 Capacité volumique utile de la source d’eau en m3  
 Si la source est inépuisable, ne pas renseigner ce champ \(cours d’eau ou plan d’eau pérenne\)
 
 #### `disponible`
 
+* Titre : Etat de disponibilité
+* Description : 
+* Type : booléen
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
+
 0 ou 1. Valide à la date de dernière mise à disposition des données
 
 #### `date_dispo`
+
+* Titre : Date du dernier changement d'état de disponibilité
+* Description : 
+* Type : date
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
 
 Date de dernier changement d’état de disponibilité
 
 #### `date_mes`
 
+* Titre : Date de mise en service du PEI
+* Description : 
+* Type : date
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
+
 Date de mise en service du PEI
 
 #### `date_maj`
+
+* Titre : Date de dernière mise à jour des données
+* Description : 
+* Type : date
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
 
 Date de dernière mise à jour de la donnée au format aaaa-mm-jj
 
 #### `date_ct`
 
+* Titre : Date du dernier contrôle technique
+* Description : 
+* Type : date
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
+
 Date du dernier contrôle technique au format aaaa-mm-jj
 
 #### `date_ro`
+
+* Titre : Date de la dernière reconnaissance opérationnelle
+* Description : 
+* Type : date
+* Exemple : 
+* Valeur : **optionnelle**
+* Taille : 
 
 Date de la dernière reconnaissance opérationnelle au format aaaa-mm-jj
 
 #### `prec`
 
-Classes de précision :
+* Titre : Précision de la mesure de localisation
+* Description : 
+* Type : chaîne de caractères
+* Exemple : 
+* Valeur : **optionnelle**
+* Valeurs autorisées : 
 
-* 01 \(0 à 1 m\)
-* 05 \(de 1 à 5 m\)
-* 10 \(de 5 à 10 m\)
-* 99 \(plus de 10 m\)
-* vide si inconnu
+Classes de précision : 01 \(0 à 1 m\), 05 \(de 1 à 5 m\), 10 \(de 5 à 10 m\), 99 \(plus de 10 m\), vide si inconnu
 
 #### `x`
 
