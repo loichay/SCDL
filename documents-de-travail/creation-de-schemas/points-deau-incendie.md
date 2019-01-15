@@ -28,36 +28,36 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Titre : Code INSEE de la commune
 * Description : Ce champ permet d'identifier la commune sur laquelle le PEI est situé à partir de son code INSEE. Dans le cas des plans et cours d’eau, plusieurs points d’aspiration peuvent y être associés. On prend alors en compte la localisation du point d’aspiration pour identifier la commune. Issu du Code Officiel Géographique, le [code INSEE de la commune](https://fr.wikipedia.org/wiki/Code_Insee) est composé de 5 caractères alphanumériques \(les deux premiers correspondent au département et peuvent donc contenir les lettres 'A' et 'B' utilisées pour la Corse\).
 * Type : chaîne de caractères
-* Exemple : 
+* Exemple : '34164'
 * Valeur : **obligatoire**
 * Motif : `^([013-9]\d|2[AB1-9])\d{3}$`
 
 #### `id_sdis`
 
-* Titre : Identifiant interne du PEI pour le SDIS
-* Description : 
+* Titre : Identifiant interne pour le SDIS
+* Description : Identifiant interne du point d'eau respectant le formalisme propre au Service Départemental d'Incendie et de Secours. Sa composition dépend des pratiques en vigueur au sein de chaque SDIS. Sa taille ne peut pas excéder 70 caractères.
 * Type : chaîne de caractères
-* Exemple : 
+* Exemple : '34164.00001'
 * Valeur : **obligatoire**
-* Taille : 
+* Taille : 70 maximum
 
 #### `id_gestion`
 
-* Titre : Identifiant interne du PEI pour le gestionnaire
-* Description : 
+* Titre : Identifiant interne pour le gestionnaire
+* Description : Identifiant interne du point d'eau respectant le formalisme propre au gestionnaire. Sa composition dépend des pratiques en vigueur au sein de chaque organisme de gestion \(collectivité ou délégataire\). Sa taille ne peut pas excéder 70 caractères.
 * Type : chaîne de caractères
 * Exemple : 
 * Valeur : **optionnelle**
-* Taille : 
+* Taille : 70 maximum
 
 #### `nom_gest`
 
-* Titre : Nom du gestionnaire responsable de distribution
-* Description : 
+* Titre : Nom du gestionnaire
+* Description : Ce champ permet de désigner par son nom l'organisme en charge de la gestion du point d'eau \(collectivité ou délégataire\). Sa taille ne peut pas excéder 140 caractères.
 * Type : chaîne de caractères
-* Exemple : 
+* Exemple : 'Veolia'
 * Valeur : **optionnelle**
-* Taille : 
+* Taille : 140 maximum
 
 #### `ref_terr`
 
@@ -66,12 +66,12 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Type : chaîne de caractères
 * Exemple : 
 * Valeur : **optionnelle**
-* Taille : 
+* Taille : 70 maximum
 
 #### `type_pei`
 
 * Titre : Type de point d’eau incendie
-* Description : 
+* Description : 4 abrévations issues du référentiel national DECI \(p.39\)
 * Type : chaîne de caractères
 * Exemple : 
 * Valeur : **obligatoire**
