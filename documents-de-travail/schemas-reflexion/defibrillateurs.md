@@ -29,6 +29,7 @@ _Obligation faite aux établissements recevant du public de s’équiper d’un 
 * [ARLoD](http://www.arlod.fr/)
 * [AEDMAP](https://aedmap.org/fr/)
 * [SAUV life](https://sauvlife.fr/)
+* [Staying Alive](https://www.stayingalive.org/)
 
 
 
