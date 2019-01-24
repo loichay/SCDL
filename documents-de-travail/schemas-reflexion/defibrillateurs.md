@@ -27,9 +27,10 @@ _Obligation faite aux établissements recevant du public de s’équiper d’un 
 * [Fil de discussion sur \#teamopendata](https://teamopendata.org/t/loi-defibrillateur-cardiaque/658/11)
 * [Pad pour élaborer un draft de la spécification](https://annuel.framapad.org/p/spec-defibrillateurs)
 
-**Parties prenantes :**
+**Parties prenantes dans la production / collecte ou utilisation de ces données :**
 
-* [ARLoD](http://www.arlod.fr/)
+* [OSM emergency=defibrillator](https://wiki.openstreetmap.org/wiki/Tag:emergency=defibrillator) : [https://www.mapcontrib.xyz/t/14710b-Les\_defibrillateurs](https://www.mapcontrib.xyz/t/14710b-Les_defibrillateurs)
+* [ARLoD](http://www.arlod.fr/) : [https://www.defib-arlod.fr](https://www.defib-arlod.fr/)
 * [AEDMAP](https://aedmap.org/fr/)
 * [SAUV life](https://sauvlife.fr/)
 * [Staying Alive](https://www.stayingalive.org/)
