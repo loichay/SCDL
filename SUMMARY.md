@@ -23,5 +23,6 @@
     * [Cimetières](documents-de-travail/schemas-reflexion/cimetieres.md)
     * [Composition assemblée locale](documents-de-travail/schemas-reflexion/composition-assemblee-locale.md)
     * [Défibrillateurs\*](documents-de-travail/schemas-reflexion/defibrillateurs.md)
+    * [Covoiturage](documents-de-travail/schemas-reflexion/covoiturage.md)
     * [Aménagements cyclables](documents-de-travail/schemas-reflexion/amenagements-cyclables.md)
 
