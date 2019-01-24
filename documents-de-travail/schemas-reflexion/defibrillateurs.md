@@ -14,3 +14,5 @@ Il est créé une base de données nationale relative aux lieux d'implantation e
 
 [Fil de discussion sur \#teamopendata](https://teamopendata.org/t/loi-defibrillateur-cardiaque/658/11)
 
+[Pad pour élaborer un draft de la spécification](https://annuel.framapad.org/p/spec-defibrillateurs)
+
