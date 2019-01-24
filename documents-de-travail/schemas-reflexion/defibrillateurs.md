@@ -10,3 +10,5 @@ Il est créé une base de données nationale relative aux lieux d'implantation e
 
 [Art. L. 5233-1 de la Loi n° 2018-527 du 28 juin 2018 relative au défibrillateur cardiaque](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000037116260)
 
+[Décret n° 2018-1186 du 19 décembre 2018 relatif aux défibrillateurs automatisés externes](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000037839290)
+
