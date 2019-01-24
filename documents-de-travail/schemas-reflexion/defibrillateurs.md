@@ -22,7 +22,10 @@ _Obligation faite aux établissements recevant du public de s’équiper d’un 
 
 [Décret n° 2018-1186 du 19 décembre 2018 relatif aux défibrillateurs automatisés externes](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000037839290)
 
-[Fil de discussion sur \#teamopendata](https://teamopendata.org/t/loi-defibrillateur-cardiaque/658/11) et [Pad pour élaborer un draft de la spécification](https://annuel.framapad.org/p/spec-defibrillateurs)
+**Travaux en cours :**
+
+* [Fil de discussion sur \#teamopendata](https://teamopendata.org/t/loi-defibrillateur-cardiaque/658/11)
+* [Pad pour élaborer un draft de la spécification](https://annuel.framapad.org/p/spec-defibrillateurs)
 
 **Parties prenantes :**
 
