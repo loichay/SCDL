@@ -14,6 +14,8 @@ _Il est créé une base de données nationale relative aux lieux d'implantation 
 
 _Le ministère des solidarités et de la santé est chargé de la gestion, de l’exploitation et de la mise à disposition des données constituant la base de données créée par l’article L. 5233-1 du code de la santé publique._
 
+Les exploitants des défibrillateurs automatisés externes transmettent les informations relatives aux lieux d’implantation et à l’accessibilité de leurs appareils au gestionnaire de la base de données désigné par le présent décret, à compter des dates mentionnées à l’article 2 du décret du 19 décembre 2018_._
+
 [Décret n° 2018-1259 du 27 décembre 2018 relatif à la base de données nationale des défibrillateurs automatisés externes](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000037864893)
 
 _Obligation faite aux établissements recevant du public de s’équiper d’un défibrillateur automatisé externe à compter du 1er janvier 2020 pour les ERP de catégories 1 à 3, du 1er janvier 2021 pour les ERP de catégorie 4, et du 1er janvier 2022 pour les ERP de catégorie 5._
