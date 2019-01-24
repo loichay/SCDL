@@ -12,3 +12,5 @@ Il est créé une base de données nationale relative aux lieux d'implantation e
 
 [Décret n° 2018-1186 du 19 décembre 2018 relatif aux défibrillateurs automatisés externes](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000037839290)
 
+[Fil de discussion sur \#teamopendata](https://teamopendata.org/t/loi-defibrillateur-cardiaque/658/11)
+
