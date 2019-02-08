@@ -6,6 +6,10 @@ description: >-
 
 # Infrastructures de Recharge de Véhicules Electriques\*
 
+{% hint style="success" %}
+[https://scdl.opendatafrance.net/docs/schemas/scdl-irve.html](https://scdl.opendatafrance.net/docs/schemas/scdl-irve.html)
+{% endhint %}
+
 ## Version Dev <a id="contexte"></a>
 
 * Auteur : Alexandre Bulté pour Etalab
