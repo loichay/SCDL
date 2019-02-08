@@ -81,7 +81,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 #### `THEME` <a id="theme"></a>
 
 * Titre : Thème du jeu de données
-* Description : En l'absence d'une nomenclature de classement par thèmes satisfaisante et adaptée au contexte local, le thème est exprimé sous la forme d'une chaîne de caractères libre dans la limite de 140 caractères maximum. Le manque de pertinence du [thésaurus EuroVoc](https://publications.europa.eu/fr/web/eu-vocabularies/th-dataset/-/resource/dataset/eurovoc) ou des [thèmes INSPIRE](https://inspire.ec.europa.eu/Themes/Data%20Specifications/2892)implique d'élaborer collectivement une [nomenclature spécifique](https://docs.google.com/document/d/1oDJsHw3bmABfto6HPgCPG1ztrV3CihuHjcfU8tQpvPc/) à partir d'un appariement des termes les plus utilisés sur les plateformes territoriales de données ouvertes.
+* Description : En l'absence d'une nomenclature de classement par thèmes satisfaisante et adaptée au contexte local, le thème est exprimé sous la forme d'une chaîne de caractères libre dans la limite de 140 caractères maximum. Le manque de pertinence du [thésaurus EuroVoc](https://publications.europa.eu/fr/web/eu-vocabularies/th-dataset/-/resource/dataset/eurovoc) ou des [thèmes INSPIRE](https://inspire.ec.europa.eu/Themes/Data%20Specifications/2892) implique d'élaborer collectivement une [nomenclature spécifique](https://docs.google.com/document/d/1oDJsHw3bmABfto6HPgCPG1ztrV3CihuHjcfU8tQpvPc/) à partir d'un appariement des termes les plus utilisés sur les plateformes territoriales de données ouvertes.
 * Type : chaîne de caractères
 * Exemple : Administration locale
 * Valeur : obligatoire
