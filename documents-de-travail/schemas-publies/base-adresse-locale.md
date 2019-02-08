@@ -6,6 +6,19 @@ description: >-
 
 # Base Adresse Locale
 
+{% hint style="success" %}
+[https://scdl.opendatafrance.net/docs/schemas/scdl-adresses.html](https://scdl.opendatafrance.net/docs/schemas/scdl-adresses.html)
+{% endhint %}
+
+## Version 1.1.3
+
+* Auteur : OpenDataFrance
+* Schéma créé le : 30/05/2018
+* Schéma mis à jour le : 24/01/2019
+* Site web : [https://git.opendatafrance.net/scdl/adresses](https://git.opendatafrance.net/scdl/adresses)
+* [Gabarit au format Excel \(xlsx\)](https://scdl.opendatafrance.net/docs/templates/scdl-adresses.xlsx)
+* Valeurs manquantes : `""`
+
 ## Contexte <a id="contexte"></a>
 
 En France, la création des voies et des adresses est une compétence exercée par les communes et s'appuie sur des décisions prises par les conseils municipaux. La mise en oeuvre de cette compétence peut néanmoins être déléguée à un [Etablissement Public de Coopération Intercommunale](https://fr.wikipedia.org/wiki/%C3%89tablissement_public_de_coop%C3%A9ration_intercommunale) \(EPCI\). Le regroupement de tout ou partie des adresses d’une collectivité dans une base de données permet d'outiller la gestion et la publication de cette ressource.
@@ -30,8 +43,9 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Titre : Clé d'interopérabilité
 * Description : Cette clé combine le [code INSEE de la commune](https://fr.wikipedia.org/wiki/Code_Insee) sur 5 caractères \(incluant 'A' ou 'B' pour la Corse\) + le code de voie issu du [FANTOIR](https://fr.wikipedia.org/wiki/FANTOIR) de la DGFiP sur 4 caractères + le numéro d’adresse sur 5 caractères préfixé par des zéros + un suffixe s'il existe, qui peut être un indice de répétition \('bis', 'ter', 'qua', 'qui', etc... codés sur 3 caractères\) et/ou un complément \('a', 'b', 'c', 'a1', 'b2', 'lesmimosas', etc... sans limitation du nombre de caractères\). Chaque élément est séparé par un tiret du bas et les lettres sont en minuscule.
 * Type : chaîne de caractères
-* Exemple : '35238\_3961\_00007\_bis'
-* Valeur : **obligatoire**
+* Exemple : 35238\_3961\_00007\_bis
+* Valeur : obligatoire
+* Taille minimale : 16
 * Motif : `^[A-Za-z0-9_]+$`
 
 #### `uid_adresse` <a id="uidadresse"></a>
@@ -39,7 +53,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Titre : Identifiant unique national d’adresse
 * Description : Cet identifiant unique d’adresse est géré et attribué par le service "guichet national d’identification" de la Base Adresse Nationale. Dans l'attente de la mise en place de ce service, les règles de création ou de gestion de cet identifiant ne sont pas connues. La valeur de ce champ est donc optionnelle et sera laissée vide aussi longtemps que le service d'identification ne sera pas opérationnel.
 * Type : chaîne de caractères \(format `uuid`\)
-* Valeur : **optionnelle**
+* Valeur : optionnelle
 
 #### `voie_nom` <a id="voienom"></a>
 
@@ -47,17 +61,19 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Description : Ce champ contient la concaténation du type et du nom de la voie ou le nom d'un lieu-dit, exprimés en majuscules et minuscules accentuées.
 * Type : chaîne de caractères
 * Exemple : 'Allée de Bréhat' pour une concaténation ou 'Le pré aux grenouilles' pour un lieu-dit
-* Valeur : **obligatoire**
+* Valeur : obligatoire
+* Taille minimale : 3
 * Motif : `^[a-zA-Z0-9\-\'\s\d\u00C0-\u00FF]+$`
 
 #### `numero` <a id="numero"></a>
 
 * Titre : Numéro d’adresse
-* Description : Ce champ désigne le numéro d’adresse dans la voie et, dans le cas des voies ou des lieux-dits sans adresse, la valeur '99999' est attendue.
+* Description : Numéro d’adresse dans la voie et, dans le cas des voies sans adresse, la valeur “99999” est attendue
 * Type : nombre entier
-* Exemple : '127'
-* Valeur : **obligatoire**
-* MinMax : 0 minimum et 99999 maximum
+* Exemple : 130
+* Valeur : obligatoire
+* Valeur minimale : 0
+* Valeur maximale : 99999
 
 #### `suffixe` <a id="suffixe"></a>
 
@@ -65,7 +81,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Description : Cette information peut être un indice de répétition \('bis', 'ter', 'qua', 'qui', etc... codés sur 3 caractères en minuscules\) ou un complément comme le nom d'entrée d'immeuble \('a', 'b', 'c', 'a1', 'b2', 'lesmimosas', etc... codés en minuscules non accentuées, sans espace ni limite du nombre de caractères\).
 * Type : chaîne de caractères
 * Exemple : 'ter' pour un indice de répétition ou 'lesmimosas' pour un nom d'entrée d'immeuble
-* Valeur : **obligatoire**
+* Valeur : optionnelle
 * Motif : `^[a-z\d\u00DF-\u00FF]+$`
 
 #### `commune_nom` <a id="communenom"></a>
@@ -73,8 +89,8 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Titre : Nom officiel de la commune
 * Description : Ce champ doit permettre d’identifier rapidement le territoire concerné et d'éviter les quiproquos.
 * Type : chaîne de caractères
-* Exemple : 'Rennes'
-* Valeur : **obligatoire**
+* Exemple : Brest
+* Valeur : obligatoire
 * Motif : `^[A-Za-z\s\-\u00C0-\u00FF]+$`
 
 #### `position` <a id="position"></a>
@@ -82,49 +98,49 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Titre : Code de position de l’adresse
 * Description : Ce code décrit la position d’une adresse à partir d’une liste de valeurs qui provient de la spécification INSPIRE v 3.1 sur le thème "Adresses". Les valeurs attendues sont, au choix, 'délivrance postale', 'entrée', 'bâtiment', 'cage d’escalier', 'logement', 'parcelle', 'segment', ou 'service technique'.
 * Type : chaîne de caractères
-* Exemple : 'cage d'escalier'
-* Valeur : **obligatoire**
-* Valeurs autorisées : ****'délivrance postale', 'entrée', 'bâtiment', 'cage d’escalier', 'logement', 'parcelle', 'segment', 'service technique'
+* Exemple : cage d’escalier
+* Valeur : obligatoire
+* Valeurs autorisées : délivrance postale, entrée, bâtiment, cage d’escalier, logement, parcelle, segment, service technique
 
 #### `x` <a id="x"></a>
 
 * Titre : Coordonnée X
 * Description : Coordonnée X du système légal en vigueur sur le territoire concerné, conformément à l’article 1 du [décret n° 2006-272](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000000813996) du 3 mars 2006. Le signe de séparation entre les parties entière et décimale du nombre est le point.
-* Type : nombre décimal
-* Exemple : '145377.55'
-* Valeur : **optionnelle**
+* Type : nombre réel
+* Exemple : 145377.5
+* Valeur : optionnelle
 
 #### `y` <a id="y"></a>
 
 * Titre : Coordonnée Y
 * Description : Coordonnée Y du système légal en vigueur sur le territoire concerné, conformément à l’article 1 du [décret n° 2006-272](https://www.legifrance.gouv.fr/jo_pdf.do?id=JORFTEXT000000813996) du 3 mars 2006. Le signe de séparation entre les parties entière et décimale du nombre est le point.
-* Type : nombre décimal
-* Exemple : '6835665.67'
-* Valeur : **optionnelle**
+* Type : nombre réel
+* Exemple : 6835665.67
+* Valeur : optionnelle
 
 #### `long` <a id="long"></a>
 
 * Titre : Longitude
 * Description : Coordonnée de longitude exprimée en [WGS 84](https://fr.wikipedia.org/wiki/WGS_84). Le signe de séparation entre les parties entière et décimale du nombre est le point.
-* Type : nombre décimal
-* Exemple : '-4.502217943385534'
-* Valeur : **optionnelle**
+* Type : nombre réel
+* Exemple : -4.502217943385534
+* Valeur : optionnelle
 
 #### `lat` <a id="lat"></a>
 
 * Titre : Latitude
 * Description : Coordonnée de latitude exprimée en [WGS 84](https://fr.wikipedia.org/wiki/WGS_84). Le signe de séparation entre les parties entière et décimale du nombre est le point.
-* Type : nombre décimal
-* Exemple : '48.383985827041485'
-* Valeur : **optionnelle**
+* Type : nombre réel
+* Exemple : 48.383985827041485
+* Valeur : optionnelle
 
 #### `source` <a id="source"></a>
 
 * Titre : Nom de la source
 * Description : Ce nom peut désigner, au choix, la collectivité ayant créé juridiquement l’adresse \(par délibération\), l'entité ayant créé la donnée, ou l’entité ayant diffusé / publié la donnée.
 * Type : chaîne de caractères
-* Exemple : 'Rennes Métropole'
-* Valeur : **obligatoire**
+* Exemple : Rennes Métropole
+* Valeur : obligatoire
 * Motif : `[a-zA-Z0-9\-\d\s\u00C0-\u00FF]+`
 
 #### `date_der_maj` <a id="datedermaj"></a>
@@ -132,15 +148,17 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 * Titre : Date de dernière mise à jour
 * Description : Cette date est celle de la dernière mise à jour connue de la donnée. Elle ne correspond pas à la date de publication du jeu de données en open data. Elle est exprimée au format AAAA-MM-JJ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).
 * Type : date
-* Exemple : '2014-10-01'
-* Valeur : **obligatoire**
+* Exemple : 2014-10-01
+* Valeur : obligatoire
 
 ## Voir aussi <a id="voir-aussi"></a>
 
+
+
 La spécification du modèle de données peut être utilement complétée par les documents suivants :
 
-* Fichier gabarit à exporter
-* [​Schéma de validation​](https://git.opendatafrance.net/scdl/adresses/blob/master/schema-scdl-adresses.json)
+* [Fichier gabarit à télécharger au format xlsx](https://scdl.opendatafrance.net/docs/templates/scdl-adresses.xlsx)
+* [Schéma de validation](https://git.opendatafrance.net/scdl/adresses/blob/master/schema-scdl-adresses.json)
 
 Pour faciliter la production et améliorer la qualité des données au format Base Adresse Locale, la mission Etalab de la DINSIC, met à disposition des outils dédiés sur le portail adresse.data.gouv.fr :
 
@@ -151,7 +169,8 @@ Les sources de ces outils sont disponibles sur le [dépôt Github de la mission 
 
 Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
 
-* adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=Base%20Adresse%20Locale)​
+* adresser un message à [scdl@opendatafrance.email](mailto:scdl@opendatafrance.email?subject=Base%20Adresse%20Locale)
+* ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance](https://git.opendatafrance.net/scdl/adresses/issues)
 * ouvrir un ticket sur le [dépôt GitLab d’OpenDataFrance​](https://git.opendatafrance.net/scdl/adresses/issues)
 
 
