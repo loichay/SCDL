@@ -123,7 +123,7 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 #### `ADR_CLE_INTEROP`
 
 * Titre : Clé d'interopérabilité de l'adresse
-* Description : Cette clé est identique à celle décrite dans le modèle [Base adresse locale](../schemas-publies/base-adresse-locale.md#cleinterop). Elle combine le [code INSEE de la commune](https://fr.wikipedia.org/wiki/Code_Insee) sur 5 caractères \(incluant 'A' ou 'B' pour la Corse\) + le code de voie issu du [FANTOIR](https://fr.wikipedia.org/wiki/FANTOIR) de la DGFiP sur 4 caractères + le numéro d’adresse sur 5 caractères préfixé par des zéros + un suffixe s'il existe, qui peut être un indice de répétition \('bis', 'ter', 'qua', 'qui', etc... codés sur 3 caractères\) et/ou un complément \('a', 'b', 'c', 'a1', 'b2', 'lesmimosas', etc... sans limitation du nombre de caractères\). Chaque élément est séparé par un tiret du bas et les lettres sont en minuscules.
+* Description : Cette clé est identique à celle décrite dans le modèle [Base adresse locale](base-adresse-locale.md#cleinterop). Elle combine le [code INSEE de la commune](https://fr.wikipedia.org/wiki/Code_Insee) sur 5 caractères \(incluant 'A' ou 'B' pour la Corse\) + le code de voie issu du [FANTOIR](https://fr.wikipedia.org/wiki/FANTOIR) de la DGFiP sur 4 caractères + le numéro d’adresse sur 5 caractères préfixé par des zéros + un suffixe s'il existe, qui peut être un indice de répétition \('bis', 'ter', 'qua', 'qui', etc... codés sur 3 caractères\) et/ou un complément \('a', 'b', 'c', 'a1', 'b2', 'lesmimosas', etc... sans limitation du nombre de caractères\). Chaque élément est séparé par un tiret du bas et les lettres sont en minuscules.
 * Type : chaîne de caractères
 * Exemple : '94059\_0040\_00036'
 * Valeur : **optionnelle**
