@@ -37,7 +37,7 @@ _Obligation faite aux établissements recevant du public de s’équiper d’un 
 
 **Isabelle Carton - DGS/SG/DAD-BSIIP**  
 Chef de projet base de données nationale des DAE  
-[Atlassanté](https://www.atlasante.fr) comme réceptacle des données transmises par les exploitants  
+[Atlasanté](https://www.atlasante.fr) comme réceptacle des données transmises par les exploitants  
 Chef de projet : Xavier Vitry, ARS Rhône-Alpes  
 Formulaire de saisie pour les exploitants ou modèle type excel  
 Validata &gt; vérification de conformité &gt; Intégration dans Prodige \(ex. standards covadis\) ?  
