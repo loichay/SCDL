@@ -25,3 +25,8 @@
     * [Covoiturage](documents-de-travail/schemas-reflexion/covoiturage.md)
     * [Aménagements cyclables](documents-de-travail/schemas-reflexion/amenagements-cyclables.md)
 
+## Outils
+
+* [Validata](outils/validata.md)
+* [Fonctionnement du Badge](outils/fonctionnement-du-badge.md)
+
