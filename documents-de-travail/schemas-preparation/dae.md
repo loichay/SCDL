@@ -35,16 +35,5 @@ _Obligation faite aux établissements recevant du public de s’équiper d’un 
 * [SAUV life](https://sauvlife.fr/)
 * [Staying Alive](https://www.stayingalive.org/)
 
-**Isabelle Carton - DGS/SG/DAD-BSIIP**  
-Chef de projet base de données nationale des DAE  
-[Atlasanté](https://www.atlasante.fr) comme réceptacle des données transmises par les exploitants  
-Chef de projet : Xavier Vitry, ARS Rhône-Alpes  
-Formulaire de saisie pour les exploitants ou modèle type excel  
-Validata &gt; vérification de conformité &gt; Intégration dans Prodige \(ex. standards covadis\) ?  
-Arrêté fixant le modèle DAE à paraître en mai 2019  
-Séminaire le 10 avril autour de la base de données nationales \(1 atelier sur le standard\)  
-  
-
-
 
 
