@@ -4,13 +4,13 @@ description: >-
   recharge de véhicules électriques (IRVE) d'une collectivité
 ---
 
-# Infrastructures de Recharge de Véhicules Electriques\*
+# Infrastructures de Recharge de Véhicules Electriques
 
 {% hint style="success" %}
 [https://scdl.opendatafrance.net/docs/schemas/scdl-irve.html](https://scdl.opendatafrance.net/docs/schemas/scdl-irve.html)
 {% endhint %}
 
-## Version Dev <a id="contexte"></a>
+## Version . . . <a id="contexte"></a>
 
 * Auteur : Alexandre Bulté pour Etalab
 * Contributeurs : Charles Nepote, Pierre Dittgen

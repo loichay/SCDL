@@ -4,7 +4,7 @@ description: >-
   nouveaux-nés déclarés à l’état-civil
 ---
 
-# Prénoms des nouveaux-nés\*
+# Prénoms des nouveaux-nés
 
 {% hint style="success" %}
 [https://scdl.opendatafrance.net/docs/schemas/scdl-prenoms.html](https://scdl.opendatafrance.net/docs/schemas/scdl-prenoms.html)

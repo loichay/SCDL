@@ -1,10 +1,10 @@
 ---
 description: >-
   Draft de la spécification du modèle de données relatif aux défibrillateurs
-  cardiaques installés sur le territoire d'une collectivité
+  automatisés externes
 ---
 
-# Défibrillateurs\*
+# Défibrillateurs
 
 ## Contexte
 

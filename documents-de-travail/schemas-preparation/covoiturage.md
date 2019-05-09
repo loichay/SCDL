@@ -4,7 +4,7 @@ description: >-
   covoiturage et autres parkings propices au covoiturage
 ---
 
-# Covoiturage
+# Lieux de covoiturage
 
 Initiative lancée par BlaBlaCar :
 
