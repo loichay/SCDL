@@ -14,6 +14,6 @@ description: >-
 
 **Travaux en cours :**
 
-* [Notes collaboratives](https://paper.dropbox.com/doc/Lieux-de-covoiturage--AcxqlBytDaTqELJOti_pIkhbAg-TJcCKnlPcbFnevAikY53i)
+* [Notes collaboratives](https://docs.google.com/document/d/1VxvlCFun9s9UjcjGf7KqtFdlSmTOxnzdrGyA_hOhmk0/edit?usp=sharing)
 * [Document paper de réflexion](https://paper.dropbox.com/doc/Lieux-de-covoiturage--AcxqlBytDaTqELJOti_pIkhbAg-TJcCKnlPcbFnevAikY53i) 
 
