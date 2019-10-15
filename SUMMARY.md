@@ -26,6 +26,7 @@
     * [Composition assemblée locale](documents-de-travail/schemas-reflexion/composition-assemblee-locale.md)
     * [Menus](documents-de-travail/schemas-reflexion/menus.md)
     * [Aménagements cyclables](documents-de-travail/schemas-reflexion/amenagements-cyclables.md)
+    * [Aides aux Entreprises](documents-de-travail/schemas-reflexion/aides-aux-entreprises.md)
     * [Points d'apport volontaire](documents-de-travail/schemas-reflexion/points-dapport-volontaire.md)
 
 ## Outils
