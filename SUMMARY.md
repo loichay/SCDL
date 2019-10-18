@@ -23,7 +23,7 @@
     * [Aides aux Entreprises](documents-de-travail/schemas-reflexion/aides-aux-entreprises.md)
     * [Aménagements cyclables](documents-de-travail/schemas-reflexion/amenagements-cyclables.md)
     * [Arrétés](documents-de-travail/schemas-reflexion/arretes.md)
-    * [Budgets primitifs](documents-de-travail/schemas-reflexion/budgets-primitifs.md)
+    * [Budgets](documents-de-travail/schemas-reflexion/budgets.md)
     * [Cimetières](documents-de-travail/schemas-reflexion/cimetieres.md)
     * [Composition assemblée locale](documents-de-travail/schemas-reflexion/composition-assemblee-locale.md)
     * [Menus](documents-de-travail/schemas-reflexion/menus.md)
