@@ -10,6 +10,159 @@ description: >-
 
 Les fichiers `<DocumentBudgetaire>` sont produits par les collectivités territoriales et autres établissements publics dans le cadre du [projet Actes Budgétaires](https://www.collectivites-locales.gouv.fr/actes-budgetaires-1) qui se repose sur la [plateforme @ctes](https://www.collectivites-locales.gouv.fr/actes-0) \([Présentation technique](https://www.collectivites-locales.gouv.fr/files/files/2016_03_11_Presentation_ACTES_Prefets_pr_emetteurs.pdf)\).
 
+Afin d'en simplifier la publication, nous proposons **une version simplifiée** du format XML proposé par le ministère de l’Économie et du budget en lien avec la Direction Générale des Collectivités Locales \(DGCL\) En complément, un outil de transformation des fichiers XML "TOTEM" en fichiers csv pourra être proposé afin de faciliter la génération de ces fichiers de publication simplifiés.
+
+En effet, à ce jour, plusieurs collectivités ont publié leurs données budgétaires mais le nom des colonnes et leur nombre est différent quasiment pour chacune. Afin d'**harmoniser la publication de ces informations essentielles à la transparence démocratique et à l'évaluation des politiques publiques**, ce schéma simplifié contient l'essentiel des données budgétaires.
+
+En complément, nous fournissons une documentation du schéma XSD fourni par le ministère de l’Économie et du Budget afin de contextualiser les choix opérés dans la construction du schéma de données simplifié.
+
+### Proposition de schéma budgétaire
+
+Ce schéma reprend les données de la section LigneBudget du schéma Totem. **Il permet de rattacher un montant de recette ou de dépense à une nature \(quoi?\) et une fonction \(pourquoi ?\) comptable.**  
+Afin de rendre l'information plus compréhensible des colonnes contenant les libellés des articles et des des fonctions serait préférable. Cependant ces informations ne sont pas dans les fichiers générés par les collectivités locales à destination de la DGCL et peuvent être déduites en se référant au plan de compte associé à chaque typologie de collectivité. Un outil générant les fichiers csv à partir des fichiers TOTEM pourrait donc les générer à la volée.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Nom</th>
+      <th style="text-align:left">Type</th>
+      <th style="text-align:left">Description</th>
+      <th style="text-align:left">Exemple</th>
+      <th style="text-align:left">Propri&#xE9;t&#xE9;s</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Nature</td>
+      <td style="text-align:left">cha&#xEE;ne de caract&#xE8;res</td>
+      <td style="text-align:left">Nature de la d&#xE9;pense ou recette</td>
+      <td style="text-align:left">6032</td>
+      <td style="text-align:left">Valeur obligatoire, Motif : <code>^\d{1-5}$</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Fonction</td>
+      <td style="text-align:left">cha&#xEE;ne de caract&#xE8;res</td>
+      <td style="text-align:left">
+        <p></p>
+        <p>Permet de d&#xE9;terminer la fonction de la d&#xE9;pense ou de la recette,
+          c&apos;est-&#xE0;-dire au &quot;pourquoi&quot;. Le num&#xE9;ro est un num&#xE9;ro
+          de fonction. Exemples de fonction : &#xE9;ducation, s&#xE9;curit&#xE9;.</p>
+      </td>
+      <td style="text-align:left">78</td>
+      <td style="text-align:left">Valeur obligatoire, Motif : <code>^\d{1-5}$</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">ContNat</td>
+      <td style="text-align:left">cha&#xEE;ne de caract&#xE8;res</td>
+      <td style="text-align:left">
+        <p></p>
+        <p>destin&#xE9;e &#xE0; recevoir le niveau de vote des cr&#xE9;dits. Le niveau
+          d&#xE9;crit doit &#xEA;tre soit identique soit plus agr&#xE9;g&#xE9; que
+          le niveau d&apos;ex&#xE9;cution.</p>
+      </td>
+      <td style="text-align:left">33</td>
+      <td style="text-align:left">Valeur obligatoire, Motif : <code>^\d{1-5}$</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">ArtSpe</td>
+      <td style="text-align:left">cha&#xEE;ne de caract&#xE8;res</td>
+      <td style="text-align:left">permet de caract&#xE9;riser un article comme sp&#xE9;cialis&#xE9; ou pas</td>
+      <td
+      style="text-align:left">Article non sp&#xE9;cialis&#xE9;</td>
+        <td style="text-align:left">Valeur: obligatoire, Valeurs autoris&#xE9;es : Article sp&#xE9;cialis&#xE9;,
+          Article non sp&#xE9;cialis&#xE9;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CodRD</td>
+      <td style="text-align:left">bool&#xE9;en</td>
+      <td style="text-align:left">cette zone permet de d&#xE9;terminer le sens (recette - d&#xE9;pense)
+        du cr&#xE9;dit concern&#xE9;.</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">Valeur: obligatoire, Valeurs autoris&#xE9;es : 0, 1</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MtBudgPrec</td>
+      <td style="text-align:left">d&#xE9;cimal</td>
+      <td style="text-align:left">
+        <p></p>
+        <p>montant pr&#xE9;vu lors de l&apos;exercice pr&#xE9;c&#xE9;dent. Ce champ
+          permet de voir l&apos;&#xE9;volution des montants entre le budget pr&#xE9;visionnel
+          (BP), les d&#xE9;cisions modificatives et le compte administratif qui consacre
+          la r&#xE9;alit&#xE9; des montants effectivement engag&#xE9;s (pay&#xE9;s
+          ou re&#xE7;us).</p>
+      </td>
+      <td style="text-align:left">23 456.45</td>
+      <td style="text-align:left">Valeur: obligatoire</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MtRARPrec</td>
+      <td style="text-align:left">d&#xE9;cimal</td>
+      <td style="text-align:left">cette balise est servie au BP/BS/DM uniquement en cas de reprise des r&#xE9;sultats
+        de l&#x2019;exercice pr&#xE9;c&#xE9;dent. Cette balise est servie au CA
+        pour pr&#xE9;senter les restes &#xE0; r&#xE9;aliser de l&#x2019;exercice
+        pr&#xE9;c&#xE9;dent.</td>
+      <td style="text-align:left">34 450</td>
+      <td style="text-align:left">Valeur: obligatoire</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MtPropNouv</td>
+      <td style="text-align:left">d&#xE9;cimal</td>
+      <td style="text-align:left">montant des recettes ou d&#xE9;penses nouvelles c&apos;est-&#xE0;-dire
+        non pr&#xE9;vues dans l&apos;&#xE9;tape budg&#xE9;taire pr&#xE9;c&#xE9;dente</td>
+      <td
+      style="text-align:left">2 345</td>
+        <td style="text-align:left">Valeur: optionnelle</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MtPrev</td>
+      <td style="text-align:left">d&#xE9;cimal</td>
+      <td style="text-align:left">en pr&#xE9;sence d&apos;une balise MtPrev, celle ci doit obligatoirement
+        &#xEA;tre valoris&#xE9;e soit du montant pr&#xE9;vu soit d&apos;un montant
+        &#xE9;gal &#xE0; z&#xE9;ro</td>
+      <td style="text-align:left">34 450</td>
+      <td style="text-align:left">Valeur: obligatoire</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CredOuv</td>
+      <td style="text-align:left">d&#xE9;cimal</td>
+      <td style="text-align:left">montant des cr&#xE9;dits de paiement disponibles pour effectuer des d&#xE9;penses
+        sur cet article.</td>
+      <td style="text-align:left">34 450</td>
+      <td style="text-align:left">Valeur: optionnelle</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MtReal</td>
+      <td style="text-align:left">d&#xE9;cimal</td>
+      <td style="text-align:left">montant r&#xE9;alis&#xE9; (en d&#xE9;pense ou en recette). Ce champ n&apos;a
+        de sens que dans un compte administratif</td>
+      <td style="text-align:left">34 000</td>
+      <td style="text-align:left">Valeur: obligatoire</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MtRAR3112</td>
+      <td style="text-align:left">d&#xE9;cimal</td>
+      <td style="text-align:left">Cette balise est servie au CA. Cette balise peut &#xE9;galement &#xEA;tre
+        utilis&#xE9; au BP/BS/DM pour pr&#xE9;senter les informations du CA N-1
+        (pr&#xE9;sence des vues &#xAB; Ex&#xE9;cution du budget de l&#x2019;exercice
+        pr&#xE9;c&#xE9;dent &#xBB;).</td>
+      <td style="text-align:left">23 450</td>
+      <td style="text-align:left">Valeur: obligatoire</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">OpBudg</td>
+      <td style="text-align:left">cha&#xEE;ne de caract&#xE8;res</td>
+      <td style="text-align:left">Cette zone permet d&apos;isoler les op&#xE9;rations d&apos;ordre budg&#xE9;taire.
+        Par d&#xE9;faut valeur 0. La valeur &quot;T&quot; est utilis&#xE9;e pour
+        les totaux.</td>
+      <td style="text-align:left">0</td>
+      <td style="text-align:left">Valeur: obligatoire</td>
+    </tr>
+  </tbody>
+</table>## Documentation du schéma TOTEM
+
 Un fichier correspond à **un** document budgétaire d'**une étape budgétaire** \(Budget Primitif, Compte Administratif, etc.\) d'**un établissement public** pour **un exercice** \(une année\). Le format de fichier est commun à tous les types d'établissements publics et de collectivités territoriales. Seuls les plan de compte sont spécifiques à chaque typologie d'établissement public.
 
 Les établissements publics transmettent leurs fichiers `<DocumentBudgetaire>` aux préfectures via le [logiciel TotEM](http://odm-budgetaire.org/). Par abus de langage, on appelle parfois ces fichiers des **"fichiers TotEM"**.
@@ -310,15 +463,6 @@ Exemple :
 </LigneBudget>
 ```
 
-#### **CodRD**
-
-* Titre : Code recette / dépense.  
-* Description : cette zone permet de déterminer le sens \(recette - dépense\) du crédit concerné.
-* Type : booléen
-* Exemple : 0
-* Valeur : 0=recette, 1=dépense
-* Motif : 
-
 #### **Nature**
 
 * Titre : Nature de la dépense ou de la recette  
@@ -339,16 +483,99 @@ Exemple :
 
 #### **ContNat**
 
-* Titre : numéro de compte  
-* Description : zone destinée à recevoir le niveau de vote des crédits. Le niveau décrit doit être soit identique soit plus agrégé que le niveau d'exécution.
+* Titre : Fonction de la dépense ou de la recette  
+* Description : cette zone permet de déterminer la fonction de la dépense ou de la recette, c'est-à-dire au "pourquoi". correspond à la fonction de la recette/dépense, c'est-à-dire au "pourquoi". Le numéro est un numéro de fonction. Exemples de fonction : éducation, sécurité.
 * Type : numérique
-* Exemple : 33
+* Exemple : 04
 * Valeur : obligatoire
-* Motif : \[0-9\]{12}
+* Motif : \[0-9\]{10}
 
-À partir de toutes ces informations, on peut savoir le libellé de la dépense ou de la recette en regardant par exemple dans le [plan de compte](http://odm-budgetaire.org/composants/normes/2016/M52/M52/planDeCompte.xml) départemental \(M52\), le tableau "Liste des comptes et utilisations", et utiliser le `ContNat` comme code et voir le chapitre correspondant dans la colonne RR pour une recette ou ou DR pour une dépense.
+#### **ArtSpe**
+
+* Titre : Article spécialisé
+* Description : 
+* Type : string
+* Exemple : article non spécialisé
+* Valeur : optionnelle
+* Motif : 
+
+#### **CodRD**
+
+* Titre : Code recette / dépense.  
+* Description : cette zone permet de déterminer le sens \(recette - dépense\) du crédit concerné.
+* Type : booléen
+* Exemple : 0
+* Valeur : 0=recette, 1=dépense
+* Motif : 
+
+{% hint style="info" %}
+À partir de toutes ces informations, on peut savoir le libellé de la dépense ou de la recette en regardant par exemple dans le plan de compte correspondant \(par exemple le [plan de compte](http://odm-budgetaire.org/composants/normes/2016/M52/M52/planDeCompte.xml) départemental M52\), en regardant le tableau "Liste des comptes et utilisations", et en utilisant le `ContNat` comme code pour voir le chapitre correspondant dans la colonne RR pour une recette ou ou DR pour une dépense.
 
 Pour savoir s'il s'agit de fonctionnement ou d'investissement, on peut regarder dans le tableau "Liste des chapitres"  et utiliser le code de chapitre en regardant la colonne _SECTION_.
+{% endhint %}
+
+#### **MtB**udgPrec
+
+* Titre : Montant du budget précédent  
+* Description : montant prévu lors de l'exercice précédent. Ce champ permet de voir l'évolution des montants entre le budget prévisionnel \(BP\), les décisions modificatives et le compte administratif qui consacre la réalité des montants effectivement engagés \(payés ou reçus\).
+* Type : numérique
+* Exemple : 45 678,80
+* Valeurs: optionnel
+* Motif :
+
+#### **MtRarPrec**
+
+* Titre : Montant restant à réaliser N-1.
+* Description : cette balise est servie au BP/BS/DM uniquement en cas de reprise des résultats de l’exercice précédent. Cette balise est servie au CA pour présenter les restes à réaliser de l’exercice précédent.
+* Type : numérique
+* Exemple : 45 678,80
+* Valeurs: optionnel
+* Motif :
+
+#### **MtPropNouv**
+
+* Titre : Montant "Propositions nouvelles"  
+* Description : montant des recettes ou dépenses nouvelles c'est-à-dire non prévues dans l'étape budgétaire précédente.
+* Type : numérique
+* Exemple : 45 678,80
+* Valeurs: optionnel
+* Motif :
+
+#### **MtPrev**
+
+* Titre : montant budget voté 
+* Description : en présence d'une balise MtPrev, celle ci doit obligatoirement être valorisée soit du montant prévu soit d'un montant égal à zéro
+* Type : numérique
+* Exemple : 45 678,80
+* Valeurs: optionnel
+* Motif :
+
+#### **CredOuv**
+
+* Titre : crédits ouverts à l'article
+* Description : montant des crédits de paiement disponibles pour effectuer des dépenses sur cet article.
+* Type : numérique
+* Exemple : 45 678,80
+* Valeurs: optionnel
+* Motif :
+
+#### **MtRAR3112**
+
+* Titre : Montant reste à réaliser de l’exercice
+* Description : cette balise est servie au CA. Cette balise peut également être utilisé au BP/BS/DM pour présenter les informations du CA N-1 \(présence des vues « Exécution du budget de l’exercice précédent »\).
+* Type : numérique
+* Exemple : 45 678,80
+* Valeurs: optionnel
+* Motif :
+
+####  **MtReal**
+
+* Titre : Montant signé des réalisations budgétaires  
+* Description : montant réalisé \(en dépense ou en recette\). Ce champ n'a de sens que dans un compte administratif
+* Type : numérique
+* Exemple : 45 678,80
+* Valeurs: optionnel
+* Motif :
 
 #### **OpBudg**
 
@@ -358,15 +585,6 @@ Pour savoir s'il s'agit de fonctionnement ou d'investissement, on peut regarder 
 * Exemple : 0
 * Valeurs: 0=opération réelle ou mixte 1=opération d'ordre
 * Motif : \[0-9\]{12}
-
-#### **MtReal**
-
-* Titre : Montant signé des réalisations budgétaires  
-* Description : montant réalisé \(en dépense ou en recette\). Ce champ n'a de sens que dans un compte administratif
-* Type : numérique
-* Exemple : 45 678,80
-* Valeurs: optionnel
-* Motif : 
 
 ### Annexes
 
