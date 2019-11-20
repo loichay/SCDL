@@ -19,19 +19,18 @@ Ce modèle de données fait partie et respecte les exigences du [Socle Commun de
 | :--- | :--- | :--- | :--- | :--- |
 | E\_title  | chaîne de caractères | le titre de l'évènement | Exposition "Arts et énergies renouvelables" | Valeur obligatoire, Motif : `^\d{1-256}$` |
 | E\_desc | chaîne de caractères |  la description de l'évènement | Le Centre culturel Château Palmer accueille "Arts & énergies renouvelables", une exposition de Kamel Ghabte. | Valeur obligatoire, Motif : `^\d{1-256}$` |
-| E\_URI | URI | l'identifiant de l'évènement | [https://www.cenon.fr/a-la-une/evenements/ex](https://www.cenon.fr/a-la-une/evenements/exposition-arts-energies-renouvelables) | Valeur obligatoire, Motif : `^\d{1-256}$` |
-|  E\_img | URL | une illustration de l'évènement | [https://cibul.com/image.jpg](https://cibul.s3.amazonaws.com/a4ff8c1566664ab08abe81376aa354ba.full.image.jpg) | Valeur obligatoire, Motif : `^\d{1-256}$` |
-| E\_status | chaîne de caractères | le statut de l'évènement | [EventScheduled](https://schema.org/EventScheduled) | Valeur obligatoire, Valeurs autorisées : `EventScheduled, EventCancelled, EventPostponed, EventRescheduled` |
+| E\_URL | URL | l'identifiant de publication de l'évènement | [https://www.cenon.fr/a-la-une/evenements/ex](https://www.cenon.fr/a-la-une/evenements/exposition-arts-energies-renouvelables) | Valeur obligatoire, Motif : `^\d{1-256}$` |
+|  E\_img | URL | une illustration de l'évènement | [https://cibul.com/image.jpg](https://cibul.s3.amazonaws.com/a4ff8c1566664ab08abe81376aa354ba.full.image.jpg) | Valeur optionnelle, Motif : `^\d{1-256}$` |
+| E\_status | chaîne de caractères | le statut de l'évènement | [EventScheduled](https://schema.org/EventScheduled) | Valeur optionnelle, Valeurs autorisées : `Eventprogramme, EventAnnule, EventDeplace, EventReprogramme` |
 | E\_location | chaîne de caractères | la localisation de l'évènement | Centre culturel Château Palmer | Valeur obligatoire, Motif : ^\[a-zA-Z0-9-\'\s\d\u00C0-\u00FF\]+$ |
 | E\_organizer | chaîne de caractères | l'organisateur de l'évènement | Ville de Cenon | Valeur obligatoire, Motif : `^\d{1-256}$` |
 | E\_startDate | [Date](https://fr.wikipedia.org/wiki/ISO_8601) | la date de démarrage de l'évènement | 2019-11-13T09:00Z | Valeur obligatoire, Motif : `^\d{1-256}$` |
 | E\_endDate | [Date](https://fr.wikipedia.org/wiki/ISO_8601) | la date de clôture de l'évènement | 2019-11-15T12:30Z | Valeur obligatoire, Motif : `^\d{1-256}$` |
-| E\_doorTime | [Time](http://www.w3.org/TR/xmlschema-2/#time) | heure d'ouverture de l'évènement | 14:00 | Valeur obligatoire, Motif : hh:mm:ss\[Z\|\(+\|-\)hh:mm\] |
-| E\_duration | [Duration](https://fr.wikipedia.org/wiki/ISO_8601) | la durée de l'évènement | 36:00:00 | Valeur obligatoire, Motif : `^\d{1-256}$` |
+| E\_duration | [Duration](https://fr.wikipedia.org/wiki/ISO_8601) | la durée de l'évènement | 36:00:00 | Valeur optionnel, Motif : `^\d{1-256}$` |
 | E\_isFree | booléen | la caractère gratuit ou payant de l'évènement | oui | Valeur obligatoire, Valeurs autorisées : oui, non |
 | E\_tarif | URL | un lien vers les modalités d'inscription | [http://www.culture-cenon.fr/](http://www.culture-cenon.fr/) | Valeur facultative, Motif : `^\d{1-256}$` |
 | E\_type | chaîne de caractères | typologie d'évènement | exposition | Valeur obligatoire, valeurs autorisées \(voir la liste des types d'évènements [schema.org](https://schema.org/Event) |
-| E\_accessible | chaîne de caractères | le caractère accessible de l'évènement | mi | Valeur obligatoire, valeur autorisées : mi \(handicap moteur, hi \(handicap auditif\), vi \(handicap visuel\), pi \(handicap psychique\), sl \(langue des signes\) |
+| E\_accessible | chaîne de caractères | le caractère accessible de l'évènement | mi | Valeur facultatif, valeur autorisées : mi \(handicap moteur, hi \(handicap auditif\), vi \(handicap visuel\), pi \(handicap psychique\), sl \(langue des signes\) |
 
 ### Discussion 
 
