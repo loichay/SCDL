@@ -27,6 +27,7 @@
     * [Cimetières](documents-de-travail/schemas-reflexion/cimetieres.md)
     * [Comptage usagers AOT](documents-de-travail/schemas-reflexion/comptage-usagers-aot.md)
     * [Composition assemblée locale](documents-de-travail/schemas-reflexion/composition-assemblee-locale.md)
+    * [Panneaux d'affichages publicitaires](documents-de-travail/schemas-reflexion/panneaux-daffichages-publicitaires.md)
     * [Points d'apport volontaire](documents-de-travail/schemas-reflexion/points-dapport-volontaire.md)
 
 ## Outils
