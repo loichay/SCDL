@@ -36,7 +36,7 @@ L'utilisation de cette spécification requiert de prêter une attention toute pa
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`13 champs`** suivants correspondant aux colonnes du fichier tabulaire.
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`13 champs`** suivants correspondant aux colonnes du fichier tabulaire.
 
 #### `cle_interop` <a id="cleinterop"></a>
 

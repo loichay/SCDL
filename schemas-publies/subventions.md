@@ -45,7 +45,7 @@ L'utilisation de cette spécification requiert de prêter une attention toute pa
 
 ## Modèle de données
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`14 champs`** suivants correspondant aux colonnes du fichier tabulaire.
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`14 champs`** suivants correspondant aux colonnes du fichier tabulaire.
 
 #### `nomAttribuant` <a id="nomattribuant"></a>
 

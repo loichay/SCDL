@@ -35,7 +35,7 @@ Cette spécification a été élaborée à partir des sources suivantes :
 
 ## Modèle de données
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`20 champs`** suivants correspondant aux colonnes du fichier tabulaire.
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`20 champs`** suivants correspondant aux colonnes du fichier tabulaire.
 
 #### `COLL_NOM` <a id="collnom"></a>
 

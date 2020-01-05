@@ -39,7 +39,7 @@ De fait, elle a été élaborée à partir des documents suivants :
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`17 champs`** suivants correspondant aux colonnes du fichier tabulaire.
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`17 champs`** suivants correspondant aux colonnes du fichier tabulaire.
 
 #### `n_amenageur` <a id="namenageur"></a>
 

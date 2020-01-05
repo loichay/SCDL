@@ -46,7 +46,7 @@ Dans cette spécification, la transposition du format réglementaire \(passage d
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`27 champs`** suivants correspondant aux colonnes du fichier tabulaire. 
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`27 champs`** suivants correspondant aux colonnes du fichier tabulaire. 
 
 #### `MARCHE_ID` <a id="marcheid"></a>
 

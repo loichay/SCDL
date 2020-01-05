@@ -31,7 +31,7 @@ De fait, la spécification SCDL du modèle de données relatif aux délibératio
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`17 champs`** suivants correspondant aux colonnes du fichier tabulaire.
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`17 champs`** suivants correspondant aux colonnes du fichier tabulaire.
 
 #### `COLL_NOM` <a id="collnom"></a>
 
