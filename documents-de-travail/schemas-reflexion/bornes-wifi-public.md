@@ -4,20 +4,13 @@ description: Inventaire des bornes wifi déployées dans la commune ou l'interco
 
 # Bornes Wifi public
 
-## Contexte
-
-Elaboration dans une document de travail externe &gt; [https://annuel2.framapad.org/p/9eub-kgak00xc1l](https://annuel2.framapad.org/p/9eub-kgak00xc1l)
-
-
-
-## Standardisation des Bornes d'accès WiFi Gratuits
-
-**Version** n° : 0.0.1Auteur : jm bourgogne -ODF / AVICCAContributeurs :   
+**Version** n° : 0.0.1  
+Auteur : jm bourgogne -ODF / AVICCA  
+Contributeurs :   
 
 
 ### **Contexte**
 
-  
 Dans le domaine des données Télécom, de nombreuses données sont produites par de nombreux acteurs, dans des formats et de logiques de partage et de publication aussi très différents.Si les données relatives aux infrastructures de services télécom de type GSM et Haut-Débit \(Fibre\) sont à la charge de l'état et des opérateurs, les données relatives aux Bornes Wifi sont sous le contrôle des collectivités territoriales qui déploient ces équipements \(et services\). Ce sont ces données qui sont l'objet de ce projet de standard.Les bornes d'accès wifi privé \(gratuites ou pas\), dans les hôtels, les bar/restaurants, les centres commerciaux, les gares, etc. ne sont pas concernées, à l'exception des services opérés dans le cadre d'une mission de service publics \(Transport en Commun\). A compléter/préciser   
 A l'issue du Hackathon T.Dat'Hack du 31 janvier 2020, un draft de schéma a été proposé par les groupes de travail. C'est cette contribution qui a servi de base au format présenté :     [https://docs.google.com/spreadsheets/d/1GGyrnYYnS4V-PHvmzb9ozuCpcqxDbP\_cvH8qbH6tzvE/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1GGyrnYYnS4V-PHvmzb9ozuCpcqxDbP_cvH8qbH6tzvE/edit?usp=sharing)      
 
