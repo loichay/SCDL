@@ -44,10 +44,10 @@ Pad en cours de réflexion [https://mypads.framapad.org/p/menu-c81lnj7i8](https:
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur 2 jeux de données \(composition des menus et composition des plats\).
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). 
 
-Le premier est composé de  **`9 champs`** obligatoires et `6 champs` optionnels suivants correspondant aux colonnes du fichier tabulaire.  
-Le second est composé de `6 champs obligatoires` et `4 champs optionnels` correspondant aux colonnes du fichier tabulaire
+Il est composé de **`9 champs`** obligatoires et `8 champs` optionnels suivants correspondant aux colonnes du fichier tabulaire.  
+Il sera complété d'un schéma sur la composition des plats auquel les données pourront être reliées via l'utilisation du champ codePlat.
 
 ### Composition des menus
 
@@ -56,8 +56,7 @@ Le second est composé de `6 champs obligatoires` et `4 champs optionnels` corre
 Titre : Nom de la collectivité  
 Description : Nom officiel de la collectivité.  
 Type : chaîne de caractèresExemple : Commune de Bordeaux  
-Valeur : obligatoire  
-
+Valeur : obligatoire
 
 #### collectiviteSiret
 
@@ -74,7 +73,7 @@ Valeur : obligatoire
 **Description** : Nom officiel de l'établissement.  
 **Type** : chaîne de caractères  
 **Exemple** : Syndicat intercommunale à vocation unique de Bordeaux-Mérignac  
-**Valeur** : optionnel
+**Valeur** : optionnelle
 
 #### etablissementSiret
 
@@ -82,7 +81,7 @@ Valeur : obligatoire
 **Description** : Identifiant du Système d'Identification du Répertoire des Etablissements \(SIRET\) de la collectivité qui a produit le repas, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.  
 **Type** : chaîne de caractères  
 **Exemple** : 25330618700035   
-**Valeur** : optionnel  
+**Valeur** : optionnelle  
 **Motif** : ^\d{14}$
 
 #### restaurantNom
@@ -105,7 +104,7 @@ Valeur : obligatoire
 **Titre** : type de convive auquel le menu est proposé  
 **Description** : Permet de préciser le type personnes destinataires du menu proposé par mi les valeurs disponibles  \(bébés, scolaires, adultes, seniors …\)  
 **Exemple** : Collège  
-**Valeur** : optionnelle
+**Valeur** : obligatoire
 
 #### restaurantAdresse
 
@@ -113,7 +112,7 @@ Valeur : obligatoire
 **Description** : Ce champ correspond à l'adresse postale de l'établissement au sein duquel est servi le menu. Idéalement il devrait faire référence à l'identifiant de cette adresse dans la base d'adresse nationale.  
 **Type** : chaîne de caractères  
 **Exemple** : 34 rue de Flornoy, 33150 Bordeaux   
-**Valeur** : optionnel  
+**Valeur** : optionnelle  
 **Taille minimale** : 3  
 **Motif** : ^\[a-zA-Z0-9\-\'\s\d\u00C0-\u00FF\]+$  
   
