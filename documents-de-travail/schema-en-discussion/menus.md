@@ -8,7 +8,7 @@ description: >-
 
 ## Contexte <a id="contexte"></a>
 
-Cette initiative vide à standardiser la publication des jeux de données relatifs aux offres de restauration collective. Elle concerne la restauration scolaire mais peut s'étendre aux offres de restauration pour les personnes âgées, les restaurants administratifs ou les centres de loisirs. Elle s'articule autour des notions de menus, des plats qui les composent et des denrées utilisées pour les fabriquer. Afin de permettre de décrire plus en détails les plats un schéma additionnel dédié est proposé ici.
+Cette initiative vide à standardiser la publication des jeux de données relatifs aux offres de restauration collective. Elle concerne la restauration scolaire mais peut s'étendre aux offres de restauration pour les personnes âgées, les restaurants administratifs ou les centres de loisirs. Elle s'articule autour des notions de menus, des plats qui les composent et des denrées utilisées pour les fabriquer. Afin de permettre de décrire plus en détails les plats un schéma additionnel dédié est proposé [ici](https://opendatafrance.gitbook.io/scdl/documents-de-travail/schema-en-discussion/plats-des-menus).
 
 En utilisant ce niveau de granularité, les organismes publics qui souhaitent uniquement publier leurs menus peuvent le faire et ceux qui peuvent fournir plus d'informations disposent des champs de description nécessaires.
 
