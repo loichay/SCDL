@@ -8,7 +8,7 @@ description: >-
 
 ## Contexte <a id="contexte"></a>
 
-Cette initiative vide à standardiser la publication des jeux de données relatifs aux offres de restauration collective. Elle concerne la restauration scolaire mais peut s'étendre aux offres de restauration pour les personnes âgées, les restaurants administratifs ou les centres de loisirs. Elle s'articule autour des notions de menus, des plats qui les composent et des denrées utilisées pour les fabriquer. En complément les fournisseurs des denrées peuvent également être décrits. En complément un jeu de données de type statistique peut être proposé afin de faire un bilan annuel de l'activité de restauration collective.
+Cette initiative vide à standardiser la publication des jeux de données relatifs aux offres de restauration collective. Elle concerne la restauration scolaire mais peut s'étendre aux offres de restauration pour les personnes âgées, les restaurants administratifs ou les centres de loisirs. Elle s'articule autour des notions de menus, des plats qui les composent et des denrées utilisées pour les fabriquer. Afin de permettre de décrire plus en détails les plats un schéma additionnel dédié est proposé ici.
 
 En utilisant ce niveau de granularité, les organismes publics qui souhaitent uniquement publier leurs menus peuvent le faire et ceux qui peuvent fournir plus d'informations disposent des champs de description nécessaires.
 
@@ -21,8 +21,7 @@ La loi impose actuellement un certain pourcentage de produits bio et labellisés
 ### Quels usages ?
 
 * en tant que parent je veux savoir ce que mange mon enfant à la cantine :     
-  * afin de coordonner avec les repas à la maison   
-  * afin de connaître la part du bio dans l'alimentation    
+  * afin de coordonner avec les repas à la maison
   * afin de connaître la part du local    
   * afin de connaître la quantité de protéines animales    
   * afin de vérifier l'adéquation avec la réglementation en matière de pourcentage d'aliments issus de l'agriculture biologique    
@@ -31,16 +30,14 @@ La loi impose actuellement un certain pourcentage de produits bio et labellisés
   * afin de limiter le gaspillage alimentaire en mettant en relation avec les quantités de nourriture non consommées
 * en tant qu'élu je veux savoir comment sont composés les menus scolaires :    
   * afin d'évaluer la part du bio dans l'alimentation \(volume et pourcentage\)   
-  *  afin d'évaluer la part de production labellisée dans l'alimentation    &gt; légalement : la part du bio est estimée en coût et pas en volume    
+  *  afin d'évaluer la part de production labellisée dans l'alimentation \(légalement : la part du bio est estimée en coût et pas en volume\)    
   * afin d'évaluer la part de la production locale dans les menus    
-  * afin d'évaluer l'impact de ma politique publique en matière de restauration collective \(anticiper impact carbone, soutien filières locales, tarification\)    
+  * afin d'évaluer l'impact de ma politique publique en matière de restauration collective \(anticiper l'impact carbone, le soutien aux filières locales, la tarification\)    
   * afin de connaître le nombre de repas par type de population \(voir publics plus haut\)
 * en tant que producteur je veux savoir comment sont composés les menus scolaires :     
   * afin de proposer des produits à la restauration collective en fonction des besoins    
   * afin de favoriser le regroupement avec d'autres producteurs 
 * en tant qu'organisme de labellisation je souhaite avoir les informations qui me permettront de vérifier si la cantine à labelliser entre dans les critères.
-
-Pad en cours de réflexion [https://mypads.framapad.org/p/menu-c81lnj7i8](https://mypads.framapad.org/p/menu-c81lnj7i8)
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
@@ -55,7 +52,8 @@ Il sera complété d'un schéma sur la composition des plats auquel les données
 
 Titre : Nom de la collectivité  
 Description : Nom officiel de la collectivité.  
-Type : chaîne de caractèresExemple : Commune de Bordeaux  
+Type : chaîne de caractères  
+Exemple : Commune de Bordeaux  
 Valeur : obligatoire
 
 #### collectiviteSiret
@@ -102,7 +100,7 @@ Valeur : obligatoire
 #### restaurantConvive
 
 **Titre** : type de convive auquel le menu est proposé  
-**Description** : Permet de préciser le type personnes destinataires du menu proposé par mi les valeurs disponibles  \(bébés, scolaires, adultes, seniors …\)  
+**Description** : Permet de préciser le type de personnes destinataires du menu proposé parmi les valeurs disponibles  \(bébés, scolaires, adultes, seniors …\)  
 **Exemple** : Collège  
 **Valeur** : obligatoire
 
@@ -132,21 +130,22 @@ Valeur : obligatoire
 **Description** : Permet de spécifier le type du repas parmi les valeurs possible \(déjeuner, goûter, dîner, collation, pique-nique\)  
 **Type** : string  
 **Exemple** : déjeuner  
-**Valeur** : obligatoire
+**Valeur** : obligatoire  
+**Liste de valeurs autorisées:** déjeuner, goûter, dîner, collation, pique-nique
 
 #### menuTypePlat
 
 **Titre** : Type de plat servi  
-**Description** : Le type de plat correspond à un des termes associés au code choisi dans la nomenclature des repas servis en cantine scolaire Il s'agit donc de renseigner ce champ avec une valeur, jugée la plus pertinente pour désigner le type de plat, dans la limite de 140 caractères maximum en prenant soin d'échapper ou de supprimer les éventuelles virgules.  
+**Description** : Le type de plat correspond à un des éléments disponibles dans la liste \(entrée, plat principal, garniture, dessert, produit laitier, collation matinale, goûter, pain\).  
 **Type** : chaîne de caractères  
 **Exemple** : Entrée  
 **Valeur** : obligatoire.   
-**Liste de valeurs autorisées** ; entrée, plat principal, garniture, dessert, produit laitier, collation matinale, goûter, pain.
+**Liste de valeurs autorisées** : entrée, plat principal, garniture, dessert, produit laitier, collation matinale, goûter, pain.
 
 #### menuNomPlat
 
 **Titre** : Nom du plat servi  
-**Description** : Le nom du plat correspond à un terme ou une expression associé au code choisi dans la nomenclature des plats servis en cantine scolaire. Il s'agit donc de renseigner ce champ avec une valeur, jugée la plus pertinente pour désigner le type de plat, dans la limite de 140 caractères maximum en prenant soin d'échapper ou de supprimer les éventuelles virgules.  
+**Description** : Le nom du plat permet de désigner dans la limite de 140 caractères maximum les éléments composant le menu.  
 **Type** : chaîne de caractères  
 **Exemple** : Cordon bleu  
 **Valeur** : obligatoire
@@ -162,7 +161,7 @@ Valeur : obligatoire
 #### menuLabelPlat
 
 **Titre** : Type de label du plat servi  
-**Description** : Le type de label du plat correspond à un des termes associés au code choisi dans la nomenclature des labels reconnus par l'Institut national de l'origine et de la qualité. Il s'agit donc de renseigner ce champ avec une valeur, jugée la plus pertinente pour désigner le type de Label, dans la limite de 140 caractères maximum en prenant soin d'échapper ou de supprimer les éventuelles virgules. Si ce champ n'est pas renseigné, par défaut le plat est considéré comme issu de l'agriculture conventionnelle  
+**Description** : Le type de label du plat correspond à un terme permettant de construire une catégorisation associés aux différents plats.  
 **Type** : chaîne de caractères  
 **Exemple** : Agriculture biologique \(AB\), appellation d'origine protégée \(AOP\), indication géographique protégée \(IGP\), spécialité traditionnelle garantie \(STG\), Label Rouge.  
 Valeur : optionnelle
@@ -194,7 +193,7 @@ Valeur : optionnelle
 
 ### **Exemples**
 
-* [Département des Hautes-Pyrénées](https://opendata.ha-py.fr/explore/dataset/departementdeshautespyrenees_menus_cantines_colleges_publics/table/?disjunctive.rep_nom_col&sort=-rep_jour) 
+* [Département des Hautes-Pyrénées](https://opendata.ha-py.fr/explore/dataset/departementdeshautespyrenees_menus_cantines_colleges_publics/table/?disjunctive.rep_nom_col&sort=-rep_jour)
 * [Ville de la Rochelle](https://opendata.larochelle.fr/dataset/restauration-enfance-menus-des-restaurants-scolaires-allergenes/)
 * [Ville de Rennes](https://data.rennesmetropole.fr/explore/dataset/menus-cantines/information/)
 * [Ville de Montpellier](https://data.montpellier3m.fr/dataset/menu-des-cantines-de-montpellier)

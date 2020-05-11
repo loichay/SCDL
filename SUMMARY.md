@@ -14,6 +14,7 @@
 * [Documents de travail](documents-de-travail/README.md)
   * [Schéma en discussion](documents-de-travail/schema-en-discussion/README.md)
     * [Menus Collectifs](documents-de-travail/schema-en-discussion/menus.md)
+    * [Plats des menus](documents-de-travail/schema-en-discussion/plats-des-menus.md)
     * [Evénements locaux](documents-de-travail/schema-en-discussion/evenements.md)
   * [Schémas en réflexion](documents-de-travail/schemas-reflexion/README.md)
     * [Aides aux Entreprises](documents-de-travail/schemas-reflexion/aides-aux-entreprises.md)
