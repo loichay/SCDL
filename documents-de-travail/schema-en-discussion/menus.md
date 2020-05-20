@@ -43,7 +43,7 @@ La loi impose actuellement un certain pourcentage de produits bio et labellisés
 
 Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). 
 
-Il est composé de **`9 champs`** obligatoires et `8 champs` optionnels suivants correspondant aux colonnes du fichier tabulaire.  
+Il est composé de **`10 champs`** obligatoires et **`10 champs`** optionnels suivants correspondant aux colonnes du fichier tabulaire.  
 Il sera complété d'un schéma sur la composition des plats auquel les données pourront être reliées via l'utilisation du champ codePlat.
 
 ### Composition des menus
@@ -59,7 +59,7 @@ Valeur : obligatoire
 #### collectiviteSiret
 
 **Titre** : Code SIRET de la collectivité  
-**Description** : Identifiant du Système d'Identification du Répertoire des Etablissements \(SIRET\) de la collectivité qui a adopté la délibération, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.  
+**Description** : Identifiant du Système d'Identification du Répertoire des Établissements \(SIRET\) de la collectivité qui a adopté la délibération, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.  
 **Type** : chaîne de caractères  
 **Exemple** : 21330063500017  
 **Valeur** : obligatoire  
@@ -76,7 +76,7 @@ Valeur : obligatoire
 #### etablissementSiret
 
 **Titre** : Code SIRET de l'établissement ou entreprise qui a produit le repas servi  
-**Description** : Identifiant du Système d'Identification du Répertoire des Etablissements \(SIRET\) de la collectivité qui a produit le repas, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.  
+**Description** : Identifiant du Système d'Identification du Répertoire des Établissements \(SIRET\) de la collectivité qui a produit le repas, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.  
 **Type** : chaîne de caractères  
 **Exemple** : 25330618700035   
 **Valeur** : optionnelle  
@@ -87,34 +87,41 @@ Valeur : obligatoire
 **Titre** : Nom du restaurant où le repas est servi  
 **Description** : Nom officiel de l'établissement.  
 **Type** : chaîne de caractères  
-**Exemple** : Ecole élémentaire Flornoy  
+**Exemple** : École élémentaire Flornoy  
 **Valeur** : obligatoire
 
 #### restaurantType
 
-**Titre** : type de client auquel le menu est proposé  
-**Description** : Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles  \(Crèche, école maternelle, école élémentaire, Foyer, Collège, Lycée, administration locale, RPA, repas à domicile\)  
+**Titre** : Type de client auquel le menu est proposé  
+**Description** : Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles  \(Crèche, École maternelle, École élémentaire, Foyer de personnes âgées, Collège, Lycée, Administration locale, RPA, EHPAD, Repas à domicile\)  
 **Exemple** : Collège  
-**Valeur** : obligatoire
+**Valeur** : obligatoire  
+Valeurs autorisées : Crèche, École maternelle, École élémentaire, Foyer de personnes âgées, Collège, Lycée, Administration locale, RPA, EHPAD, Repas à domicile
 
 #### restaurantConvive
 
-**Titre** : type de convive auquel le menu est proposé  
-**Description** : Permet de préciser le type de personnes destinataires du menu proposé parmi les valeurs disponibles  \(bébés, scolaires, adultes, seniors …\)  
+**Titre** : Type de convive auquel le menu est proposé  
+**Description** : Permet de préciser le type de personnes destinataires du menu proposé parmi les valeurs disponibles  \(bébé, scolaire, adulte, sénior …\)  
 **Exemple** : Collège  
-**Valeur** : obligatoire
+**Valeur** : obligatoire  
+Valeurs autorisées : bébé, scolaire, adulte, sénior
 
-#### restaurantAdresse
+#### restaurantId
 
-**Titre** : Adresse de l'établissement où le repas est servi  
-**Description** : Ce champ correspond à l'adresse postale de l'établissement au sein duquel est servi le menu. Idéalement il devrait faire référence à l'identifiant de cette adresse dans la base d'adresse nationale.  
+**Titre** : Identifiant du restaurant où le repas est servi.  
+**Description** : Identifiant du restaurant dans lequel a été servi le menu soit en utilisant le code SIREN soit le numéro d'identification fourni par l'Éducation Nationale pour les établissements scolaires soit un identifiant interne. Le champ restaurantidType permet de caractériser le type de système d'identification auquel cet identifiant fait référence.  
 **Type** : chaîne de caractères  
-**Exemple** : 34 rue de Flornoy, 33150 Bordeaux   
+**Exemple** : "25330618700017"   
+**Valeur** : optionnelle
+
+#### restaurantIdType
+
+**Titre** : Type d'identifiant utilisé pour caractérisé un restaurant collectif.  
+**Description** : Afin de permettre d'identifier de manière unique chaque restaurant, plusieurs systèmes d'identification peuvent être utilisé en l'absence d'une attribution systématique d'un code SIRET. Pour les établissements scolaires le numéro UID délivré par l'Éducation Nationale \(EN\) peut être utilisé. Dans le cas des autres \(identifiant interne par exemple\), la valeur autre doit être sélectionnée. Enfin en l'absence d'identifiant la valeur "Sans" peut-être sélectionnée.  
+**Type** : chaîne de caractères  
+**Exemple** : "Siret"   
 **Valeur** : optionnelle  
-**Taille minimale** : 3  
-**Motif** : ^\[a-zA-Z0-9\-\'\s\d\u00C0-\u00FF\]+$  
-  
-... voir Modèle Base adresse : [https://opendatafrance.gitbook.io/scdl/documents-de-travail/schemas-publies/base-adresse-locale\#voienom](https://opendatafrance.gitbook.io/scdl/documents-de-travail/schemas-publies/base-adresse-locale#voienom)
+**Valeurs autorisées** : Siret, EN, Autre, Sans
 
 #### menuDate
 
@@ -131,7 +138,7 @@ Valeur : obligatoire
 **Type** : string  
 **Exemple** : déjeuner  
 **Valeur** : obligatoire  
-**Liste de valeurs autorisées:** déjeuner, goûter, dîner, collation, pique-nique
+**Valeurs autorisées:** déjeuner, goûter, dîner, collation, pique-nique
 
 #### menuTypePlat
 
@@ -158,29 +165,57 @@ Valeur : obligatoire
 **Exemple** : 0001  
 **Valeur** : optionnelle
 
+#### menuSiqoPlat
+
+**Titre** : Indication de signe officiel de la qualité et de la qualité  
+**Description** : Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine \(SIQO\) : Agriculture biologique, Appellation d'origine protégée/contrôlée, Indication géographique protégée, Spécialité traditionnelle garantie, Label rouge.  
+**Type** : chaîne de caractères  
+**Exemple** : Agriculture biologique  
+**Valeur** : optionnelle  
+**Valeurs autorisées** : "Agriculture biologique", "Appellation d'origine protégée/contrôlée", "Indication géographique protégée", "Spécialité traditionnelle garantie", "Label rouge".
+
 #### menuLabelPlat
 
-**Titre** : Type de label du plat servi  
-**Description** : Le type de label du plat correspond à un terme permettant de construire une catégorisation associés aux différents plats.  
+**Titre** : Indication de labels complémentaires liés à des approvisionnements locaux ou à des marques de fabrication  
+**Description** : Des labels complémentaires permettent d'identifier la production locale ou des marques associées à un territoire ou à une démarche de qualité. La saisie dans ce champ est libre. A titre d'exemple OpenFoodFacts propose un liste des labels existant dans sa base de données : [https://fr.openfoodfacts.org/labels](https://fr.openfoodfacts.org/labels)  
 **Type** : chaîne de caractères  
-**Exemple** : Agriculture biologique \(AB\), appellation d'origine protégée \(AOP\), indication géographique protégée \(IGP\), spécialité traditionnelle garantie \(STG\), Label Rouge.  
-Valeur : optionnelle
+**Exemple** : Ferme des Jarouilles  
+**Valeur** : optionnelle
 
 #### menuAllergenePLat
 
-**Titre** : nom des allergènes présents dans le plat  
-**Description** : Énumération séparés par des virgules des allergènes potentiellement présents dans le plat proposé  
+**Titre** : Nom des allergènes présents dans le plat  
+**Description** : Énumération des éventuels allergènes \(séparés par des virgules\) présents dans le plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette \(fiche technique\) ou sous forme de traces \(lieu de production\).  
 **Type** : chaîne de caractères  
-**Exemple** : fruit à coques  
+**Exemple** : Fruits à coques  
+**Valeur** : optionnelle  
+**Valeurs autorisées** : "Céréales contenant du gluten", "Crustacés", "Oeufs", "Poissons", "Arachides", "Soja", "Lait", "Fruits à coques", "Céleri", "Moutarde", "Graines de sésame", "Anhydride sulfureux et sulfites", "Lupin", "Mollusques"
+
+#### menuPrecisionPlat
+
+**Titre** : Précision \(régime ou thématique\) associée au plat ou à l'ensemble des plats d'un menu  
+**Description** : Lors d'évènements \(semaine du goût, repas de noël, etc.\) des menus spéciaux peuvent être proposés. Ce champ peut également permettre d'indiquer si un plat est destiné à un régime particulier \(sans viande, végétarien, etc.\)  
+**Type** : chaîne de caractères  
+**Exemple** : semaine asiatique  
 **Valeur** : optionnelle
 
-#### menuRegimePlat
+#### menuModificationDate
 
-**Titre** : nom du régime alimentaire  
-**Description** : Nom de régime auquel est associé le plat entrant dans la composition du menu.  
-**Type** : chaîne de caractères  
-**Exemple** : régime sans viande  
-**Valeur** : optionnelle
+Titre : Date de dernière modification de l'enregistrement  
+Description : Lors de la publication ou d'éventuelles modifications ce champ d'horodatage permet d'indiquer la date de dernière modification de la donnée présente dans le fichier.  
+Type : datetime  
+Exemple : 2020-05-11T14:08:32Z  
+Valeur : obligatoire
+
+#### menuModificationActivite
+
+Titre : Nature de l'activité ayant entraîné une mise à jour de la donnée  
+Description : Afin de renseigner les usagers de la donnée, il est possible de préciser dans ce champ la raison de la mise à jour effectuée.  
+Type : chaîne de caractères  
+Exemple : 2020-05-11T14:08:32Z  
+Valeur : optionnelle
+
+
 
 ## Voir aussi <a id="voir-aussi"></a>
 
