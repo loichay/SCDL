@@ -12,7 +12,7 @@ description: >-
 * Contributeurs : 
 * Schéma créé le : 
 * Schéma mis à jour le : 
-* Site web : 
+* Site web : [https://opendatafrance.gitbook.io/fablog/](https://opendatafrance.gitbook.io/fablog/)
 
 ## Contexte
 

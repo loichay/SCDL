@@ -18,8 +18,10 @@
     * [Evénements locaux](documents-de-travail/schema-en-discussion/evenements.md)
   * [Schémas en réflexion](documents-de-travail/schemas-reflexion/README.md)
     * [Aides aux Entreprises](documents-de-travail/schemas-reflexion/aides-aux-entreprises.md)
+    * [Aires de livraison](documents-de-travail/schemas-reflexion/aires-de-livraison.md)
     * [Aménagements cyclables](documents-de-travail/schemas-reflexion/amenagements-cyclables.md)
     * [Arrétés](documents-de-travail/schemas-reflexion/arretes.md)
+    * [Arrêtés de circulation](documents-de-travail/schemas-reflexion/arretes-de-circulation.md)
     * [Bornes Wifi public](documents-de-travail/schemas-reflexion/bornes-wifi-public.md)
     * [Cimetières](documents-de-travail/schemas-reflexion/cimetieres.md)
     * [Composition assemblée locale](documents-de-travail/schemas-reflexion/composition-assemblee-locale.md)
@@ -29,7 +31,6 @@
     * [Panneaux d'affichages publicitaires](documents-de-travail/schemas-reflexion/panneaux-daffichages-publicitaires.md)
     * [Points d'apport volontaire](documents-de-travail/schemas-reflexion/points-dapport-volontaire.md)
     * [Points d'eau incendie](documents-de-travail/schemas-reflexion/points-deau-incendie.md)
-    * [Arrêtés de circulation](documents-de-travail/schemas-reflexion/arretes-de-circulation.md)
 * [Recommandations relatives aux jeux de données](recommandations-relatives-aux-jeux-de-donnees.md)
 * [Recommandations relatives aux schémas de validation](recommandations-relatives-aux-schemas-de-validation.md)
 
