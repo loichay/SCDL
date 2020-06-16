@@ -4,7 +4,7 @@ description: >-
   Logistique
 ---
 
-# Arrétés de circulation
+# Arrêtés de circulation
 
 ## Version 0.0.0
 
@@ -15,6 +15,10 @@ description: >-
 * Site web : 
 
 ## Contexte
+
+En cours d'élaboration sur le document de travail : 
+
+{% embed url="https://annuel2.framapad.org/p/fablog-arretes-9ha8" %}
 
 ## Eléments de références
 
