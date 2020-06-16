@@ -29,6 +29,7 @@
     * [Panneaux d'affichages publicitaires](documents-de-travail/schemas-reflexion/panneaux-daffichages-publicitaires.md)
     * [Points d'apport volontaire](documents-de-travail/schemas-reflexion/points-dapport-volontaire.md)
     * [Points d'eau incendie](documents-de-travail/schemas-reflexion/points-deau-incendie.md)
+    * [Arrétés de circulation](documents-de-travail/schemas-reflexion/arretes-de-circulation.md)
 * [Recommandations relatives aux jeux de données](recommandations-relatives-aux-jeux-de-donnees.md)
 * [Recommandations relatives aux schémas de validation](recommandations-relatives-aux-schemas-de-validation.md)
 
