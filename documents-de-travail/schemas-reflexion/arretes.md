@@ -5,7 +5,7 @@
 **Version** 
 
 n° : 0.2  
-Date de création : février 2020 - Date de mise à jour : 6 mai 2020   
+Date de création : février 2020 - Date de mise à jour : 7 juillet 2020   
 Auteur : jm bourgogne - ODF    
 Contributeurs : GFII 
 
@@ -19,9 +19,7 @@ Elaboration dans une document de travail externe &gt; [https://annuel2.framapad.
 
 
 
-  
-  
-**COLL\_NOM**
+### MODELE DE DONNEES  **COLL\_NOM**
 
 * Titre : Nom de la collectivité
 * Description : Nom officiel de la collectivité délibérante.
