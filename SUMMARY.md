@@ -20,7 +20,7 @@
     * [Aides aux Entreprises](documents-de-travail/schemas-reflexion/aides-aux-entreprises.md)
     * [Aires de livraison](documents-de-travail/schemas-reflexion/aires-de-livraison.md)
     * [Aménagements cyclables](documents-de-travail/schemas-reflexion/amenagements-cyclables.md)
-    * [Arrétés pour Panneau d'affichage](documents-de-travail/schemas-reflexion/arretes.md)
+    * [Règlement Local de Publicité](documents-de-travail/schemas-reflexion/arretes.md)
     * [Arrêtés de circulation](documents-de-travail/schemas-reflexion/arretes-de-circulation.md)
     * [Bornes Wifi public](documents-de-travail/schemas-reflexion/bornes-wifi-public.md)
     * [Cimetières](documents-de-travail/schemas-reflexion/cimetieres.md)
