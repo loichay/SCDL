@@ -26,8 +26,6 @@ En cours d'élaboration sur le document de travail :
 
 ### Exemples et sources d'inspiration
 
-[https://mypads.framapad.org/mypads/?/mypads/group/espace-de-travail-normalisation-ch36h71o/pad/view/draft-arretes-a96bmx75c](https://mypads.framapad.org/mypads/?/mypads/group/espace-de-travail-normalisation-ch36h71o/pad/view/draft-arretes-a96bmx75c)
-
 ### Analyse de l'existant
 
 #### Arrêté provisoire pour autorisation de travaux
@@ -116,27 +114,13 @@ Individuel, ...
 * Exemple : 2017-10-15
 * Valeur : obligatoire
 
-  
-**ARR\_TYPE**
+**Selon la codification normalisée d'un acte :**  
 
-* Titre : Type de l’arrêté
-* Description : ? codification \(temporaire, permanent, spécifique selon le sujet \(RH, Occupation de l’espace publics, Sécurité, …\)
-* Type : 
-* Exemple : 
-* Valeur : obligatoire
+        **ARR\_DOMAINE**
 
-  
-**ARR\_MATIERE\_CODE**
+        **ARR\_TYPE**
 
-* Titre : Si cela est pertinent \(nomenclature ACTES, .. ?\) 
-* Description : 
-* Type : 
-* Exemple :
-* Valeur : 
-* Motif : 
-
-  
-**ARR\_MATIERE\_NOM**
+       **ARR\_MATIERE**
 
 * Titre : Si cela est pertinent \(nomenclature ACTES, .. ?\) 
 * Description : 
@@ -150,35 +134,21 @@ Individuel, ...
 * Titre : Objet de l’arrêté
 * Description : Description de l'objet de l’arrêté
 * Type : chaîne de caractères
-* Exemple : 
+* Exemple : travaux de voirie au carrefour du Bd St-Antoine et la rue de la libeté
 * Valeur : obligatoire
 
   
-**PREF\_ID ???**
+**CHAMPS SPECIFIQUES POUR AUTORISATION DE TRAVAUX** 
 
-* Titre : Identifiant de l'entité exerçant le contrôle de légalité
-* Description : Cet identifiant dépend de l'entité concernée. Pour les préfectures, il est codé 'PREFNNN' sur 7 caractères. Pour les sous-préfectures, il est codé 'SPREFNNNM' sur 9 caractères. Pour les SGAR, il est codé 'SGARNNN' sur 7 caractères. 'NNN' correspond au numéro sur 3 caractères du département préfixé par '0' et inclant 'A' et 'B' pour les départements corses. 'M' correspond au numéro sur un chiffre de l'arrondissement.
-* Type : chaîne de caractères
-* Exemple : PREF038
-* Valeur : optionnelle
+Début
 
-  
-**PREF\_DATE ???**
+Fin
 
-* Titre : Date d'enregistrement de la délibération auprès du contrôle de légalité
-* Description : Date d'enregistrement de la délibération au contrôle de légalité au format AAAA-MM-JJ suivant la norme internationale ISO 8601. Ce champ ne peut être renseigné que si la délibération a effectivement été transmise et que sa date d'enregistrement est connue.
-* Type : date
-* Exemple : 2017-02-03
-* Valeur : optionnelle
+Impacts
 
-  
-**CHAMPS SPECIFIQUES POUR AUTORISATION DE TRAVAUX ?** 
+Opérateur
 
-* Titre : 
-* Description : 
-* Type : 
-* Exemple : 
-* Valeur : 
+Emprise géographique \(données géographiques : point ou zone\)
 
   
 **ARR\_URL**
@@ -186,7 +156,7 @@ Individuel, ...
 * Titre : Lien vers le document de l’arrêté
 * Description : Si la collectivité dispose d'une version électronique de l’arrêté et le publie en ligne, ce lien correspond à l'adresse permettant de consulter ou de télécharger le document.
 * Type : chaîne de caractères \(format uri\)
-* Exemple : [https://data.maville.fr/deliberations/files/200417\_1.pdf](https://data.maville.fr/deliberations/files/200417_1.pdf)
+* Exemple : url
 * Valeur : optionnelle
 
 
