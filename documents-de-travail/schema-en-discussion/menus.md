@@ -90,22 +90,6 @@ Valeur : obligatoire
 **Exemple** : École élémentaire Flornoy  
 **Valeur** : obligatoire
 
-#### restaurantType
-
-**Titre** : Type de client auquel le menu est proposé  
-**Description** : Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles  \(Crèche, École maternelle, École élémentaire, Foyer de personnes âgées, Collège, Lycée, Administration locale, RPA, EHPAD, Repas à domicile\)  
-**Exemple** : Collège  
-**Valeur** : obligatoire  
-Valeurs autorisées : Crèche, École maternelle, École élémentaire, Foyer de personnes âgées, Collège, Lycée, Administration locale, RPA, EHPAD, Repas à domicile
-
-#### restaurantConvive
-
-**Titre** : Type de convive auquel le menu est proposé  
-**Description** : Permet de préciser le type de personnes destinataires du menu proposé parmi les valeurs disponibles  \(bébé, scolaire, adulte, sénior …\)  
-**Exemple** : Collège  
-**Valeur** : obligatoire  
-Valeurs autorisées : bébé, scolaire, adulte, sénior
-
 #### restaurantId
 
 **Titre** : Identifiant du restaurant où le repas est servi.  
@@ -122,6 +106,29 @@ Valeurs autorisées : bébé, scolaire, adulte, sénior
 **Exemple** : "Siret"   
 **Valeur** : optionnelle  
 **Valeurs autorisées** : Siret, EN, Autre, Sans
+
+#### restaurantType
+
+**Titre** : Type de client auquel le menu est proposé  
+**Description** : Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles  \(Crèche, École maternelle, École élémentaire, Foyer de personnes âgées, Collège, Lycée, Administration locale, RPA, EHPAD, Repas à domicile\)  
+**Exemple** : Collège  
+**Valeur** : obligatoire  
+Valeurs autorisées : Crèche, École maternelle, École élémentaire, Foyer de personnes âgées, Collège, Lycée, Administration locale, RPA, EHPAD, Repas à domicile
+
+#### restaurantConvive
+
+**Titre** : Type de convive auquel le menu est proposé  
+**Description** : Permet de préciser le type de personnes destinataires du menu proposé parmi les valeurs disponibles  \(bébé, scolaire, adulte, sénior …\)  
+**Exemple** : Collège  
+**Valeur** : obligatoire  
+Valeurs autorisées : bébé, scolaire, adulte, sénior
+
+#### restaurantNombreConvive
+
+**Titre** : Nombre de convives destinataires du menu proposé  
+**Description** : Ce champ permet de renseigner le nombre \(approximatif\) de convives qui vont manger le menu proposé dans le restaurant.  
+**Exemple** : 130  
+**Valeur** : optionnel
 
 #### menuDate
 
@@ -182,7 +189,7 @@ Valeurs autorisées : bébé, scolaire, adulte, sénior
 **Exemple** : Ferme des Jarouilles  
 **Valeur** : optionnelle
 
-#### menuAllergenePLat
+#### menuAllergenePlat
 
 **Titre** : Nom des allergènes présents dans le plat  
 **Description** : Énumération des éventuels allergènes \(séparés par des virgules\) présents dans le plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette \(fiche technique\) ou sous forme de traces \(lieu de production\).  
