@@ -128,7 +128,7 @@ Valeurs autorisées : bébé, scolaire, adulte, sénior
 **Titre** : Nombre de convives destinataires du menu proposé  
 **Description** : Ce champ permet de renseigner le nombre \(approximatif\) de convives qui vont manger le menu proposé dans le restaurant.  
 **Exemple** : 130  
-**Valeur** : optionnel
+**Valeur** : optionnelle
 
 #### menuDate
 
