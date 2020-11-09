@@ -68,7 +68,7 @@ Valeur : obligatoire
 #### etablissementNom
 
 **Titre** : Nom de l'établissement ou entreprise qui a produit le repas servi  
-**Description** : Nom officiel de l'établissement.  
+**Description** : Nom officiel de l'établissement qui est à l'origine de la production du repas.  
 **Type** : chaîne de caractères  
 **Exemple** : Syndicat intercommunale à vocation unique de Bordeaux-Mérignac  
 **Valeur** : optionnelle
@@ -76,7 +76,7 @@ Valeur : obligatoire
 #### etablissementSiret
 
 **Titre** : Code SIRET de l'établissement ou entreprise qui a produit le repas servi  
-**Description** : Identifiant du Système d'Identification du Répertoire des Établissements \(SIRET\) de la collectivité qui a produit le repas, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.  
+**Description** : Identifiant du Système d'Identification du Répertoire des Etablissements \(SIRET\) de la collectivité qui confectionné le menu, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.  
 **Type** : chaîne de caractères  
 **Exemple** : 25330618700035   
 **Valeur** : optionnelle  
@@ -85,7 +85,7 @@ Valeur : obligatoire
 #### restaurantNom
 
 **Titre** : Nom du restaurant où le repas est servi  
-**Description** : Nom officiel de l'établissement.  
+**Description** : Nom officiel de l'établissement au sein duquel est servi le menu.  
 **Type** : chaîne de caractères  
 **Exemple** : École élémentaire Flornoy  
 **Valeur** : obligatoire
@@ -93,7 +93,7 @@ Valeur : obligatoire
 #### restaurantId
 
 **Titre** : Identifiant du restaurant où le repas est servi.  
-**Description** : Identifiant du restaurant dans lequel a été servi le menu soit en utilisant le code SIREN soit le numéro d'identification fourni par l'Éducation Nationale pour les établissements scolaires soit un identifiant interne. Le champ restaurantidType permet de caractériser le type de système d'identification auquel cet identifiant fait référence.  
+**Description** : Identifiant du restaurant dans lequel a été servi le menu soit en utilisant le code SIREN soit le numéro d'identification fourni par l'Éducation Nationale pour les établissements scolaires soit un identifiant interne. Le champ restaurantIdType permet de caractériser le type de système d'identification auquel cet identifiant fait référence.  
 **Type** : chaîne de caractères  
 **Exemple** : "25330618700017"   
 **Valeur** : optionnelle
@@ -110,18 +110,18 @@ Valeur : obligatoire
 #### restaurantType
 
 **Titre** : Type de client auquel le menu est proposé  
-**Description** : Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles  \(Crèche, École maternelle, École élémentaire, Foyer de personnes âgées, Collège, Lycée, Administration locale, RPA, EHPAD, Repas à domicile\)  
+**Description** : Permet de préciser le type d'établissement destinataire du menu proposé parmi les valeurs disponibles \(crèche, école maternelle, école élémentaire, collège, lycée, administration, résidence sénior, EHPAD, repas à domicile, centre de loisirs\).  
 **Exemple** : Collège  
 **Valeur** : obligatoire  
-Valeurs autorisées : Crèche, École maternelle, École élémentaire, Foyer de personnes âgées, Collège, Lycée, Administration locale, RPA, EHPAD, Repas à domicile
+Valeurs autorisées : crèche, école maternelle, école élémentaire, collège, lycée, administration, résidence sénior, EHPAD, repas à domicile, centre de loisirs
 
 #### restaurantConvive
 
 **Titre** : Type de convive auquel le menu est proposé  
-**Description** : Permet de préciser le type de personnes destinataires du menu proposé parmi les valeurs disponibles  \(bébé, scolaire, adulte, sénior …\)  
+**Description** : Permet de préciser le type de personnes destinataires du menu proposé parmi les valeurs disponibles \(bébé, scolaire, agent administratif, adulte, senior\).  
 **Exemple** : Collège  
 **Valeur** : obligatoire  
-Valeurs autorisées : bébé, scolaire, adulte, sénior
+Valeurs autorisées : bébé, scolaire, agent administratif, adulte, sénior
 
 #### restaurantNombreConvive
 
@@ -145,36 +145,36 @@ Valeurs autorisées : bébé, scolaire, adulte, sénior
 **Type** : string  
 **Exemple** : déjeuner  
 **Valeur** : obligatoire  
-**Valeurs autorisées:** déjeuner, goûter, dîner, collation, pique-nique
+**Valeurs autorisées:** petit-déjeuner, ****déjeuner, goûter, dîner, collation, pique-nique
 
 #### menuTypePlat
 
 **Titre** : Type de plat servi  
-**Description** : Le type de plat correspond à un des éléments disponibles dans la liste \(entrée, plat principal, garniture, dessert, produit laitier, collation matinale, goûter, pain\).  
+**Description** : Le type de plat correspond à un des éléments disponibles dans la liste \(entrée, plat principal, garniture, dessert, produit laitier, collation, goûter, pain\).  
 **Type** : chaîne de caractères  
 **Exemple** : Entrée  
 **Valeur** : obligatoire.   
-**Liste de valeurs autorisées** : entrée, plat principal, garniture, dessert, produit laitier, collation matinale, goûter, pain.
+**Liste de valeurs autorisées** : entrée, plat principal, garniture, dessert, produit laitier, collation, goûter, pain.
 
 #### menuNomPlat
 
 **Titre** : Nom du plat servi  
-**Description** : Le nom du plat permet de désigner dans la limite de 140 caractères maximum les éléments composant le menu.  
+**Description** : Le nom du plat permet de désigner dans la limite de 140 caractères maximum les éléments composant le menu. Afin de faciliter le regroupement des informations, favorisez les noms courts en utilisant une majuscule initiale. Lorsque plusieurs ingrédients composent le plat, utilisez de préférence un tiret \(-\) pour les séparer.  
 **Type** : chaîne de caractères  
-**Exemple** : Cordon bleu  
+**Exemple** : Jambon sec - Oeuf dur  
 **Valeur** : obligatoire
 
 #### menuCodePLat
 
 **Titre** : Code attribué au plat  
-**Description** : Code unique par plat dans la base de données  
+**Description** : Code unique par plat éventuellement issu d'une base de données de gestion. Ce code permet de faire une jointure avec le schéma décrivant la composition des plats. En l'absence d'une base de données liée à un applicatif de gestion, un identifiant aléatoire ou séquentiel peut être utilisé à condition que chaque identifiant soit unique pour un plat donné. Le code d'emballage EMB peut être utilisé ici afin de favoriser l'interopérabilité avec d'autres systèmes d'identification et de tracabilité des denrées alimentaires.  
 **Type** : chaîne de caractères  
 **Exemple** : 0001  
 **Valeur** : optionnelle
 
 #### menuSiqoPlat
 
-**Titre** : Indication de signe officiel de la qualité et de la qualité  
+**Titre** : Indication de signe officiel de la qualité ou du lieu de fabrication  
 **Description** : Des cahiers des charges permettent de reconnaître les produits qui bénéficient d’un signe officiel d'identification de la qualité et de l’origine \(SIQO\) : Agriculture biologique, Appellation d'origine protégée/contrôlée, Indication géographique protégée, Spécialité traditionnelle garantie, Label rouge.  
 **Type** : chaîne de caractères  
 **Exemple** : Agriculture biologique  
@@ -192,7 +192,7 @@ Valeurs autorisées : bébé, scolaire, adulte, sénior
 #### menuAllergenePlat
 
 **Titre** : Nom des allergènes présents dans le plat  
-**Description** : Énumération des éventuels allergènes \(séparés par des virgules\) présents dans le plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette \(fiche technique\) ou sous forme de traces \(lieu de production\).  
+**Description** : Enumération des éventuels allergènes \(séparés par des virgules\) présents dans le plat proposé. Actuellement la distinction n'est pas faite entre les allergènes présents du fait de la recette \(fiche technique\) ou sous forme de traces \(lieu de production\).  
 **Type** : chaîne de caractères  
 **Exemple** : Fruits à coques  
 **Valeur** : optionnelle  
@@ -219,7 +219,7 @@ Valeur : obligatoire
 Titre : Nature de l'activité ayant entraîné une mise à jour de la donnée  
 Description : Afin de renseigner les usagers de la donnée, il est possible de préciser dans ce champ la raison de la mise à jour effectuée.  
 Type : chaîne de caractères  
-Exemple : 2020-05-11T14:08:32Z  
+Exemple : changement dû à un aléa de livraison  
 Valeur : optionnelle
 
 
