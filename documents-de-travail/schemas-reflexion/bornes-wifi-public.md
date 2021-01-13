@@ -4,9 +4,10 @@ description: Inventaire des bornes wifi déployées dans la commune ou l'interco
 
 # Bornes Wifi public
 
-**Version** n° : 0.0.1  
+**Version** n° : 0.0.1   
+Date de dernière mise à jour : juin 2020   
 Auteur : jm bourgogne -ODF / AVICCA  
-Contributeurs :   
+Contributeurs : participants du Hackathon T'Dat'Hack \(Tours et DataSud\)  
 
 
 ### **Contexte**
@@ -79,14 +80,14 @@ Tire : Nom 2 du réseau Wifi
 Description : exprime le nom du service wifi \(peut-être différent du nom de l'antenne\)  
 Type : alpha-numérique  
 Exemple : MEDIA\_PUBLIC  
-Valeur : obligatoire ?
+Valeur : facultatif
 
 **WIFI\_SSID\_3**  
 Titre : Nom 2 du réseau Wifi  
 Description : exprime le nom du service wifi \(peut-être différent du nom de l'antenne\)  
 Type : alpha-numérique  
 Exemple : MEDIA\_DIR  
-Valeur : obligatoire ?
+Valeur : facultatif
 
 **WIFI\_LAT**  
 Titre : Latitude de la borne Wifi  
@@ -121,75 +122,75 @@ Titre : Puissance de la borne Wifi
 Description : Exprime la puissance théorique de la borne WIFI + antennes  
 Type : numérique exprimé en MW \(Unité\)  
 Exemple : 100  
-Valeur : obligatoire ?  
+Valeur : obligatoire  
   
 **WIFI\_Protocole**  
 Titre : Protocole de la borne Wifi  
 Description : Exprime la génération qui permet de déduire des informations comme le nombre de connexions possible, les fréquences  
 Type : alphanumérique  
 Exemple : 802.11 AX  
-Valeur : obligatoire ?  
+Valeur : facultatif  
   
 **WIFI\_Direction**  
 Titre : Direction d'émission de la borne  
 Description : Exprime l'angle de couverture de la borne WIFIType : alphanumérique \(ou liste prédéterminée\)  
 Exemple : 360  
-Valeur : obligatoire ?  
+Valeur : facultatif  
   
 **WIFI\_Hauteur**  
 Titre : Hauteur de l'antenne  
 Description : Exprime la hauteur  
 Type : numérique exprimé en mètre \(Unité\)  
 Exemple : 12  
-Valeur : obligatoire ?  
+Valeur : facultatif   
   
 **WIFI\_Proprietaire**  
 Titre : Propriétaire de la borne  
 Description : Nom du propriétaire de la borne  
 Type : texte   
 Exemple : Mairie  
-Valeur : obligatoire ?  
+Valeur : obligatoire  
   
 **WIFI\_Date\_MES**  
-Titre : Date de mise en service de la borne  
+Titre : Date de première mise en service de la borne  
 Description : Nom du propriétaire de la borne  
 Type : Date \(YY-MM-JJ\)  
 Exemple : 19-21-31  
-Valeur : obligatoire ?  
+Valeur : facultatif  
   
 **WIFI\_Debit\_Qualité**  
 Qualité du débit de la borne  
-Type : ?  
-Exemple : ?  
-Valeur : obligatoire ?  
+Type : texte  
+Exemple : HD  
+Valeur : facultatif  
   
 **WIFI\_Service\_Cout**  
 Identification du coût de serviceConnexion payante ou gratuite  
 Type : texte \(par défaut Gratuit\)  
 Exemple : Gratuit  
-Valeur : obligatoire ?  
+Valeur : obligatoire  
   
 **WIFI\_Frequence**  
 Fréquence\(s\) utilisées pour la diffusion du réseau \(2,4 ou 5 Ghz\)   
-Type : liste fermée ?   
+Type : liste fermée  
 Exemple : 5 Ghz  
-Valeur : obligatoire ?  
+Valeur : facultatif  
   
 **WIFI\_\_MacAdress**  
 MacAdress de la borne \(parfois nommée **adresse physique\)**  
 Type : xx.xx.xx.xx.xx  
 Exemple : 5E:FF:56:A2:AF:15  
-Valeur : obligatoire ?  
+Valeur : facultatif  
   
 **WIFI\_Emission**  
 Horaire d'émission de la borne  
 Type : &lt; time &gt; ?  
 Exemple : ?  
-Valeur : obligatoire ?  
+Valeur : facultatif  
   
 **WIFI\_Connexion**  
 Temps limite de connexion à la borne \(format osm\)?  
-Valeur : obligatoire ?
+Valeur : facultatif
 
 ## Exemples
 
