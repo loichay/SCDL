@@ -47,7 +47,7 @@ Type : chaîne de caractères
 Exemple : Ville de Poitiers  
 Valeur : obligatoire  
   
-**COLL\_SIRET \(ou INSEE?\)**  
+**COLL\_SIRET \(ou INSEE\)**  
 Titre : Code SIRET de la collectivité  
 ****Description : Identifiant du Système d'Identification du Répertoire des Etablissements \(SIRET\) de la collectivité qui reçoit la borne wifi, composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant.  
 Type : chaîne de caractères  
@@ -101,6 +101,13 @@ Titre : Longitude de la borne Wifi
 Description : Un ou plusieurs mot\(s\) clé\(s\) utilisé\(s\) pour décrire le jeu de données en minuscules non accentuées. S'il y en a plusieurs, le séparateur est le point-virgule.  
 Type : nombre réel  
 Exemple : 2.572875  
+Valeur : obligatoire
+
+**WIFI\_Proprietaire**  
+Titre : Propriétaire de la borne  
+Description : Nom du propriétaire de la borne  
+Type : texte   
+Exemple : Mairie  
 Valeur : obligatoire  
   
 **WIFI\_Modele**  
@@ -142,14 +149,15 @@ Titre : Hauteur de l'antenne
 Description : Exprime la hauteur  
 Type : numérique exprimé en mètre \(Unité\)  
 Exemple : 12  
-Valeur : facultatif   
-  
-**WIFI\_Proprietaire**  
-Titre : Propriétaire de la borne  
-Description : Nom du propriétaire de la borne  
-Type : texte   
-Exemple : Mairie  
-Valeur : obligatoire  
+Valeur : facultatif 
+
+**WIFI\_ID\_OSM**  
+Titre : Identifiant dans la base OpenStreetMap  
+Description : la borne Wifi peut avoir été enregistrée dans OSM. Ce champ permet donc de faire le lien avec le jeux de données WIfi : [https://wiki.openstreetmap.org/wiki/Key:wifi](https://wiki.openstreetmap.org/wiki/Key:wifi)  
+L'outil GeoDataMine permet d'extraire les données relatives à ces équipements : [https://geodatamine.fr](https://geodatamine.fr)  
+Type : alphanumérique   
+Exemple : node/2349939399  
+Valeur : factultatif  
   
 **WIFI\_Date\_MES**  
 Titre : Date de première mise en service de la borne  
