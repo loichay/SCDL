@@ -32,12 +32,16 @@
     * [Points d'apport volontaire](documents-de-travail/schemas-reflexion/points-dapport-volontaire.md)
     * [Points d'eau incendie](documents-de-travail/schemas-reflexion/points-deau-incendie.md)
 * [Recommandations relatives aux jeux de données](recommandations-relatives-aux-jeux-de-donnees.md)
-* [Recommandations relatives aux schémas de validation](recommandations-relatives-aux-schemas-de-validation.md)
+* [Modèles](modeles.md)
 
 ## Outils
 
 * [Validata](outils/validata.md)
 * [Fonctionnement du Badge](outils/fonctionnement-du-badge.md)
+
+---
+
+* [Recommandations relatives aux schémas de validation](recommandations-relatives-aux-schemas-de-validation.md)
 
 ## data.gouv.fr
 
