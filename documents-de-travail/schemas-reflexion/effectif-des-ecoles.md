@@ -2,13 +2,13 @@
 
 ## Contexte <a id="contexte"></a>
 
-Les effectifs des écoles sont des données souvent publiées et appréciées par les parents.
+Les effectifs des écoles sont des données souvent publiées par les communes et appréciées par les parents : suivi de l'évolution, choix d'un établissement ou d'un lieu de vie en fonction des établissements à proximité, etc.
 
-De nombreuses collectivités publient ces données dans des formats assez différents, plus ou moins détaillés.
+De nombreuses collectivités publient ces données dans des formats trés différents, plus ou moins détaillés.
 
 ## Sources
 
-Il semblerait que les données sont produites par les chefs d'établissement, transmises au ministre de l'éducation nationale. Elles peuvent, sous certaines conditions, être récupérées par la commune.
+Il semblerait que les données sont produites par les chefs d'établissement, transmises au ministère de l'éducation nationale. Elles peuvent, sous certaines conditions, être récupérées par la commune.
 
 ### Référentiel national 
 
@@ -22,7 +22,9 @@ Second degré : [https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-
 
 ### Exemples de publication
 
-De nombreuses villes publient les effectifs des écoles en open data. Ex : 
+De nombreuses villes publient les effectifs des écoles en open data. 
+
+Exemple : 
 
 * [https://www.data.gouv.fr/fr/datasets/effectif-des-ecoles-550874](https://www.data.gouv.fr/fr/datasets/effectif-des-ecoles-550874)
 * [https://data.grandpoitiers.fr/explore/dataset/education-effectifs-des-ecoles-publiques-elementaires/table/](https://data.grandpoitiers.fr/explore/dataset/education-effectifs-des-ecoles-publiques-elementaires/table/) 
