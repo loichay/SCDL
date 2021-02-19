@@ -20,6 +20,14 @@ Les données essentielles sont : Année scolaire, académie \(liste fermée\), r
 
 Second degré : [https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-second-degre/table/?disjunctive.libelle\_departement&disjunctive.code\_departement&disjunctive.code\_postal&disjunctive.localite\_acheminement](https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-second-degre/table/?disjunctive.libelle_departement&disjunctive.code_departement&disjunctive.code_postal&disjunctive.localite_acheminement)
 
+Les académies sont aussi capables de publier les données détaillées des effectifs scolaires. Cela nous semble une des meilleures sources pour présenter les données au niveau communal. 
+
+Exemple de l'académie de Montpellier : 
+
+{% embed url="https://www.ac-montpellier.fr/cid88644/premier-degre.html" %}
+
+
+
 ### Exemples de publication
 
 De nombreuses villes publient les effectifs des écoles en open data. 
