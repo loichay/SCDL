@@ -19,6 +19,7 @@
     * [Arrêtés de circulation](documents-de-travail/schema-en-discussion/arretes-de-circulation.md)
     * [Points d'eau incendie](documents-de-travail/schema-en-discussion/points-deau-incendie.md)
     * [Plats des menus](documents-de-travail/schema-en-discussion/plats-des-menus.md)
+    * [Commerces de proximité](documents-de-travail/schema-en-discussion/commerces-de-proximite.md)
   * [Schémas en réflexion](documents-de-travail/schemas-reflexion/README.md)
     * [Evénements locaux](documents-de-travail/schemas-reflexion/evenements.md)
     * [Aides aux Entreprises](documents-de-travail/schemas-reflexion/aides-aux-entreprises.md)
