@@ -30,6 +30,7 @@
     * [Défibrillateurs](documents-de-travail/schemas-reflexion/dae.md)
     * [Equipements](documents-de-travail/schemas-reflexion/equipements.md)
     * [Panneaux d'affichages publicitaires](documents-de-travail/schemas-reflexion/panneaux-daffichages-publicitaires.md)
+    * [Effectif des Ecoles](documents-de-travail/schemas-reflexion/effectif-des-ecoles.md)
     * [Points d'apport volontaire](documents-de-travail/schemas-reflexion/points-dapport-volontaire.md)
 * [Recommandations relatives aux jeux de données](recommandations-relatives-aux-jeux-de-donnees.md)
 * [Modèles](modeles.md)
