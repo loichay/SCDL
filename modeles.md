@@ -1,4 +1,4 @@
-# Modèles
+# Modèles de données élémentaires courantes
 
 Cette page a comme objectif de décrire des modules de données élémentaires standards. Il sera ainsi plus facile de décrire les données essentielles, courantes et générales, contenues dans un jeu de données. Cela garantira l'interopérabilité et la cohérence de traitement de tels champs.  
 
@@ -45,13 +45,30 @@ On peut identifier une collectivité par son numéro SIRET \(lorsqu'il y a une i
 
 #### Date
 
+#### `xxx_DATE` <a id="delibdate"></a>
+
+* Description : Date au format AAAA-MM-JJ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601).
+* Type : date
+* Exemple : 2017-10-15
+* Motif : 
+
 #### Date avec heure
+
+* Description : Date au format aaaa-mm-jjThh:mi:ssZZZZZZ suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601). On considérera que ZZZZZZ \(+ou- décalage horaire GMT\), est par défaut +01:00 en France et qu'il est inutile de le préciser dans les formats. 
+* Type : date et heure format étendu
+* Exemple : 1997−07−16T19:20:00
+* Motif : 
 
 #### Dates avec début et fin
 
+* Description : Date au format aaaa-mm-jjThh:mi/hh:mi suivant la norme internationale [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601). Ce format s'applique pour un créneau horaire dans la même journée, sans les secondes. Pour une extension de ces conditions, voir la norme ISO8601.
+* Type : date et heure format étendu
+* Exemple : 1997−07−16T08:30/17:30
+* Motif : 
+
 ### 3. Champs Adresse
 
-Le champ Adresse est composés de 3 blocs. Il a été retenu ce format en raison des usages ou formats les plus courament rencontrés et de la facilité de production. La codification de la poste \(AFNOR NF Z 10-011\) peut être réduite à ce format  par agrégation, par exemple : 
+Le champ Adresse est composés de 3 blocs. Il a été retenu ce format en raison des usages ou formats les plus couramment rencontrés et de la facilité de production. La codification de la poste \(AFNOR NF Z 10-011\) peut être réduite à ce format  par agrégation, par exemple : 
 
 ```text
 Complément d'adresse : 
@@ -75,17 +92,58 @@ BP 77
 
 #### XXX\_ADD\_VOIE1
 
+* Titre : premier élément de l'adresse
+* Description : 
+* Type : chaîne de caractères
+* Exemple : 11 Allée des Roses
+* Motif : 
+
 #### XXX\_ADD\_VOIE2
 
+* Titre : deuxième élément de l'adresse
+* Description : 
+* Type : chaîne de caractères
+* Exemple : BP 77
+* Motif : 
+
+#### XXX\_ADD\_CP
+
+* A conserver ?
+* Description : Elément de l'adresse qui désigne le Code Postal 
+
+   de la commune 
+
+* Type : chaîne de caractères NN séparation par blanc NNNN \(le type "numérique" n'aurait pas été compatible avec les départements de Corse 2A et 2B\)
+* Exemple : 59 370
+* Motif : 
+
 #### XXX\_ADD\_COMMUNE
+
+* Titre : Commune
+* Description : Elément de l'adresse qui désigne le nom de la commune 
+* Type : chaîne de caractères
+* Exemple : 59 370 Le Plessis-Trévise
+* Motif : ... /`^[A-Za-z\s\-\u00C0-\u00FF]+$`
 
 ### 4. Champs Géolocalisation
 
 Le choix retenu est d'indiquer une localisation compatible avec les systèmes GPS \(\)
 
-#### GEOLOC\_LAT
+#### XXX\_LAT
 
-#### GEOLOC\_LONG
+* Titre : Latitude
+* Description : Coordonnée de latitude exprimée en [WGS 84](https://fr.wikipedia.org/wiki/WGS_84) permettant de localiser l'équipement. Le signe de séparation entre les parties entière et décimale du nombre est le point. Précision : 6 décimales max.
+* Type : nombre réel
+* Exemple : 48.808989
+* Motif : 
+
+#### `XXX_LONG` <a id="equiplong"></a>
+
+* Titre : Longitude
+* Description : Coordonnée de latitude exprimée en [WGS 84](https://fr.wikipedia.org/wiki/WGS_84) permettant de localiser l'équipement. Le signe de séparation entre les parties entière et décimale du nombre est le point. Précision : 6 décimales max.
+* Type : nombre réel
+* Exemple : 2.572875
+* Motif : 
 
 Lorsque le jeu de donnée décide de compléter par le système d'adresse francais \(ISO..\)
 
@@ -95,17 +153,27 @@ Lorsque le jeu de donnée décide de compléter par le système d'adresse franca
 
 ### 5. Champs Montant
 
-Sauf indications contraires, justifiées et clairement indiquées, les montants sont exprimés en KEuro \(1 000 euro = 1 keuro\). Le séparateur de décimale est le point \("."\). 
+Sauf indications contraires, justifiées et clairement indiquées, les montants sont exprimés en euro. Le séparateur de décimale est le point \("."\). 
 
 On rappelle que ce choix est fait car la virgule \(","\) est utilisée dans de nombreux formats, par exemple .csv, comme le séparateur de champs. 
 
-#### Montant 
+#### XXX\_Montant 
+
+* Description : Montant exprimé en euros et calculé. Le signe de séparation entre les parties entière et décimale du nombre est le point.
+* Type : nombre réel
+* Exemple : 47800.20
+* Motif : 
 
 ### 6. Champ Description
 
-La description est un champ alpha-numérique libre. Nous n'avons pas retenu la distinction entre un libellé court ou un libellé long. Le libellé retenu est plutôt long, avec nnn caractères. 
+La description est un champ alpha-numérique libre. Nous n'avons pas retenu la distinction entre un libellé court ou un libellé long. Le libellé retenu est plutôt long, avec 256 caractères. 
 
-#### XXX\_LIB 
+#### XXX\_Description
+
+* Description : champ d'information 
+* Type : alphanumérique, sur 256 caractères \(on plus ?\)
+* Exemple : _Ce champ contient une information dans un format alphanumérique_
+* Motif : 
 
 
 
