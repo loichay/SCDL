@@ -39,6 +39,7 @@
 ## Outils
 
 * [Le Socle des Données Locales \(SCDL\)](outils/le-socle-des-donnees-locales-scdl.md)
+* [Outil de saisie assistée D-Lyne](outils/outil-de-saisie-assistee-d-lyne.md)
 * [Validata](outils/validata/README.md)
   * [Fonctionnement du Badge](outils/validata/fonctionnement-du-badge.md)
 
