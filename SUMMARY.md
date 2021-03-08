@@ -38,8 +38,9 @@
 
 ## Outils
 
-* [Validata](outils/validata.md)
-* [Fonctionnement du Badge](outils/fonctionnement-du-badge.md)
+* [Le Socle des Données Locales \(SCDL\)](outils/le-socle-des-donnees-locales-scdl.md)
+* [Validata](outils/validata/README.md)
+  * [Fonctionnement du Badge](outils/validata/fonctionnement-du-badge.md)
 
 ---
 
