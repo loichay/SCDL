@@ -6,6 +6,7 @@
 
 ---
 
+* [Recommandations relatives aux jeux de données](recommandations-relatives-aux-jeux-de-donnees.md)
 * [Modèles de données élémentaires courantes](modeles.md)
 * [Recommandations relatives aux schémas de validation](recommandations-relatives-aux-schemas-de-validation.md)
 
