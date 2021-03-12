@@ -16,7 +16,7 @@ description: >-
 * Contributeurs : Thierry Martin , Charles Nepote, René Marrot, Séverine Ferrant, Antoine Augusti, Cécile Bercetche, Johan Desplats, Sébastien Puertas
 * Schéma créé le : 12/01/2020
 * Schéma mis à jour le : 11/03/2021
-* Site web : [https://git.opendatafrance.net/scdl/menus-collectifs/](https://git.opendatafrance.net/scdl/marches-publics/)
+* Site web : [https://git.opendatafrance.net/scdl/menus-collectifs/](https://git.opendatafrance.net/scdl/menus-collectifs/)
 * [Gabarit au format Excel \(xlsx\)](https://git.opendatafrance.net/scdl/menus-collectifs/-/raw/v0.9/examples/menus-collectifs_valide.xlsx?inline=false)
 * Valeurs manquantes : `""`
 
