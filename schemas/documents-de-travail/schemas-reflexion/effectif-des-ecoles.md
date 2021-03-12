@@ -42,7 +42,7 @@ Exemple :
 
 ## Proposition de modèle de données <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). 
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](). 
 
 #### Bloc Description de la commune
 

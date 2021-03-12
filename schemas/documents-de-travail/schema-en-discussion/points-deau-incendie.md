@@ -21,7 +21,7 @@ En complément, un [tableau permet d'établir la correspondance](https://wiki.op
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). Il repose sur les **`28 champs`** suivants correspondant aux colonnes du fichier tabulaire.
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](). Il repose sur les **`28 champs`** suivants correspondant aux colonnes du fichier tabulaire.
 
 #### `insee`
 

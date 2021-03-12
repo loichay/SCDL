@@ -9,7 +9,7 @@ description: >-
 
 ## Modèle de données <a id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](../../recommandations-relatives-aux-jeux-de-donnees.md). 
+Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](). 
 
 Il est composé de **`14 champs`** obligatoires et **`9 champs`** optionnels suivants correspondant aux colonnes du fichier tabulaire.  
 Il est complété d'un schéma sur la [composition des menus ](https://opendatafrance.gitbook.io/scdl/documents-de-travail/schema-en-discussion/menus)auquel les données pourront être reliées via l'utilisation du champ platCode.

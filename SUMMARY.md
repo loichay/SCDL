@@ -1,34 +1,41 @@
 # Table of contents
 
 * [Socle Commun des Données Locales](README.md)
-* [Recommandations relatives aux jeux de données](recommandations-relatives-aux-jeux-de-donnees.md)
+
+## Documentation
+
+---
+
 * [Modèles de données élémentaires courantes](modeles.md)
 * [Recommandations relatives aux schémas de validation](recommandations-relatives-aux-schemas-de-validation.md)
-* [Schémas Publiés](schemas-publies/README.md)
-  * [Base Adresse Locale](schemas-publies/base-adresse-locale.md)
-  * [Budgets](schemas-publies/budgets.md)
-  * [Catalogue simplifié](schemas-publies/catalogue.md)
-  * [Délibérations](schemas-publies/deliberations.md)
-  * [Marchés publics](schemas-publies/marches-publics.md)
-  * [Menus Collectifs](schemas-publies/menus.md)
-  * [Prénoms des nouveaux-nés](schemas-publies/prenoms.md)
-  * [Subventions](schemas-publies/subventions.md)
-* [Documents de travail](documents-de-travail/README.md)
-  * [Schéma en discussion](documents-de-travail/schema-en-discussion/README.md)
-    * [Arrêtés de circulation](documents-de-travail/schema-en-discussion/arretes-de-circulation.md)
-    * [Aires de livraison](documents-de-travail/schema-en-discussion/aires-de-livraison.md)
-    * [Bornes Wifi public](documents-de-travail/schema-en-discussion/bornes-wifi-public.md)
-    * [Commerces de proximité](documents-de-travail/schema-en-discussion/commerces-de-proximite.md)
-    * [Plats des menus](documents-de-travail/schema-en-discussion/plats-des-menus.md)
-    * [Points d'eau incendie](documents-de-travail/schema-en-discussion/points-deau-incendie.md)
-  * [Schémas en réflexion](documents-de-travail/schemas-reflexion/README.md)
-    * [Aides aux Entreprises](documents-de-travail/schemas-reflexion/aides-aux-entreprises.md)
-    * [Effectif des Ecoles](documents-de-travail/schemas-reflexion/effectif-des-ecoles.md)
-    * [Evénements locaux](documents-de-travail/schemas-reflexion/evenements.md)
-    * [Panneaux d'affichages publicitaires](documents-de-travail/schemas-reflexion/panneaux-daffichages-publicitaires.md)
-    * [Points d'apport volontaire](documents-de-travail/schemas-reflexion/points-dapport-volontaire.md)
-    * [Règlement Local de Publicité](documents-de-travail/schemas-reflexion/arretes.md)
-  * [Schémas en évolution](documents-de-travail/schemas-en-evolution.md)
+
+## Schemas
+
+* [Schémas Publiés](schemas/schemas-publies/README.md)
+  * [Base Adresse Locale](schemas/schemas-publies/base-adresse-locale.md)
+  * [Budgets](schemas/schemas-publies/budgets.md)
+  * [Catalogue simplifié](schemas/schemas-publies/catalogue.md)
+  * [Délibérations](schemas/schemas-publies/deliberations.md)
+  * [Marchés publics](schemas/schemas-publies/marches-publics.md)
+  * [Menus Collectifs](schemas/schemas-publies/menus.md)
+  * [Prénoms des nouveaux-nés](schemas/schemas-publies/prenoms.md)
+  * [Subventions](schemas/schemas-publies/subventions.md)
+* [Documents de travail](schemas/documents-de-travail/README.md)
+  * [Schéma en discussion](schemas/documents-de-travail/schema-en-discussion/README.md)
+    * [Arrêtés de circulation](schemas/documents-de-travail/schema-en-discussion/arretes-de-circulation.md)
+    * [Aires de livraison](schemas/documents-de-travail/schema-en-discussion/aires-de-livraison.md)
+    * [Bornes Wifi public](schemas/documents-de-travail/schema-en-discussion/bornes-wifi-public.md)
+    * [Commerces de proximité](schemas/documents-de-travail/schema-en-discussion/commerces-de-proximite.md)
+    * [Plats des menus](schemas/documents-de-travail/schema-en-discussion/plats-des-menus.md)
+    * [Points d'eau incendie](schemas/documents-de-travail/schema-en-discussion/points-deau-incendie.md)
+  * [Schémas en réflexion](schemas/documents-de-travail/schemas-reflexion/README.md)
+    * [Aides aux Entreprises](schemas/documents-de-travail/schemas-reflexion/aides-aux-entreprises.md)
+    * [Effectif des Ecoles](schemas/documents-de-travail/schemas-reflexion/effectif-des-ecoles.md)
+    * [Evénements locaux](schemas/documents-de-travail/schemas-reflexion/evenements.md)
+    * [Panneaux d'affichages publicitaires](schemas/documents-de-travail/schemas-reflexion/panneaux-daffichages-publicitaires.md)
+    * [Points d'apport volontaire](schemas/documents-de-travail/schemas-reflexion/points-dapport-volontaire.md)
+    * [Règlement Local de Publicité](schemas/documents-de-travail/schemas-reflexion/arretes.md)
+  * [Schémas en évolution](schemas/documents-de-travail/schemas-en-evolution.md)
 
 ## Outils
 
