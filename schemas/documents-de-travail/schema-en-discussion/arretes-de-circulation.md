@@ -16,9 +16,9 @@ description: >-
 
 ## Contexte
 
-En cours d'élaboration sur le document de travail : 
+En cours d'élaboration sur l'espace de travail dédié à la Fabrique de la Logisitique : 
 
-{% embed url="https://annuel2.framapad.org/p/fablog-arretes-9ha8" %}
+{% embed url="https://opendatafrance.gitbook.io/fablog/territoires/chantiers/partage-des-donnees/standardisation/arretes-de-circulation" %}
 
 ## Eléments de références
 
@@ -65,19 +65,8 @@ Chaque chantier est associé à un arrêté \(format pdf\), dans lequel on trouv
 
 ### **Modèle de données** 
 
-Ce modèle de données fait partie et respecte les exigences du Socle Commun des Données Locales. Il repose sur les x champs suivants correspondant aux colonnes du fichier tabulaire.  
+Ce modèle de données fait partie et respecte les exigences du Socle Commun des Données Locales. Il repose sur les x champs suivants correspondant aux colonnes du fichier tabulaire.
 
-
-### Typologie
-
-#### Typologie générale
-
-Individuel, ...
-
-#### Typologie plus fine
-
-  
-  
 **COLL\_NOM**
 
 * Titre : Nom de la collectivité
@@ -86,7 +75,6 @@ Individuel, ...
 * Exemple : Ville de Poitiers
 * Valeur : obligatoire
 
-  
 **COLL\_SIRET**
 
 * Titre : Code SIRET de la collectivité
@@ -96,7 +84,6 @@ Individuel, ...
 * Valeur : obligatoire
 * Motif : ^\d{14}$
 
-  
 **ARR\_ID**
 
 * Titre : Identifiant de l’arrêté
@@ -105,7 +92,6 @@ Individuel, ...
 * Exemple : 1DL15494
 * Valeur : obligatoire
 
-  
 **ARR\_DATE**
 
 * Titre : Date d'adoption de l’arrêté
@@ -128,7 +114,6 @@ Individuel, ...
 * Exemple : 
 * Valeur : obligatoire
 
-  
 **ARR\_OBJET**
 
 * Titre : Objet de l’arrêté
@@ -150,7 +135,6 @@ Opérateur
 
 Emprise géographique \(données géographiques : point ou zone\)
 
-  
 **ARR\_URL**
 
 * Titre : Lien vers le document de l’arrêté
