@@ -41,6 +41,8 @@
 ## Outils
 
 * [Outil de saisie assistée D-Lyne](outils/outil-de-saisie-assistee-d-lyne.md)
+* [Outil d'extraction des données OpenStreetMap](outils/outil-dextraction-des-donnees-openstreetmap.md)
+* [Outil d'extraction Bases Nationales](outils/outil-dextraction-bases-nationales.md)
 * [Validata](outils/validata/README.md)
   * [Fonctionnement du Badge](outils/validata/fonctionnement-du-badge.md)
 
