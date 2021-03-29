@@ -4,6 +4,10 @@
 
 Dès que le draft d'une spécification du Socle Commun des Données Locales est suffisamment mûr, son contenu est implémenté, ajusté si nécessaire, et stabilisé dans un schéma json au format [_Table Schema_](https://frictionlessdata.io/specs/table-schema/). Ce format a été défini dans le cadre du projet [Frictionless Data](https://frictionlessdata.io/) porté par [Open Knowledge International](https://okfn.org/). En s'y conformant, les schémas du SCDL peuvent être utilisés pour valider des données tabulaires via des outils tels que ceux proposés sur la plateforme [Validata](http://validata.fr).
 
+Méthodologie proposée par Charles Népote \(Fing\) : [https://docs.google.com/document/d/1zMHb\_98c5XA7yGKnL4u7-WFmA5BNTczJ3kBHCoWmtW4/edit\#](https://docs.google.com/document/d/1zMHb_98c5XA7yGKnL4u7-WFmA5BNTczJ3kBHCoWmtW4/edit#)
+
+
+
 ## Recommandations pour la mise à jour des schémas
 
 Quand une spécification est implémentée, son schéma est référencé sur le [GitLab d'OpenDataFrance](https://git.opendatafrance.net/scdl). Certains schémas sont hébergés dans des dépôts dédiés et d'autres dans des dépôts distants, notamment sur Github. Les éventuelles modifications à leur apporter sont alors directement opérées par leur\(s\) auteur\(s\).
