@@ -7,7 +7,7 @@ description: >-
 # Délibérations
 
 {% hint style="success" %}
-[https://scdl.opendatafrance.net/docs/schemas/scdl-deliberations.html](https://scdl.opendatafrance.net/docs/schemas/scdl-deliberations.html)
+[https://scdl.opendatafrance.net/docs/schemas/deliberations.html](https://scdl.opendatafrance.net/docs/schemas/deliberations.html)
 {% endhint %}
 
 ## Version 2.1.2
