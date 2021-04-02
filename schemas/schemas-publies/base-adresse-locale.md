@@ -7,7 +7,7 @@ description: >-
 # Base Adresse Locale
 
 {% hint style="success" %}
-[https://scdl.opendatafrance.net/docs/schemas/scdl-adresses.html](https://scdl.opendatafrance.net/docs/schemas/scdl-adresses.html)
+[https://scdl.opendatafrance.net/docs/schemas/adresses.html](https://scdl.opendatafrance.net/docs/schemas/adresses.html)
 {% endhint %}
 
 ## Version 1.1.3
