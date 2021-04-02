@@ -7,7 +7,7 @@ description: >-
 # Menus Collectifs
 
 {% hint style="success" %}
-[https://scdl.opendatafrance.net/docs/schemas/scdl-menus-collectifs.html](https://scdl.opendatafrance.net/docs/schemas/scdl-menus-collectifs.html)
+
 {% endhint %}
 
 ## version V0.9 <a id="contexte"></a>
