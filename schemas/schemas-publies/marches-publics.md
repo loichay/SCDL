@@ -7,7 +7,7 @@ description: >-
 # Marchés publics
 
 {% hint style="success" %}
-[https://scdl.opendatafrance.net/docs/schemas/scdl-marches-publics.html](https://scdl.opendatafrance.net/docs/schemas/scdl-marches-publics.html)
+[https://scdl.opendatafrance.net/docs/schemas/marches-publics.html](https://scdl.opendatafrance.net/docs/schemas/marches-publics.html)
 {% endhint %}
 
 ## Version 2.0.0
