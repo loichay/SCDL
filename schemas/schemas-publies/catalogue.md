@@ -7,7 +7,7 @@ description: >-
 # Catalogue simplifié
 
 {% hint style="success" %}
-[https://scdl.opendatafrance.net/docs/schemas/scdl-catalogue.html](https://scdl.opendatafrance.net/docs/schemas/catalogue.html)
+[https://scdl.opendatafrance.net/docs/schemas/catalogue.html](https://scdl.opendatafrance.net/docs/schemas/catalogue.html)
 {% endhint %}
 
 ## Version 0.1.1

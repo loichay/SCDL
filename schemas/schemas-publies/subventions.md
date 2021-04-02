@@ -7,7 +7,7 @@ description: >-
 # Subventions
 
 {% hint style="success" %}
-[https://scdl.opendatafrance.net/docs/schemas/scdl-subventions.html](https://scdl.opendatafrance.net/docs/schemas/scdl-subventions.html)
+[https://scdl.opendatafrance.net/docs/schemas/subventions.html](https://scdl.opendatafrance.net/docs/schemas/subventions.html)
 {% endhint %}
 
 ## Version 2.0.0
