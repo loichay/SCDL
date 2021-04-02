@@ -7,7 +7,7 @@ description: >-
 # Prénoms des nouveaux-nés
 
 {% hint style="success" %}
-[https://scdl.opendatafrance.net/docs/schemas/scdl-prenoms.html](https://scdl.opendatafrance.net/docs/schemas/prenoms.html)
+
 {% endhint %}
 
 ## Version 1.1.3
