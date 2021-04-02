@@ -4,7 +4,7 @@ description: >-
   collectivité
 ---
 
-# Base Adresse Locale
+# Base Adresse Locale \(v1.1.0\)
 
 {% hint style="success" %}
 [https://scdl.opendatafrance.net/docs/schemas/adresses.html](https://scdl.opendatafrance.net/docs/schemas/adresses.html)

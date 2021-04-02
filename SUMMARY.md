@@ -13,8 +13,8 @@
 ## Schemas
 
 * [Schémas Publiés](schemas/schemas-publies/README.md)
-  * [Base Adresse Locale](schemas/schemas-publies/base-adresse-locale.md)
-  * [Budgets](schemas/schemas-publies/budgets.md)
+  * [Base Adresse Locale \(v1.1.0\)](schemas/schemas-publies/base-adresse-locale.md)
+  * [Budgets \(v0.8.1\)](schemas/schemas-publies/budgets.md)
   * [Catalogue simplifié](schemas/schemas-publies/catalogue.md)
   * [Délibérations](schemas/schemas-publies/deliberations.md)
   * [Marchés publics](schemas/schemas-publies/marches-publics.md)

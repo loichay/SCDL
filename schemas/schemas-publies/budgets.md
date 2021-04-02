@@ -2,7 +2,7 @@
 description: Schéma de données des informations budgétaires des collectivités territoriales
 ---
 
-# Budgets
+# Budgets \(v0.8.1\)
 
 {% hint style="success" %}
 [https://scdl.opendatafrance.net/docs/schemas/budget.html](https://scdl.opendatafrance.net/docs/schemas/budget.html)
