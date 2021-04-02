@@ -5,7 +5,7 @@ description: Schéma de données des informations budgétaires des collectivité
 # Budgets
 
 {% hint style="success" %}
-[https://scdl.opendatafrance.net/docs/schemas/budgets.html](https://scdl.opendatafrance.net/docs/schemas/scdl-menus-collectifs.html)
+[https://scdl.opendatafrance.net/docs/schemas/budget.html](https://scdl.opendatafrance.net/docs/schemas/budget.html)
 {% endhint %}
 
 ## Version 0.8.1 <a id="contexte"></a>
