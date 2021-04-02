@@ -1,4 +1,4 @@
-# Validata
+# Outil de validation Validata
 
 Une plateforme web pour faciliter et automatiser la validité des données au regard des standards établis \(Socle Commu des Données Locales\)
 
