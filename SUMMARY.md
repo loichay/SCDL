@@ -38,10 +38,6 @@
     * [Règlement Local de Publicité](schemas/documents-de-travail/schemas-reflexion/arretes.md)
   * [Schémas en évolution](schemas/documents-de-travail/schemas-en-evolution.md)
 
-## Référentiels
-
-* [Les données publiées dans le Socle Commun des Données Locales](referentiels/les-donnees-publiees-dans-le-socle-commun-des-donnees-locales.md)
-
 ## Outils
 
 * [Outil de saisie assistée D-Lyne](outils/outil-de-saisie-assistee-d-lyne.md)
@@ -49,6 +45,11 @@
 * [Outil d'extraction Bases Nationales](outils/outil-dextraction-bases-nationales.md)
 * [Outil de validation Validata](outils/validata/README.md)
   * [Fonctionnement du Badge](outils/validata/fonctionnement-du-badge.md)
+
+## Référentiels
+
+* [Les données publiées dans le Socle Commun des Données Locales](referentiels/les-donnees-publiees-dans-le-socle-commun-des-donnees-locales.md)
+* [Le référentiel technique \(Git\)](referentiels/le-referentiel-technique-git.md)
 
 ## data.gouv.fr
 
