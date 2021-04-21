@@ -4,7 +4,7 @@ description: >-
   une collectivité
 ---
 
-# Marchés publics
+# Marchés publics \(v2.0.0\)
 
 {% hint style="success" %}
 [https://scdl.opendatafrance.net/docs/schemas/marches-publics.html](https://scdl.opendatafrance.net/docs/schemas/marches-publics.html)

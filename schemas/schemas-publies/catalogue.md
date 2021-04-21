@@ -4,7 +4,7 @@ description: >-
   de données publiés en opendata par une collectivité
 ---
 
-# Catalogue simplifié
+# Catalogue simplifié \(v0.0.1\)
 
 {% hint style="success" %}
 [https://scdl.opendatafrance.net/docs/schemas/catalogue.html](https://scdl.opendatafrance.net/docs/schemas/catalogue.html)

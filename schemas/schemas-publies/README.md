@@ -1,5 +1,7 @@
 ---
-description: Section regroupant les schémas ayant fait l'objet d'une validation
+description: >-
+  Section regroupant les schémas ayant fait l'objet d'une validation et
+  applicable
 ---
 
 # Schémas Publiés

@@ -4,7 +4,7 @@ description: >-
   attribuées par une collectivité
 ---
 
-# Subventions
+# Subventions \(v2.0.0\)
 
 {% hint style="success" %}
 [https://scdl.opendatafrance.net/docs/schemas/subventions.html](https://scdl.opendatafrance.net/docs/schemas/subventions.html)

@@ -4,7 +4,7 @@ description: >-
   collectivité locale
 ---
 
-# Délibérations
+# Délibérations \(v2.1.2\)
 
 {% hint style="success" %}
 [https://scdl.opendatafrance.net/docs/schemas/deliberations.html](https://scdl.opendatafrance.net/docs/schemas/deliberations.html)

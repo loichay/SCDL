@@ -4,7 +4,7 @@ description: >-
   collectivités locales ou les syndicats mixtes de restauration.
 ---
 
-# Menus Collectifs
+# Menus Collectifs \(v0.9\)
 
 {% hint style="success" %}
 
