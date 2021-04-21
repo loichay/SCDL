@@ -38,6 +38,10 @@
     * [Règlement Local de Publicité](schemas/documents-de-travail/schemas-reflexion/arretes.md)
   * [Schémas en évolution](schemas/documents-de-travail/schemas-en-evolution.md)
 
+## Référentiels
+
+* [Les données publiées dans le Socle Commun des Données Locales](referentiels/les-donnees-publiees-dans-le-socle-commun-des-donnees-locales.md)
+
 ## Outils
 
 * [Outil de saisie assistée D-Lyne](outils/outil-de-saisie-assistee-d-lyne.md)
