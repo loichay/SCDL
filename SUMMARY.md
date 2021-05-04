@@ -18,7 +18,7 @@
   * [Catalogue simplifié \(v0.0.1\)](schemas/schemas-publies/catalogue.md)
   * [Délibérations \(v2.1.2\)](schemas/schemas-publies/deliberations.md)
   * [Marchés publics \(v2.0.0\)](schemas/schemas-publies/marches-publics.md)
-  * [Menus Collectifs \(v0.9\)](schemas/schemas-publies/menus.md)
+  * [Menus Collectifs \(v1.2\)](schemas/schemas-publies/menus.md)
   * [Prénoms des nouveaux-nés \(v1.1.3\)](schemas/schemas-publies/prenoms.md)
   * [Subventions \(v2.0.0\)](schemas/schemas-publies/subventions.md)
 * [Documents de travail](schemas/documents-de-travail/README.md)
