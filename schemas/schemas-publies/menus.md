@@ -23,3 +23,13 @@ description: >-
 
 
 
+## Méthode d'élaboration du standard Menu de restauration collective
+
+Un webinaire de présentation de la méthode d'élaboration des standards Menus et Composition des Plats a été organisé le 11 mai 2021. Il présente les parties-prenantes du projet et les résultats obtenus \(schémas, et intégration dans Validata et D-Lyne\).
+
+{% embed url="https://vimeo.com/547969535" %}
+
+
+
+
+
