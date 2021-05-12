@@ -56,7 +56,7 @@ Les jeux de données s'y conformant peuvent être validés à l'aide de l'outil 
 
 {% page-ref page="menus.md" %}
 
-{% page-ref page="../documents-de-travail/schema-en-discussion/plats-des-menus.md" %}
+{% page-ref page="plats-des-menus.md" %}
 
 
 
