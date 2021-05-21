@@ -6,7 +6,9 @@ Une plateforme web pour faciliter et automatiser l'extraction de données nation
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-[https://dataclic.fr](https://dataclic.fr)
+{% embed url="https://dataclic.fr" %}
+
+
 
 
 
