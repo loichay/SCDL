@@ -2,5 +2,5 @@
 description: Des propositions de schémas ouvertes à la discussion
 ---
 
-# Schéma en discussion
+# Schéma en validation
 
