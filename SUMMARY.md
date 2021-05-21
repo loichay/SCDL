@@ -36,7 +36,9 @@
     * [Panneaux d'affichages publicitaires](schemas/documents-de-travail/schemas-reflexion/panneaux-daffichages-publicitaires.md)
     * [Points d'apport volontaire](schemas/documents-de-travail/schemas-reflexion/points-dapport-volontaire.md)
     * [Règlement Local de Publicité](schemas/documents-de-travail/schemas-reflexion/arretes.md)
-  * [Schémas en évolution](schemas/documents-de-travail/schemas-en-evolution.md)
+  * [Schémas en évolution](schemas/documents-de-travail/schemas-en-evolution/README.md)
+    * [Base Adresse Locale](schemas/documents-de-travail/schemas-en-evolution/base-adresse-locale.md)
+    * [Marchés de la commande publique](schemas/documents-de-travail/schemas-en-evolution/marches-de-la-commande-publique.md)
 
 ## Outils
 
