@@ -6,7 +6,9 @@ Une plateforme web pour faciliter et automatiser l'extraction de données conten
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
-[http://geodatamine.fr](http://geodatamine.fr:3100/	)
+{% embed url="http://geodatamine.fr" %}
+
+
 
 
 
