@@ -23,7 +23,7 @@
   * [Prénoms des nouveaux-nés \(v1.1.3\)](schemas/schemas-publies/prenoms.md)
   * [Subventions \(v2.0.0\)](schemas/schemas-publies/subventions.md)
 * [Elaboration](schemas/documents-de-travail/README.md)
-  * [Schéma en validation](schemas/documents-de-travail/schema-en-discussion/README.md)
+  * [Schémas en validation](schemas/documents-de-travail/schema-en-discussion/README.md)
     * [Arrêtés de circulation](schemas/documents-de-travail/schema-en-discussion/arretes-de-circulation.md)
     * [Aires de livraison](schemas/documents-de-travail/schema-en-discussion/aires-de-livraison.md)
     * [Bornes Wifi public](schemas/documents-de-travail/schema-en-discussion/bornes-wifi-public.md)
