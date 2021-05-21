@@ -6,7 +6,7 @@ Une plateforme web pour faciliter et automatiser l'extraction de données nation
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-{% embed url="http://geodatamine.fr:3100/" %}
+[https://dataclic.fr](https://dataclic.fr)
 
 
 
