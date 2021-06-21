@@ -22,7 +22,7 @@
   * [Plats des menus \(v0.7\)](schemas/schemas-publies/plats-des-menus.md)
   * [Prénoms des nouveaux-nés \(v1.1.3\)](schemas/schemas-publies/prenoms.md)
   * [Subventions \(v2.0.0\)](schemas/schemas-publies/subventions.md)
-* [Elaboration](schemas/documents-de-travail/README.md)
+* [Schéma en cours d'élaboration](schemas/documents-de-travail/README.md)
   * [Schémas en construction](schemas/documents-de-travail/schema-en-discussion/README.md)
     * [Arrêtés de circulation](schemas/documents-de-travail/schema-en-discussion/arretes-de-circulation.md)
     * [Aires de livraison](schemas/documents-de-travail/schema-en-discussion/aires-de-livraison.md)
