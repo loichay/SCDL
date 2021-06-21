@@ -2,14 +2,6 @@
 
 * [Socle Commun des Données Locales](README.md)
 
-## Documentation
-
----
-
-* [Recommandations relatives aux jeux de données](recommandations-relatives-aux-jeux-de-donnees.md)
-* [Modèles de données élémentaires courantes](modeles.md)
-* [Recommandations relatives aux schémas de validation](recommandations-relatives-aux-schemas-de-validation.md)
-
 ## Schemas
 
 * [Schémas Publiés](schemas/schemas-publies/README.md)
@@ -39,6 +31,14 @@
   * [Schémas en évolution](schemas/documents-de-travail/schemas-en-evolution/README.md)
     * [Base Adresse Locale](schemas/documents-de-travail/schemas-en-evolution/base-adresse-locale.md)
     * [Marchés de la commande publique](schemas/documents-de-travail/schemas-en-evolution/marches-de-la-commande-publique.md)
+
+## Documentation
+
+---
+
+* [Recommandations relatives aux jeux de données](recommandations-relatives-aux-jeux-de-donnees.md)
+* [Modèles de données élémentaires courantes](modeles.md)
+* [Recommandations relatives aux schémas de validation](recommandations-relatives-aux-schemas-de-validation.md)
 
 ## Outils
 
