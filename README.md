@@ -20,10 +20,10 @@ Un espace de préparation, [accessible sur gitbook.io](https://opendatafrance.gi
 
 L'élaboration se traduit essentiellement en deux phases :
 
-* Réflexion : un draft de standard est établi par un petit groupe d'acteurs pour tester la pertinence et la faisabilité de la standardisation.
-* Validation : le draft établi en phase réflexion est maintenant soumis à l'approfondissement et la validation d'une représentation maxilmal des parties prenantes. Son issue à court terme sera la publication officielle du standard. 
+* [Investigation](schemas/documents-de-travail/schemas-reflexion/) : un draft de standard est établi par un petit groupe d'acteurs pour tester la pertinence et la faisabilité de la standardisation.
+* [Construction](schemas/documents-de-travail/schema-en-discussion/) : le draft établi en phase d'investigation est maintenant soumis à l'approfondissement et la validation d'une représentation maxilmale des parties prenantes. Son issue à court terme sera la publication officielle du standard. 
 
-Il existe un phase spécifque pour la gestion des évolutions.
+Il existe un phase spécifque pour la gestion des [évolutions](schemas/documents-de-travail/schemas-en-evolution/) de standards déjà publiés.
 
 ## Publication / Implémentation
 
