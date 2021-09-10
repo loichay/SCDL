@@ -16,7 +16,6 @@
   * [Aides aux Entreprises](standards-en-cours-delaboration/schemas-reflexion/aides-aux-entreprises.md)
   * [Aires de livraison](standards-en-cours-delaboration/schemas-reflexion/aires-de-livraison.md)
   * [Commerces de proximité](standards-en-cours-delaboration/schemas-reflexion/commerces-de-proximite.md)
-  * [Effectif des Ecoles](standards-en-cours-delaboration/schemas-reflexion/effectif-des-ecoles.md)
   * [Evénements locaux](standards-en-cours-delaboration/schemas-reflexion/evenements.md)
   * [Panneaux d'affichages publicitaires](standards-en-cours-delaboration/schemas-reflexion/panneaux-daffichages-publicitaires.md)
   * [Points d'Apport Volontaire](standards-en-cours-delaboration/schemas-reflexion/points-dapport-volontaire.md)
@@ -39,6 +38,7 @@
 
 ## Archives
 
+* [Effectif des Ecoles](archives/effectif-des-ecoles.md)
 * [Points d'Eau Incendie](archives/points-deau-incendie.md)
 * [Règlement Local de Publicité](archives/arretes.md)
 * [Untitled](archives/untitled/README.md)
