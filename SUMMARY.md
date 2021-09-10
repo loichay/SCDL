@@ -19,9 +19,7 @@
   * [Effectif des Ecoles](standards-en-cours-delaboration/schemas-reflexion/effectif-des-ecoles.md)
   * [Evénements locaux](standards-en-cours-delaboration/schemas-reflexion/evenements.md)
   * [Panneaux d'affichages publicitaires](standards-en-cours-delaboration/schemas-reflexion/panneaux-daffichages-publicitaires.md)
-  * [Points d'apport volontaire](standards-en-cours-delaboration/schemas-reflexion/points-dapport-volontaire.md)
-  * [Points d'eau incendie](standards-en-cours-delaboration/schemas-reflexion/points-deau-incendie.md)
-  * [Règlement Local de Publicité](standards-en-cours-delaboration/schemas-reflexion/arretes.md)
+  * [Points d'Apport Volontaire](standards-en-cours-delaboration/schemas-reflexion/points-dapport-volontaire.md)
 * [Schémas en évolution](standards-en-cours-delaboration/schemas-en-evolution/README.md)
   * [Base Adresse Locale](standards-en-cours-delaboration/schemas-en-evolution/base-adresse-locale.md)
   * [Marchés de la commande publique](standards-en-cours-delaboration/schemas-en-evolution/marches-de-la-commande-publique.md)
@@ -41,6 +39,8 @@
 
 ## Archives
 
+* [Points d'Eau Incendie](archives/points-deau-incendie.md)
+* [Règlement Local de Publicité](archives/arretes.md)
 * [Untitled](archives/untitled/README.md)
   * [Arrêtés de circulation](archives/untitled/arretes-de-circulation.md)
 
