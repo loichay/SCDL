@@ -13,7 +13,6 @@
 * [Schémas en construction](standards-en-cours-delaboration/schema-en-discussion/README.md)
   * [Bornes Wifi public](standards-en-cours-delaboration/schema-en-discussion/bornes-wifi-public.md)
 * [Schémas en investigation](standards-en-cours-delaboration/schemas-reflexion/README.md)
-  * [Aides aux Entreprises](standards-en-cours-delaboration/schemas-reflexion/aides-aux-entreprises.md)
   * [Aires de livraison](standards-en-cours-delaboration/schemas-reflexion/aires-de-livraison.md)
   * [Commerces de proximité](standards-en-cours-delaboration/schemas-reflexion/commerces-de-proximite.md)
   * [Evénements locaux](standards-en-cours-delaboration/schemas-reflexion/evenements.md)
@@ -38,6 +37,7 @@
 
 ## Archives
 
+* [Aides aux Entreprises](archives/aides-aux-entreprises.md)
 * [Effectif des Ecoles](archives/effectif-des-ecoles.md)
 * [Points d'Eau Incendie](archives/points-deau-incendie.md)
 * [Règlement Local de Publicité](archives/arretes.md)
