@@ -11,7 +11,6 @@
 ## Standards en cours d'élaboration
 
 * [Schémas en construction](standards-en-cours-delaboration/schema-en-discussion/README.md)
-  * [Arrêtés de circulation](standards-en-cours-delaboration/schema-en-discussion/arretes-de-circulation.md)
   * [Aires de livraison](standards-en-cours-delaboration/schema-en-discussion/aires-de-livraison.md)
   * [Bornes Wifi public](standards-en-cours-delaboration/schema-en-discussion/bornes-wifi-public.md)
   * [Commerces de proximité](standards-en-cours-delaboration/schema-en-discussion/commerces-de-proximite.md)
@@ -39,4 +38,9 @@
   * [Plats des menus \(v0.7\)](schemas/schemas-publies/plats-des-menus.md)
   * [Prénoms des nouveaux-nés \(v1.1.3\)](schemas/schemas-publies/prenoms.md)
   * [Subventions \(v2.0.0\)](schemas/schemas-publies/subventions.md)
+
+## Archives
+
+* [Untitled](archives/untitled/README.md)
+  * [Arrêtés de circulation](archives/untitled/arretes-de-circulation.md)
 
