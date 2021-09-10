@@ -8,25 +8,24 @@
 * [Recommandations relatives aux jeux de données](guide-elaboration/recommandations-relatives-aux-jeux-de-donnees.md)
 * [Modèles de données élémentaires courantes](guide-elaboration/modeles.md)
 
----
+## Standards en cours d'élaboration
 
-* [Schéma en cours d'élaboration](documents-de-travail/README.md)
-  * [Schémas en construction](documents-de-travail/schema-en-discussion/README.md)
-    * [Arrêtés de circulation](documents-de-travail/schema-en-discussion/arretes-de-circulation.md)
-    * [Aires de livraison](documents-de-travail/schema-en-discussion/aires-de-livraison.md)
-    * [Bornes Wifi public](documents-de-travail/schema-en-discussion/bornes-wifi-public.md)
-    * [Commerces de proximité](documents-de-travail/schema-en-discussion/commerces-de-proximite.md)
-    * [Points d'eau incendie](documents-de-travail/schema-en-discussion/points-deau-incendie.md)
-  * [Schémas en investigation](documents-de-travail/schemas-reflexion/README.md)
-    * [Aides aux Entreprises](documents-de-travail/schemas-reflexion/aides-aux-entreprises.md)
-    * [Effectif des Ecoles](documents-de-travail/schemas-reflexion/effectif-des-ecoles.md)
-    * [Evénements locaux](documents-de-travail/schemas-reflexion/evenements.md)
-    * [Panneaux d'affichages publicitaires](documents-de-travail/schemas-reflexion/panneaux-daffichages-publicitaires.md)
-    * [Points d'apport volontaire](documents-de-travail/schemas-reflexion/points-dapport-volontaire.md)
-    * [Règlement Local de Publicité](documents-de-travail/schemas-reflexion/arretes.md)
-  * [Schémas en évolution](documents-de-travail/schemas-en-evolution/README.md)
-    * [Base Adresse Locale](documents-de-travail/schemas-en-evolution/base-adresse-locale.md)
-    * [Marchés de la commande publique](documents-de-travail/schemas-en-evolution/marches-de-la-commande-publique.md)
+* [Schémas en construction](standards-en-cours-delaboration/schema-en-discussion/README.md)
+  * [Arrêtés de circulation](standards-en-cours-delaboration/schema-en-discussion/arretes-de-circulation.md)
+  * [Aires de livraison](standards-en-cours-delaboration/schema-en-discussion/aires-de-livraison.md)
+  * [Bornes Wifi public](standards-en-cours-delaboration/schema-en-discussion/bornes-wifi-public.md)
+  * [Commerces de proximité](standards-en-cours-delaboration/schema-en-discussion/commerces-de-proximite.md)
+  * [Points d'eau incendie](standards-en-cours-delaboration/schema-en-discussion/points-deau-incendie.md)
+* [Schémas en investigation](standards-en-cours-delaboration/schemas-reflexion/README.md)
+  * [Aides aux Entreprises](standards-en-cours-delaboration/schemas-reflexion/aides-aux-entreprises.md)
+  * [Effectif des Ecoles](standards-en-cours-delaboration/schemas-reflexion/effectif-des-ecoles.md)
+  * [Evénements locaux](standards-en-cours-delaboration/schemas-reflexion/evenements.md)
+  * [Panneaux d'affichages publicitaires](standards-en-cours-delaboration/schemas-reflexion/panneaux-daffichages-publicitaires.md)
+  * [Points d'apport volontaire](standards-en-cours-delaboration/schemas-reflexion/points-dapport-volontaire.md)
+  * [Règlement Local de Publicité](standards-en-cours-delaboration/schemas-reflexion/arretes.md)
+* [Schémas en évolution](standards-en-cours-delaboration/schemas-en-evolution/README.md)
+  * [Base Adresse Locale](standards-en-cours-delaboration/schemas-en-evolution/base-adresse-locale.md)
+  * [Marchés de la commande publique](standards-en-cours-delaboration/schemas-en-evolution/marches-de-la-commande-publique.md)
 
 ## Référence <a id="schemas"></a>
 

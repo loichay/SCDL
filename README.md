@@ -16,14 +16,14 @@ Un [espace de discussion](https://teamopendata.org/c/socle-commun-des-donnees-lo
 
 ## Elaboration 
 
-Un espace de préparation, [accessible sur gitbook.io](https://opendatafrance.gitbook.io/scdl/), permet de préfigurer les spécifications des modèles de données applicables aux jeux de données du SCDL. Cet espace regroupe des [documents de travail](documents-de-travail/) \(drafts\) qui facilitent la création de nouveaux schémas ou l’amélioration de schémas existants. Ces documents sont élaborés en respectant les [modèles de données élémentaires courantes](https://app.gitbook.com/@opendatafrance/s/scdl/~/drafts/-MVapmCIZ03DzWIhqK2w/modeles) communes à toutes les spécifications.
+Un espace de préparation, [accessible sur gitbook.io](https://opendatafrance.gitbook.io/scdl/), permet de préfigurer les spécifications des modèles de données applicables aux jeux de données du SCDL. Cet espace regroupe des [documents de travail]() \(drafts\) qui facilitent la création de nouveaux schémas ou l’amélioration de schémas existants. Ces documents sont élaborés en respectant les [modèles de données élémentaires courantes](https://app.gitbook.com/@opendatafrance/s/scdl/~/drafts/-MVapmCIZ03DzWIhqK2w/modeles) communes à toutes les spécifications.
 
 L'élaboration se traduit essentiellement en deux phases :
 
-* [Investigation](documents-de-travail/schemas-reflexion/) : un draft de standard est établi par un petit groupe d'acteurs pour tester la pertinence et la faisabilité de la standardisation.
-* [Construction](documents-de-travail/schema-en-discussion/) : le draft établi en phase d'investigation est maintenant soumis à l'approfondissement et la validation d'une représentation maxilmale des parties prenantes. Son issue à court terme sera la publication officielle du standard. 
+* [Investigation](standards-en-cours-delaboration/schemas-reflexion/) : un draft de standard est établi par un petit groupe d'acteurs pour tester la pertinence et la faisabilité de la standardisation.
+* [Construction](standards-en-cours-delaboration/schema-en-discussion/) : le draft établi en phase d'investigation est maintenant soumis à l'approfondissement et la validation d'une représentation maxilmale des parties prenantes. Son issue à court terme sera la publication officielle du standard. 
 
-Il existe un phase spécifque pour la gestion des [évolutions](documents-de-travail/schemas-en-evolution/) de standards déjà publiés.
+Il existe un phase spécifque pour la gestion des [évolutions](standards-en-cours-delaboration/schemas-en-evolution/) de standards déjà publiés.
 
 ## Publication / Implémentation
 
