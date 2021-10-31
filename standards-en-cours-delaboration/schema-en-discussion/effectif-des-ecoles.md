@@ -85,7 +85,11 @@ Ne seront pas indiquées dans ce jeu de données les données suivantes :&#x20;
 
 {% embed url="https://docs.google.com/spreadsheets/d/1jdDSvVufF8Om5zrXz6nAyyswAtvsnhOHWLgzoeTiujU/edit?usp=sharing" %}
 
+### Utilisation&#x20;
 
+#### Tableau de consultation
+
+{% embed url="https://airtable.com/shrnw6AyWpbqaBevK" %}
 
 
 
