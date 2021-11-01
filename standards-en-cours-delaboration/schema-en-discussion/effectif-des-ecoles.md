@@ -83,17 +83,19 @@ Propriété **                 **Type                Obligatoire
 
 ### Détail des propriétés
 
-#### **effscolaireCollNom  : Nom de la collectivité qui produit les données**
+****
 
-| effscolaireCollNom            | Nom de la collectivité qui produit les données                           |
-| ----------------------------- | ------------------------------------------------------------------------ |
-| _Description_                 | Nom officiel de la collectivité accueillant les établissements scolaires |
-| Exemple                       | Montpellier                                                              |
-| Valeur                        | Obligatoire                                                              |
-| Type                          | Chaîne de caractères                                                     |
-| Valeurs autorisées (si liste) |                                                                          |
-| Motif                         |                                                                          |
-| Infos. complémentaires        |                                                                          |
+| effscolaireCollNom  : Nom de la collectivité qui produit les données                       |
+| ------------------------------------------------------------------------------------------ |
+| Description** : **Nom officiel de la collectivité accueillant les établissements scolaires |
+| Exemple : Montpellier                                                                      |
+| Valeur : Obligatoire                                                                       |
+| Type : Chaîne de caractères                                                                |
+| Valeurs autorisées (si liste) :                                                            |
+| Motif :                                                                                    |
+| Infos. complémentaires :                                                                   |
+
+****
 
 #### ** **
 
