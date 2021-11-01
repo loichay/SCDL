@@ -307,6 +307,32 @@ lLe jeu de données peut être construit à partir de 2 tables : une qui détail
 | Motif :                                                            |
 | Infos. complémentaires :                                           |
 
+
+
+| effscolaireCM1                                               |
+| ------------------------------------------------------------ |
+| Objet : **Effectif scolaire en CM1**                         |
+| Description** : **Nombre d'enfant en classe de Cours Moyen 1 |
+| Exemple : 4                                                  |
+| Valeur : Facultatif                                          |
+| Type : Numérique entier                                      |
+| Valeurs autorisées (si liste) :                              |
+| Motif :                                                      |
+| Infos. complémentaires :                                     |
+
+
+
+| effscolaireCM2                                               |
+| ------------------------------------------------------------ |
+| Objet : **Effectif scolaire en CM2**                         |
+| Description** : **Nombre d'enfant en classe de Cours Moyen 2 |
+| Exemple : 4                                                  |
+| Valeur : Facultatif                                          |
+| Type : Numérique entier                                      |
+| Valeurs autorisées (si liste) :                              |
+| Motif :                                                      |
+| Infos. complémentaires :                                     |
+
 ## Eléments de travail (a supprimer à terme)&#x20;
 
 #### Bloc Description de la commune
