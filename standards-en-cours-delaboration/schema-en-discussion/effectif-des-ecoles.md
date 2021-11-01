@@ -88,7 +88,7 @@ Propriété **                 **Type                Obligatoire
 > _Description : Nom officiel de la collectivité accueillant les établissements scolaires._\
 > _Ex : Montpellier_
 
-| effscolaireCollNom            | effscolaireCollNom                                                         |
+| effscolaireCollNom            | détail                                                                     |
 | ----------------------------- | -------------------------------------------------------------------------- |
 | _Description_                 | <h4><em>Nom de la collectivité qui produit les données</em></h4>           |
 | Exemple                       | _Nom officiel de la collectivité accueillant les établissements scolaires_ |
