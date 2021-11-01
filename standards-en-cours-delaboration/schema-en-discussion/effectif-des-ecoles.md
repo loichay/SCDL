@@ -56,59 +56,258 @@ Schéma permettant de décrire les effectifs scolaires des écoles primaires gé
 
 Propriété **                 **Type                Obligatoire
 
-| Propriété               | Descrription                                                                                                           | Type                 | Obligatoire |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------- | ----------- |
-| effscolaireCollNom      | <p><em>Nom officiel de la collectivité accueillant les établissements scolaires.</em><br><em>Ex : Montpellier</em></p> | chaîne de caractères | Oui         |
-| effscolaireCollINSEE    |                                                                                                                        | chaîne de caractères | Oui         |
-| effscolaireEtablNum     |                                                                                                                        | chaîne de caractères | Oui         |
-| effscolaireEtablNom     |                                                                                                                        | chaîne de caractères | Oui         |
-| effscolaireEtablType    |                                                                                                                        | liste                | Oui         |
-| effscolaireEtablAdr1    |                                                                                                                        | chaîne de caractères | Oui         |
-| effscolaireEtablAdr2    |                                                                                                                        | chaîne de caractères | Non         |
-| effscolaireEtablCP      |                                                                                                                        | chaîne de caractères | Oui         |
-| effscolaireEtablCommune |                                                                                                                        | chaîne de caractères | Oui         |
-| effscolaireAnnee        |                                                                                                                        | nombre réel          | Oui         |
-| effscolairetPS          |                                                                                                                        | nombre réel          | Non         |
-| effscolairetMS          |                                                                                                                        | nombre réel          | Non         |
-| effscolairetGS          |                                                                                                                        | nombre réel          | Non         |
-| effscolaireUEMA         |                                                                                                                        | nombre réel          | Non         |
-| effscolaireCP           |                                                                                                                        | nombre réel          | Non         |
-| effscolaireCE1          |                                                                                                                        | nombre réel          | Non         |
-| effscolaireCE2          |                                                                                                                        | nombre réel          | Non         |
-| effscolaireCM1          |                                                                                                                        | nombre réel          | Non         |
-| effscolaireCM2          |                                                                                                                        | nombre réel          | Non         |
-| effscolaireULIS         |                                                                                                                        | nombre réel          | Non         |
+| Propriété               | Description                                 | Type                 | Obligatoire |
+| ----------------------- | ------------------------------------------- | -------------------- | ----------- |
+| effscolaireCollNom      | Nom officiel de la collectivité             | chaîne de caractères | Oui         |
+| effscolaireCollINSEE    | Num. INSEE de la collectivité               | chaîne de caractères | Oui         |
+| effscolaireEtablNum     | Num. de l'établissement scolaire            | chaîne de caractères | Oui         |
+| effscolaireEtablNom     | Nom de l'établissement scolaire             | chaîne de caractères | Oui         |
+| effscolaireEtablType    | Type Public/Privé de l'établissement        | liste                | Oui         |
+| effscolaireEtablAdr1    | Adresse de l'établissement                  | chaîne de caractères | Oui         |
+| effscolaireEtablAdr2    | Adresse de l'établissement                  | chaîne de caractères | Non         |
+| effscolaireEtablCP      | Adresse de l'établissement                  | chaîne de caractères | Oui         |
+| effscolaireEtablCommune | Adresse de l'établissement                  | chaîne de caractères | Oui         |
+| effscolaireAnnee        | Année du relevé des effectifs               | nombre réel          | Oui         |
+| effscolairetPS          | Nb d'enfant en classe de Petite Section     | nombre réel          | Non         |
+| effscolairetMS          | Nb d'enfant en classe de Moyenne Section    | nombre réel          | Non         |
+| effscolairetGS          | Nb d'enfant en classe de Grande Section     | nombre réel          | Non         |
+| effscolaireUEMA         | Nb d'enfant en classe en UEMA               | nombre réel          | Non         |
+| effscolaireCP           | Nb d'enfant en classe de Cours Préparatoire | nombre réel          | Non         |
+| effscolaireCE1          | Nb d'enfant en classe en CE1                | nombre réel          | Non         |
+| effscolaireCE2          | Nb d'enfant en classe en CE2                | nombre réel          | Non         |
+| effscolaireCM1          | Nb d'enfant en classe en CM1                | nombre réel          | Non         |
+| effscolaireCM2          | Nb d'enfant en classe en CM2                | nombre réel          | Non         |
+| effscolaireULIS         | Nb d'enfant en classe en ULIS               | nombre réel          | Non         |
 
 
 
 ### Détail des propriétés
 
-****
+#### **Bloc général**
 
-| effscolaireCollNom  : Nom de la collectivité qui produit les données                       |
-| ------------------------------------------------------------------------------------------ |
-| Description** : **Nom officiel de la collectivité accueillant les établissements scolaires |
-| Exemple : Montpellier                                                                      |
-| Valeur : Obligatoire                                                                       |
-| Type : Chaîne de caractères                                                                |
-| Valeurs autorisées (si liste) :                                                            |
-| Motif :                                                                                    |
-| Infos. complémentaires :                                                                   |
+| effscolaireCollNom                                                                                                      |
+| ----------------------------------------------------------------------------------------------------------------------- |
+| **Objet : Nom de la collectivité qui produit les données**                                                              |
+| Description** : **Nom officiel de la collectivité qui produit les données et qui accueille les établissements scolaires |
+| Exemple : Montpellier                                                                                                   |
+| Valeur : Obligatoire                                                                                                    |
+| Type : Chaîne de caractères                                                                                             |
+| Valeurs autorisées (si liste) :                                                                                         |
+| Motif :                                                                                                                 |
+| Infos. complémentaires :                                                                                                |
 
-****
+| effscolaireCollINSEE                                               |
+| ------------------------------------------------------------------ |
+| Objet : **Code INSEE de la collectivité qui produit les données.** |
+| Description** : **Id_entifiant INSEE_                              |
+| Exemple : 34 789                                                   |
+| Valeur : Obligatoire                                               |
+| Type : Chaîne de caractères                                        |
+| Valeurs autorisées (si liste) :                                    |
+| Motif :                                                            |
+| Infos. complémentaires : on pourrait aussi mettre le code SIRET    |
 
-#### ** **
+#### ****
 
-#### effscolaireCollINSEE (ou SIRET?) : **Code SIRET de la collectivité qui produit les données.**
+#### **Bloc Etablissement**
 
-> _Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité. Ce code doit obligatoirement être composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant._\
-> _Ex : _34 789
+| effscolaireCollNom                                                                                                      |
+| ----------------------------------------------------------------------------------------------------------------------- |
+| **Objet : Nom de la collectivité qui produit les données**                                                              |
+| Description** : **Nom officiel de la collectivité qui produit les données et qui accueille les établissements scolaires |
+| Exemple : Montpellier                                                                                                   |
+| Valeur : Obligatoire                                                                                                    |
+| Type : Chaîne de caractères                                                                                             |
+| Valeurs autorisées (si liste) :                                                                                         |
+| Motif :                                                                                                                 |
+| Infos. complémentaires :                                                                                                |
 
-* Motif : `^\d{14}$`
+| effscolaireEtablNum                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------------------------- |
+| Objet : **Numéro de l'établissement**                                                                                                   |
+| Description** : ** numéro de l'établissement attribué par le ministère ou l'académie. Il contient une chaine de 7 chifffre et 1 lettre  |
+| Exemple : 1234567A                                                                                                                      |
+| Valeur : Obligatoire                                                                                                                    |
+| Type : Chaîne de caractères                                                                                                             |
+| Valeurs autorisées (si liste) :                                                                                                         |
+| Motif : NNNNNNNL                                                                                                                        |
+| Infos. complémentaires :                                                                                                                |
+
+| effscolaireEtablNom                                                                                                         |
+| --------------------------------------------------------------------------------------------------------------------------- |
+| Objet : **Nom de l'établissement**                                                                                          |
+| Description** : ** nom de l'établissement                                                                                   |
+| Exemple : Vila Clara ou Ecole Primaire Vila Clara                                                                           |
+| Valeur : Obligatoire                                                                                                        |
+| Type : Chaîne de caractères                                                                                                 |
+| Valeurs autorisées (si liste) :                                                                                             |
+| Motif :                                                                                                                     |
+| Infos. complémentaires : le terme Ecole primaire est-il redondant ? ou bien un type d'école EM, EP, ..) est-il nécessaire ? |
+
+| effscolaireEtablType                                      |
+| --------------------------------------------------------- |
+| Objet : **Type de l'établissement**                       |
+| Description** : ** Caractère juridique de l'établissement |
+| Exemple : Public                                          |
+| Valeur : Obligatoire                                      |
+| Type : Chaîne de caractères                               |
+| Valeurs autorisées (si liste) : Public, Privé             |
+| Motif :                                                   |
+| Infos. complémentaires :                                  |
+
+####
+
+| effscolaireEtablAdr1                                               |
+| ------------------------------------------------------------------ |
+| Objet : **Adresse de l'établissement (groupe adresse)**            |
+| Description** : ** première partie de l'adresse de l'établissement |
+| Exemple : Les Escanauds                                            |
+| Valeur : Obligatoire                                               |
+| Type : Chaîne de caractères                                        |
+| Valeurs autorisées (si liste) :                                    |
+| Motif :                                                            |
+| Infos. complémentaires :                                           |
+
+| effscolaireEtablAdr2                                               |
+| ------------------------------------------------------------------ |
+| Objet : **Adresse de l'établissement (groupe adresse)**            |
+| Description** : ** deuxième partie de l'adresse de l'établissement |
+| Exemple : 16 rue Beltcaguy                                         |
+| Valeur : Facultatif                                                |
+| Type : Chaîne de caractères                                        |
+| Valeurs autorisées (si liste) :                                    |
+| Motif :                                                            |
+| Infos. complémentaires :                                           |
+
+| effscolaireEtablCP                                          |
+| ----------------------------------------------------------- |
+| Objet : **Code poste de l'établissement  (groupe adresse)** |
+| Description** : **Code Postal de l'établissement            |
+| Exemple : 34 002                                            |
+| Valeur : Obligatoire                                        |
+| Type : Chaîne de caractères                                 |
+| Valeurs autorisées (si liste) :                             |
+| Motif :                                                     |
+| Infos. complémentaires :                                    |
+
+| effscolaireEtablCommune                                          |
+| ---------------------------------------------------------------- |
+| Objet : **Commune de l'établissement(groupe adresse)**           |
+| Description** : **Nom de la commune où est situé l'établissement |
+| Exemple : 34 002                                                 |
+| Valeur : Obligatoire                                             |
+| Type : Chaîne de caractères                                      |
+| Valeurs autorisées (si liste) :                                  |
+| Motif :                                                          |
+| Infos. complémentaires :                                         |
 
 
 
+#### Bloc Effectif
 
+lLe jeu de données peut être construit à partir de 2 tables : une qui détaille l'établissement et une une qui énumère les effectifs par année pour chaque établissement. La clé pour relier les deux tables est **effscolaireEtablNum**
+
+
+
+| effscolaireAnnee                                                    |
+| ------------------------------------------------------------------- |
+| Objet : Année                                                       |
+| Description** : Année considérée pour l'énumération des effectifs** |
+| Exemple : 2010                                                      |
+| Valeur : Obligatoire                                                |
+| Type : Numérique entier                                             |
+| Valeurs autorisées (si liste) :                                     |
+| Motif :                                                             |
+| Infos. complémentaires :                                            |
+
+| effscolairetPS                                                                        |
+| ------------------------------------------------------------------------------------- |
+| Objet : **Effectif scolaire en Petite Section**                                       |
+| Description** : **Nombre d'enfant en classe de Petite Section pour l'année considérée |
+| Exemple : 8                                                                           |
+| Valeur : Facultatif                                                                   |
+| Type : Numérique entier                                                               |
+| Valeurs autorisées (si liste) :                                                       |
+| Motif :                                                                               |
+| Infos. complémentaires :                                                              |
+
+(faire de même pour Moyenne Section, Grand Section, Unité d'Enseignement MAternelle, Cour Préparatoire, Cour Elémentaire 1, Cour Elémentaire 2, Cour Moyen 1, Cour Moyen 2 et Unités Localisées l'Inclusion Scolaire)
+
+| effscolairetMS                                                                         |
+| -------------------------------------------------------------------------------------- |
+| Objet : **Effectif scolaire en Moyenne Section**                                       |
+| Description** : **Nombre d'enfant en classe de Moyenne Section pour l'année considérée |
+| Exemple : 6                                                                            |
+| Valeur : Facultatif                                                                    |
+| Type : Numérique entier                                                                |
+| Valeurs autorisées (si liste) :                                                        |
+| Motif :                                                                                |
+| Infos. complémentaires :                                                               |
+
+| effscolaireGS                                                                         |
+| ------------------------------------------------------------------------------------- |
+| Objet : **Effectif scolaire en Grande Section**                                       |
+| Description** : **Nombre d'enfant en classe de Grande Section pour l'année considérée |
+| Exemple : 7                                                                           |
+| Valeur : Facultatif                                                                   |
+| Type : Numérique entier                                                               |
+| Valeurs autorisées (si liste) :                                                       |
+| Motif :                                                                               |
+| Infos. complémentaires :                                                              |
+
+
+
+| effscolaireUEMA                                                                |
+| ------------------------------------------------------------------------------ |
+| Objet : **Effectif scolaire en UEMA**                                          |
+| Description** : **Nombre d'enfant en classe de Unité d'Enseignement MAternelle |
+| Exemple : 4                                                                    |
+| Valeur : Facultatif                                                            |
+| Type : Numérique entier                                                        |
+| Valeurs autorisées (si liste) :                                                |
+| Motif :                                                                        |
+| Infos. complémentaires :                                                       |
+
+
+
+| effscolaireCP                                                     |
+| ----------------------------------------------------------------- |
+| Objet : **Effectif scolaire en CP**                               |
+| Description** : **Nombre d'enfant en classe de Cours Préparatoire |
+| Exemple : 4                                                       |
+| Valeur : Facultatif                                               |
+| Type : Numérique entier                                           |
+| Valeurs autorisées (si liste) :                                   |
+| Motif :                                                           |
+| Infos. complémentaires :                                          |
+
+
+
+| effscolaireCE1                                                     |
+| ------------------------------------------------------------------ |
+| Objet : **Effectif scolaire en CE1**                               |
+| Description** : **Nombre d'enfant en classe de Cours Elémentaire 1 |
+| Exemple : 4                                                        |
+| Valeur : Facultatif                                                |
+| Type : Numérique entier                                            |
+| Valeurs autorisées (si liste) :                                    |
+| Motif :                                                            |
+| Infos. complémentaires :                                           |
+
+
+
+| effscolaireCE1                                                     |
+| ------------------------------------------------------------------ |
+| Objet : **Effectif scolaire en CE2**                               |
+| Description** : **Nombre d'enfant en classe de Cours Elémentaire 2 |
+| Exemple : 4                                                        |
+| Valeur : Facultatif                                                |
+| Type : Numérique entier                                            |
+| Valeurs autorisées (si liste) :                                    |
+| Motif :                                                            |
+| Infos. complémentaires :                                           |
+
+## Eléments de travail (a supprimer à terme)&#x20;
 
 #### Bloc Description de la commune
 
@@ -145,13 +344,13 @@ Ne seront pas indiquées dans ce jeu de données les données suivantes :&#x20;
 * effscolaireCE2 :  Effectif relevé pour le niveau CE2, Facultatif
 * effscolaireCM1 : Effectif relevé pour le niveau CM1, Facultatif
 * effscolaireCM2 : Effectif relevé pour le niveau CM2, Facultatif
-* effscolaireULIS : Effectif relevé pour l’ULIS Numérique ((Unités localisées l'inclusion scolaire), Facultatif
+* effscolaireULIS : Effectif relevé pour l’ULIS Numérique (Unités localisées l'inclusion scolaire), Facultatif
 
-### Gabarit
+## Gabarit
 
 {% embed url="https://docs.google.com/spreadsheets/d/1jdDSvVufF8Om5zrXz6nAyyswAtvsnhOHWLgzoeTiujU/edit?usp=sharing" %}
 
-### Utilisation&#x20;
+## Exemple d'utilisation&#x20;
 
 #### Tableau de consultation
 
