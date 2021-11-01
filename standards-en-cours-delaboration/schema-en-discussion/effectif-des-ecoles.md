@@ -42,7 +42,72 @@ Exemple :&#x20;
 
 ## Proposition de modèle de données <a href="modele-de-donnees" id="modele-de-donnees"></a>
 
-Ce modèle de données fait partie et respecte les exigences du [Socle Commun des Données Locales](broken-reference).&#x20;
+### Introduction
+
+Schéma permettant de décrire les effectifs scolaires des écoles primaires gérées ou soutenues par les collectivités locales, établissements publics et privés. Il permet de préciser le nombre d'enfant par dégré et par an. Pour décrire un établissement, il est possible d'utiliser une table indépendante pour éviter les répétions pour chaque année.
+
+* Schéma créé le : 31/10/2021
+* Site web : (git)
+* Version : 0.2
+
+(à terme, ce modèle de données fera partie et respectera les exigences du [Socle Commun des Données Locales](broken-reference))
+
+### **Liste des propriétés**
+
+Propriété **                 **Type                Obligatoire
+
+| Propriété               | Descrription                                                                                                           | Type                 | Obligatoire |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------- | ----------- |
+| effscolaireCollNom      | <p><em>Nom officiel de la collectivité accueillant les établissements scolaires.</em><br><em>Ex : Montpellier</em></p> | chaîne de caractères | Oui         |
+| effscolaireCollINSEE    |                                                                                                                        | chaîne de caractères | Oui         |
+| effscolaireEtablNum     |                                                                                                                        | chaîne de caractères | Oui         |
+| effscolaireEtablNom     |                                                                                                                        | chaîne de caractères | Oui         |
+| effscolaireEtablType    |                                                                                                                        | liste                | Oui         |
+| effscolaireEtablAdr1    |                                                                                                                        | chaîne de caractères | Oui         |
+| effscolaireEtablAdr2    |                                                                                                                        | chaîne de caractères | Non         |
+| effscolaireEtablCP      |                                                                                                                        | chaîne de caractères | Oui         |
+| effscolaireEtablCommune |                                                                                                                        | chaîne de caractères | Oui         |
+| effscolaireAnnee        |                                                                                                                        | nombre réel          | Oui         |
+| effscolairetPS          |                                                                                                                        | nombre réel          | Non         |
+| effscolairetMS          |                                                                                                                        | nombre réel          | Non         |
+| effscolairetGS          |                                                                                                                        | nombre réel          | Non         |
+| effscolaireUEMA         |                                                                                                                        | nombre réel          | Non         |
+| effscolaireCP           |                                                                                                                        | nombre réel          | Non         |
+| effscolaireCE1          |                                                                                                                        | nombre réel          | Non         |
+| effscolaireCE2          |                                                                                                                        | nombre réel          | Non         |
+| effscolaireCM1          |                                                                                                                        | nombre réel          | Non         |
+| effscolaireCM2          |                                                                                                                        | nombre réel          | Non         |
+| effscolaireULIS         |                                                                                                                        | nombre réel          | Non         |
+
+
+
+### Détail des propriétés
+
+#### **effscolaireCollNom  : Nom de la collectivité qui produit les données**
+
+> _Description : Nom officiel de la collectivité accueillant les établissements scolaires._\
+> _Ex : Montpellier_
+
+| Objet                         | effscolaireCollNom                                                         |
+| ----------------------------- | -------------------------------------------------------------------------- |
+| _Description_                 | <h4><strong>Nom de la collectivité qui produit les données</strong></h4>   |
+| Exemple                       | _Nom officiel de la collectivité accueillant les établissements scolaires_ |
+| Valeur                        | _Montpellier_                                                              |
+| Type                          |                                                                            |
+| Valeurs autorisées (si liste) |                                                                            |
+| Motif                         |                                                                            |
+| Infos. complémentaires        |                                                                            |
+
+#### ** **effscolaireCollINSEE (ou SIRET?) : **Code SIRET de la collectivité qui produit les données.**
+
+> _Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité. Ce code doit obligatoirement être composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant._\
+> _Ex : _34 789
+
+* Motif : `^\d{14}$`
+
+
+
+
 
 #### Bloc Description de la commune
 
