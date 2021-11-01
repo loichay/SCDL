@@ -56,71 +56,11 @@ Schéma permettant de décrire les effectifs scolaires des écoles primaires gé
 
 Propriété **                 **Type                Obligatoire
 
-| Propriété               | Description                                 | Type                 | Obligatoire |
-| ----------------------- | ------------------------------------------- | -------------------- | ----------- |
-| effscolaireCollNom      | Nom officiel de la collectivité             | chaîne de caractères | Oui         |
-| effscolaireCollINSEE    | Num. INSEE de la collectivité               | chaîne de caractères | Oui         |
-| effscolaireEtablNum     | Num. de l'établissement scolaire            | chaîne de caractères | Oui         |
-| effscolaireEtablNom     | Nom de l'établissement scolaire             | chaîne de caractères | Oui         |
-| effscolaireEtablType    | Type Public/Privé de l'établissement        | liste                | Oui         |
-| effscolaireEtablAdr1    | Adresse de l'établissement                  | chaîne de caractères | Oui         |
-| effscolaireEtablAdr2    | Adresse de l'établissement                  | chaîne de caractères | Non         |
-| effscolaireEtablCP      | Adresse de l'établissement                  | chaîne de caractères | Oui         |
-| effscolaireEtablCommune | Adresse de l'établissement                  | chaîne de caractères | Oui         |
-| effscolaireAnnee        | Année du relevé des effectifs               | nombre réel          | Oui         |
-| effscolairetPS          | Nb d'enfant en classe de Petite Section     | nombre réel          | Non         |
-| effscolairetMS          | Nb d'enfant en classe de Moyenne Section    | nombre réel          | Non         |
-| effscolairetGS          | Nb d'enfant en classe de Grande Section     | nombre réel          | Non         |
-| effscolaireUEMA         | Nb d'enfant en classe en UEMA               | nombre réel          | Non         |
-| effscolaireCP           | Nb d'enfant en classe de Cours Préparatoire | nombre réel          | Non         |
-| effscolaireCE1          | Nb d'enfant en classe en CE1                | nombre réel          | Non         |
-| effscolaireCE2          | Nb d'enfant en classe en CE2                | nombre réel          | Non         |
-| effscolaireCM1          | Nb d'enfant en classe en CM1                | nombre réel          | Non         |
-| effscolaireCM2          | Nb d'enfant en classe en CM2                | nombre réel          | Non         |
-| effscolaireULIS         | Nb d'enfant en classe en ULIS               | nombre réel          | Non         |
-
-
-
-### Détail des propriétés
-
 #### **Bloc général**
-
-| effscolaireCollNom                                                                                                      |
-| ----------------------------------------------------------------------------------------------------------------------- |
-| **Objet : Nom de la collectivité qui produit les données**                                                              |
-| Description** : **Nom officiel de la collectivité qui produit les données et qui accueille les établissements scolaires |
-| Exemple : Montpellier                                                                                                   |
-| Valeur : Obligatoire                                                                                                    |
-| Type : Chaîne de caractères                                                                                             |
-| Valeurs autorisées (si liste) :                                                                                         |
-| Motif :                                                                                                                 |
-| Infos. complémentaires :                                                                                                |
-
-| effscolaireCollINSEE                                               |
-| ------------------------------------------------------------------ |
-| Objet : **Code INSEE de la collectivité qui produit les données.** |
-| Description** : **Id_entifiant INSEE_                              |
-| Exemple : 34 789                                                   |
-| Valeur : Obligatoire                                               |
-| Type : Chaîne de caractères                                        |
-| Valeurs autorisées (si liste) :                                    |
-| Motif :                                                            |
-| Infos. complémentaires : on pourrait aussi mettre le code SIRET    |
 
 #### ****
 
 #### **Bloc Etablissement**
-
-| effscolaireCollNom                                                                                                      |
-| ----------------------------------------------------------------------------------------------------------------------- |
-| **Objet : Nom de la collectivité qui produit les données**                                                              |
-| Description** : **Nom officiel de la collectivité qui produit les données et qui accueille les établissements scolaires |
-| Exemple : Montpellier                                                                                                   |
-| Valeur : Obligatoire                                                                                                    |
-| Type : Chaîne de caractères                                                                                             |
-| Valeurs autorisées (si liste) :                                                                                         |
-| Motif :                                                                                                                 |
-| Infos. complémentaires :                                                                                                |
 
 | effscolaireEtablNum                                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------- |
@@ -150,7 +90,7 @@ Propriété **                 **Type                Obligatoire
 | Description** : ** Caractère juridique de l'établissement |
 | Exemple : Public                                          |
 | Valeur : Obligatoire                                      |
-| Type : Chaîne de caractères                               |
+| Type : Liste                                              |
 | Valeurs autorisées (si liste) : Public, Privé             |
 | Motif :                                                   |
 | Infos. complémentaires :                                  |
