@@ -85,20 +85,19 @@ Propriété **                 **Type                Obligatoire
 
 #### **effscolaireCollNom  : Nom de la collectivité qui produit les données**
 
-> _Description : Nom officiel de la collectivité accueillant les établissements scolaires._\
-> _Ex : Montpellier_
+| effscolaireCollNom            | Nom de la collectivité qui produit les données                           |
+| ----------------------------- | ------------------------------------------------------------------------ |
+| _Description_                 | Nom officiel de la collectivité accueillant les établissements scolaires |
+| Exemple                       | Montpellier                                                              |
+| Valeur                        | Obligatoire                                                              |
+| Type                          | Chaîne de caractères                                                     |
+| Valeurs autorisées (si liste) |                                                                          |
+| Motif                         |                                                                          |
+| Infos. complémentaires        |                                                                          |
 
-| effscolaireCollNom            | détail                                                                     |
-| ----------------------------- | -------------------------------------------------------------------------- |
-| _Description_                 | <h4><em>Nom de la collectivité qui produit les données</em></h4>           |
-| Exemple                       | _Nom officiel de la collectivité accueillant les établissements scolaires_ |
-| Valeur                        | _Montpellier_                                                              |
-| Type                          |                                                                            |
-| Valeurs autorisées (si liste) |                                                                            |
-| Motif                         |                                                                            |
-| Infos. complémentaires        |                                                                            |
+#### ** **
 
-#### ** **effscolaireCollINSEE (ou SIRET?) : **Code SIRET de la collectivité qui produit les données.**
+#### effscolaireCollINSEE (ou SIRET?) : **Code SIRET de la collectivité qui produit les données.**
 
 > _Description : Identifiant du Système d'Identification du Répertoire des Etablissements (SIRET) de la collectivité. Ce code doit obligatoirement être composé de 9 chiffres SIREN + 5 chiffres NIC d’un seul tenant._\
 > _Ex : _34 789
