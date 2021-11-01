@@ -54,9 +54,47 @@ Schéma permettant de décrire les effectifs scolaires des écoles primaires gé
 
 ### **Liste des propriétés**
 
-Propriété **                 **Type                Obligatoire
+| Propriété                                       | Type                 | Obligatoire |
+| ----------------------------------------------- | -------------------- | ----------- |
+| Numéro de l'établissement                       | Chaîne de caractères | Oui         |
+| Nom de l'établissement                          | Chaîne de caractères | Oui         |
+| Type de l'établissement                         | Liste (public/privé) | Oui         |
+| Adresse de l'établissement (ad1&2, CP, Commune) | Chaîne de caractères | Oui         |
+| Année                                           | Nombre entier        | Oui         |
+| Effectif en Petite Section                      | Nombre entier        | Non         |
+| Effectif en Moyenne Section                     | Nombre entier        | Non         |
+| Effectif en Grande Section                      | Nombre entier        | Non         |
+| Effectif  en UEMA                               | Nombre entier        | Non         |
+| Effectif  en CP                                 | Nombre entier        | Non         |
+| Effectif  en CE1                                | Nombre entier        | Non         |
+| ​ Effectif en CE2                               | Nombre entier        | Non         |
+| ​ Effectif en CM1                               | Nombre entier        | Non         |
+| ​ Effectif en CM2                               | Nombre entier        | Non         |
+| ​ Effectif en ULIS                              | Nombre entier        | Non         |
 
 #### **Bloc général**
+
+| effscolaireCollNom                                               |
+| ---------------------------------------------------------------- |
+| Objet : **Nom de la collectivité**                               |
+| Description** : ** Nom de la collectivité qui publie les données |
+| Exemple : Montpellier                                            |
+| Valeur : Obligatoire                                             |
+| Type : Chaîne de caractères                                      |
+| Valeurs autorisées (si liste) :                                  |
+| Motif :                                                          |
+| Infos. complémentaires :                                         |
+
+| effscolaireCollNom                                                                 |
+| ---------------------------------------------------------------------------------- |
+| Objet : **Code INSEE de la collectivité**                                          |
+| Description** : ** Code INSEE (ou SIRET) de la collectivité qui publie les données |
+| Exemple : 34 789                                                                   |
+| Valeur : Obligatoire                                                               |
+| Type : Chaîne de caractères                                                        |
+| Valeurs autorisées (si liste) :                                                    |
+| Motif :                                                                            |
+| Infos. complémentaires : voir s'il est plus cohérent de mettre le SIRET            |
 
 #### ****
 
