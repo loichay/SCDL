@@ -205,7 +205,7 @@ Propriété **                 **Type                Obligatoire
 
 #### Bloc Effectif
 
-lLe jeu de données peut être construit à partir de 2 tables : une qui détaille l'établissement et une une qui énumère les effectifs par année pour chaque établissement. La clé pour relier les deux tables est **effscolaireEtablNum**
+Le jeu de données peut être construit à partir de 2 tables : une qui détaille l'établissement et une une qui énumère les effectifs par année pour chaque établissement. La clé pour relier les deux tables est **effscolaireEtablNum**
 
 
 
@@ -220,20 +220,18 @@ lLe jeu de données peut être construit à partir de 2 tables : une qui détail
 | Motif :                                                             |
 | Infos. complémentaires :                                            |
 
-| effscolairetPS                                                                        |
-| ------------------------------------------------------------------------------------- |
-| Objet : **Effectif scolaire en Petite Section**                                       |
-| Description** : **Nombre d'enfant en classe de Petite Section pour l'année considérée |
-| Exemple : 8                                                                           |
-| Valeur : Facultatif                                                                   |
-| Type : Numérique entier                                                               |
-| Valeurs autorisées (si liste) :                                                       |
-| Motif :                                                                               |
-| Infos. complémentaires :                                                              |
+| effscolairePS                                                                        |
+| ------------------------------------------------------------------------------------ |
+| Objet : **Effectif scolaire en Petite Section**                                      |
+| Description** : **Nombre d'enfant en classe de Petite Section pour l'année considéré |
+| Exemple : 8                                                                          |
+| Valeur : Facultatif                                                                  |
+| Type : Numérique entier                                                              |
+| Valeurs autorisées (si liste) :                                                      |
+| Motif :                                                                              |
+| Infos. complémentaires :                                                             |
 
-(faire de même pour Moyenne Section, Grand Section, Unité d'Enseignement MAternelle, Cour Préparatoire, Cour Elémentaire 1, Cour Elémentaire 2, Cour Moyen 1, Cour Moyen 2 et Unités Localisées l'Inclusion Scolaire)
-
-| effscolairetMS                                                                         |
+| effscolaireMS                                                                          |
 | -------------------------------------------------------------------------------------- |
 | Objet : **Effectif scolaire en Moyenne Section**                                       |
 | Description** : **Nombre d'enfant en classe de Moyenne Section pour l'année considérée |
