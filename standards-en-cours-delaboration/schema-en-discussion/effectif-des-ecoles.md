@@ -70,6 +70,9 @@ Schéma permettant de décrire les effectifs scolaires des écoles primaires gé
 | Adresse 2 de l'établissement          | Chaîne de caractères | Non         |
 | CP                                    | Chaîne de caractères | Non         |
 | Commune                               | Chaîne de caractères | Non         |
+| Région Académique                     | Liste                | Oui         |
+| Académie                              | Liste                | Oui         |
+| Département                           | Liste                | Oui         |
 | Année                                 | Nombre entier        | Oui         |
 | Nombre de Classe                      | Nombre entier        | Oui         |
 | Nombre total d'Elèves                 | Nombre entier        | Oui         |
