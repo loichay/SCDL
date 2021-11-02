@@ -14,6 +14,12 @@ Il semblerait que les données sont produites par les chefs d'établissement, tr
 
 A notre connaissance, les données des établissements (Base Centrale de Pilotage), sans distinction de classe ni de genre, est disponible sur le site :&#x20;
 
+
+
+{% embed url="https://data.education.gouv.fr/explore/dataset/fr-en-ecoles-effectifs-nb_classes/information?disjunctive.academie=&disjunctive.code_postal=&disjunctive.commune=&disjunctive.denomination_principale=&disjunctive.departement=&disjunctive.numero_ecole=&disjunctive.patronyme=&disjunctive.region_academique=&disjunctive.rentree_scolaire=&disjunctive.secteur=&sort=tri" %}
+
+#### Archives&#x20;
+
 Premier degré : [https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-premier-degre/table/?disjunctive.departement\&disjunctive.code\_departement\&disjunctive.code\_postal\&disjunctive.localite\_acheminement](https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-premier-degre/table/?disjunctive.departement\&disjunctive.code\_departement\&disjunctive.code\_postal\&disjunctive.localite\_acheminement)
 
 Les données essentielles sont : Année scolaire, académie (liste fermée), région (Libellé +Code), département (Libellé +Code), numéro de l’école, nom de l’école (établissement), type Etablissement Public/Privé), Nb d’élèves, Adresse de l’Etablissement + CP+Commune
@@ -54,23 +60,24 @@ Schéma permettant de décrire les effectifs scolaires des écoles primaires gé
 
 ### **Liste des propriétés**
 
-| Propriété                                       | Type                 | Obligatoire |
-| ----------------------------------------------- | -------------------- | ----------- |
-| Numéro de l'établissement                       | Chaîne de caractères | Oui         |
-| Nom de l'établissement                          | Chaîne de caractères | Oui         |
-| Type de l'établissement                         | Liste (public/privé) | Oui         |
-| Adresse de l'établissement (ad1&2, CP, Commune) | Chaîne de caractères | Oui         |
-| Année                                           | Nombre entier        | Oui         |
-| Effectif en Petite Section                      | Nombre entier        | Non         |
-| Effectif en Moyenne Section                     | Nombre entier        | Non         |
-| Effectif en Grande Section                      | Nombre entier        | Non         |
-| Effectif  en UEMA                               | Nombre entier        | Non         |
-| Effectif  en CP                                 | Nombre entier        | Non         |
-| Effectif  en CE1                                | Nombre entier        | Non         |
-| ​ Effectif en CE2                               | Nombre entier        | Non         |
-| ​ Effectif en CM1                               | Nombre entier        | Non         |
-| ​ Effectif en CM2                               | Nombre entier        | Non         |
-| ​ Effectif en ULIS                              | Nombre entier        | Non         |
+| Propriété                                       | Type                             | Obligatoire |
+| ----------------------------------------------- | -------------------------------- | ----------- |
+| Numéro de l'établissement                       | Chaîne de caractères             | Oui         |
+| Nom de l'établissement                          | Chaîne de caractères             | Oui         |
+| Type de l'établissement                         | Liste (Maternelle, Primaire, ..) | Oui         |
+| Catégorie de l'établissement                    | Liste (public/privé)             | Oui         |
+| Adresse de l'établissement (ad1&2, CP, Commune) | Chaîne de caractères             | Oui         |
+| Année                                           | Nombre entier                    | Oui         |
+| Effectif en Petite Section                      | Nombre entier                    | Non         |
+| Effectif en Moyenne Section                     | Nombre entier                    | Non         |
+| Effectif en Grande Section                      | Nombre entier                    | Non         |
+| Effectif  en UEMA                               | Nombre entier                    | Non         |
+| Effectif  en CP                                 | Nombre entier                    | Non         |
+| Effectif  en CE1                                | Nombre entier                    | Non         |
+| ​ Effectif en CE2                               | Nombre entier                    | Non         |
+| ​ Effectif en CM1                               | Nombre entier                    | Non         |
+| ​ Effectif en CM2                               | Nombre entier                    | Non         |
+| ​ Effectif en ULIS                              | Nombre entier                    | Non         |
 
 #### **Bloc général**
 
