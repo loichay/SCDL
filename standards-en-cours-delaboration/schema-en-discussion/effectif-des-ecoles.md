@@ -16,20 +16,6 @@ Les données des effectifs scolaires sont disponibles depuis mars 2021 sur le si
 
 {% embed url="https://data.education.gouv.fr/explore/dataset/fr-en-ecoles-effectifs-nb_classes/information?disjunctive.academie=&disjunctive.code_postal=&disjunctive.commune=&disjunctive.denomination_principale=&disjunctive.departement=&disjunctive.numero_ecole=&disjunctive.patronyme=&disjunctive.region_academique=&disjunctive.rentree_scolaire=&disjunctive.secteur=&sort=tri" %}
 
-#### Archives&#x20;
-
-Premier degré : [https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-premier-degre/table/?disjunctive.departement\&disjunctive.code\_departement\&disjunctive.code\_postal\&disjunctive.localite\_acheminement](https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-premier-degre/table/?disjunctive.departement\&disjunctive.code\_departement\&disjunctive.code\_postal\&disjunctive.localite\_acheminement)
-
-Les données essentielles sont : Année scolaire, académie (liste fermée), région (Libellé +Code), département (Libellé +Code), numéro de l’école, nom de l’école (établissement), type Etablissement Public/Privé), Nb d’élèves, Adresse de l’Etablissement + CP+Commune
-
-Second degré : [https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-second-degre/table/?disjunctive.libelle\_departement\&disjunctive.code\_departement\&disjunctive.code\_postal\&disjunctive.localite\_acheminement](https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-second-degre/table/?disjunctive.libelle\_departement\&disjunctive.code\_departement\&disjunctive.code\_postal\&disjunctive.localite\_acheminement)
-
-Les académies sont aussi capables de publier les données détaillées des effectifs scolaires. Cela nous semble une des meilleures sources pour présenter les données au niveau communal.&#x20;
-
-Exemple de l'académie de Montpellier :&#x20;
-
-{% embed url="https://www.ac-montpellier.fr/cid88644/premier-degre.html" %}
-
 
 
 ### Exemples de publication
@@ -58,7 +44,7 @@ Schéma permettant de décrire les effectifs scolaires des écoles primaires gé
 
 ### **Liste des propriétés**
 
-| Propriété                             | Type                 | Obligatoire |
+| Propriétés                            | Type                 | Obligatoire |
 | ------------------------------------- | -------------------- | ----------- |
 | Numéro de l'école                     | Chaîne de caractères | Oui         |
 | Dénomination principale               | Chaîne de caractères | Oui         |
@@ -86,6 +72,8 @@ Schéma permettant de décrire les effectifs scolaires des écoles primaires gé
 | ​ Effectif en CM2                     | Nombre entier        | Non         |
 
 #### **Bloc général**
+
+**Nota : nous avons repris la nomination standardisée des noms de champs (effescolaireCollNom) pour respecter les régles du SCDL mais les champs des données issues de la base du ministère ont d'autres libellés ("rentrée scolaire" pour "effscolAnnee") **
 
 | effscolaireCollNom                                               |
 | ---------------------------------------------------------------- |
@@ -369,12 +357,48 @@ Le jeu de données peut être construit à partir de 2 tables : une qui détaill
 
 ## Eléments de travail (à supprimer à terme)&#x20;
 
+####
+
+## Gabarit
+
+{% embed url="https://docs.google.com/spreadsheets/d/1jdDSvVufF8Om5zrXz6nAyyswAtvsnhOHWLgzoeTiujU/edit?usp=sharing" %}
+[https://docs.google.com/spreadsheets/d/1jdDSvVufF8Om5zrXz6nAyyswAtvsnhOHWLgzoeTiujU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1jdDSvVufF8Om5zrXz6nAyyswAtvsnhOHWLgzoeTiujU/edit?usp=sharing)
+{% endembed %}
+
+## Exemple d'utilisation&#x20;
+
+
+
+#### Tableau sur OpenDataSoft
+
+{% embed url="https://data.education.gouv.fr/explore/dataset/fr-en-ecoles-effectifs-nb_classes/table?disjunctive.academie=&disjunctive.code_postal=&disjunctive.commune=&disjunctive.denomination_principale=&disjunctive.departement=&disjunctive.numero_ecole=&disjunctive.patronyme=&disjunctive.region_academique=&disjunctive.rentree_scolaire=&disjunctive.secteur=&refine.academie=AIX-MARSEILLE&refine.commune=AIX-EN-PROVENCE&refine.departement=BOUCHES-DU-RHONE&sort=-rep" %}
+
+#### Tableau de consultation sur aAirtable
+
+{% embed url="https://airtable.com/shrnw6AyWpbqaBevK" %}
+
+
+
+#### Archives&#x20;
+
+Premier degré : [https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-premier-degre/table/?disjunctive.departement\&disjunctive.code\_departement\&disjunctive.code\_postal\&disjunctive.localite\_acheminement](https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-premier-degre/table/?disjunctive.departement\&disjunctive.code\_departement\&disjunctive.code\_postal\&disjunctive.localite\_acheminement)
+
+Les données essentielles sont : Année scolaire, académie (liste fermée), région (Libellé +Code), département (Libellé +Code), numéro de l’école, nom de l’école (établissement), type Etablissement Public/Privé), Nb d’élèves, Adresse de l’Etablissement + CP+Commune
+
+Second degré : [https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-second-degre/table/?disjunctive.libelle\_departement\&disjunctive.code\_departement\&disjunctive.code\_postal\&disjunctive.localite\_acheminement](https://data.education.gouv.fr/explore/dataset/fr-en-effectifs-second-degre/table/?disjunctive.libelle\_departement\&disjunctive.code\_departement\&disjunctive.code\_postal\&disjunctive.localite\_acheminement)
+
+Les académies sont aussi capables de publier les données détaillées des effectifs scolaires. Cela nous semble une des meilleures sources pour présenter les données au niveau communal.&#x20;
+
+Exemple de l'académie de Montpellier :&#x20;
+
+{% embed url="https://www.ac-montpellier.fr/le-premier-degre-122927" %}
+
 #### Bloc Description de la commune
 
 * effscolaireCollNom : MONTPELLIER
 * effscolaireCollINSEE : 34 789
 
-Ne seront pas indiquées dans ce jeu de données les données suivantes :&#x20;
+Ne seront pas indiquées dans ce jeu de données les données suivantes&#x20;
 
 * Académie (Libellé) : Montpellier
 * Région (Code et Libellé) : 13, Occitanie
@@ -405,28 +429,6 @@ Ne seront pas indiquées dans ce jeu de données les données suivantes :&#x20;
 * effscolaireCM1 : Effectif relevé pour le niveau CM1, Facultatif
 * effscolaireCM2 : Effectif relevé pour le niveau CM2, Facultatif
 * effscolaireULIS : Effectif relevé pour l’ULIS Numérique (Unités localisées l'inclusion scolaire), Facultatif
-
-## Gabarit
-
-{% embed url="https://docs.google.com/spreadsheets/d/1jdDSvVufF8Om5zrXz6nAyyswAtvsnhOHWLgzoeTiujU/edit?usp=sharing" %}
-[https://docs.google.com/spreadsheets/d/1jdDSvVufF8Om5zrXz6nAyyswAtvsnhOHWLgzoeTiujU/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1jdDSvVufF8Om5zrXz6nAyyswAtvsnhOHWLgzoeTiujU/edit?usp=sharing)
-{% endembed %}
-
-## Exemple d'utilisation&#x20;
-
-
-
-#### Tableau sur OpenDataSoft
-
-{% embed url="https://data.education.gouv.fr/explore/dataset/fr-en-ecoles-effectifs-nb_classes/table?disjunctive.academie=&disjunctive.code_postal=&disjunctive.commune=&disjunctive.denomination_principale=&disjunctive.departement=&disjunctive.numero_ecole=&disjunctive.patronyme=&disjunctive.region_academique=&disjunctive.rentree_scolaire=&disjunctive.secteur=&refine.academie=AIX-MARSEILLE&refine.commune=AIX-EN-PROVENCE&refine.departement=BOUCHES-DU-RHONE&sort=-rep" %}
-
-#### Tableau de consultation sur aAirtable
-
-{% embed url="https://airtable.com/shrnw6AyWpbqaBevK" %}
-
-
-
-
 
 
 
