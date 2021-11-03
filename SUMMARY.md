@@ -19,6 +19,8 @@
   * [Commerces de proximité](standards-en-cours-delaboration/schemas-reflexion/commerces-de-proximite.md)
   * [Evénements locaux](standards-en-cours-delaboration/schemas-reflexion/evenements.md)
   * [Points d'Apport Volontaire](standards-en-cours-delaboration/schemas-reflexion/points-dapport-volontaire.md)
+  * [Panneaux d'affichages publicitaires](standards-en-cours-delaboration/schemas-reflexion/panneaux-daffichages-publicitaires.md)
+  * [Règlement Local de Publicité](standards-en-cours-delaboration/schemas-reflexion/arretes.md)
 * [Schémas en évolution](standards-en-cours-delaboration/schemas-en-evolution/README.md)
   * [Base Adresse Locale](standards-en-cours-delaboration/schemas-en-evolution/base-adresse-locale.md)
   * [Marchés de la commande publique](standards-en-cours-delaboration/schemas-en-evolution/marches-de-la-commande-publique.md)
@@ -32,7 +34,6 @@
   * [Délibérations (v2.1.2)](schemas/schemas-publies/deliberations.md)
   * [Marchés publics (v2.0.0)](schemas/schemas-publies/marches-publics.md)
   * [Menus Collectifs (v1.2)](schemas/schemas-publies/menus.md)
-  * [Panneaux d'affichages publicitaires](schemas/schemas-publies/panneaux-daffichages-publicitaires.md)
   * [Plats des menus (v0.7)](schemas/schemas-publies/plats-des-menus.md)
   * [Prénoms des nouveaux-nés (v1.1.3)](schemas/schemas-publies/prenoms.md)
   * [Subventions (v2.0.0)](schemas/schemas-publies/subventions.md)
@@ -41,6 +42,5 @@
 
 * [Aides aux Entreprises](archives/aides-aux-entreprises.md)
 * [Points d'Eau Incendie](archives/points-deau-incendie.md)
-* [Règlement Local de Publicité](archives/arretes.md)
 * [Untitled](archives/untitled/README.md)
   * [Arrêtés de circulation](archives/untitled/arretes-de-circulation.md)
